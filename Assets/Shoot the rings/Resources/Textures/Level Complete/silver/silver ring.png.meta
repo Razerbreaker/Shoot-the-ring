@@ -1,0 +1,2311 @@
+fileFormatVersion: 2
+guid: 82c56b82a8d93b243992d95cdc34a30b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4148027830697982607
+    second: silver ring_0
+  - first:
+      213: -3662099747168911184
+    second: silver ring_1
+  - first:
+      213: 9112874353960413366
+    second: silver ring_2
+  - first:
+      213: 2285670175168954291
+    second: silver ring_3
+  - first:
+      213: -2809000293026263774
+    second: silver ring_4
+  - first:
+      213: -947287828033984712
+    second: silver ring_5
+  - first:
+      213: -4498435299055437252
+    second: silver ring_6
+  - first:
+      213: -7250082617478648251
+    second: silver ring_7
+  - first:
+      213: -5812136520698538696
+    second: silver ring_8
+  - first:
+      213: 2837440861907619754
+    second: silver ring_9
+  - first:
+      213: -4450855264487964206
+    second: silver ring_10
+  - first:
+      213: 7327658622502130258
+    second: silver ring_11
+  - first:
+      213: -5452064995704227674
+    second: silver ring_12
+  - first:
+      213: 7148615114148987165
+    second: silver ring_13
+  - first:
+      213: 3245497356505018613
+    second: silver ring_14
+  - first:
+      213: -2348074509426677561
+    second: silver ring_15
+  - first:
+      213: -2069616856109793860
+    second: silver ring_16
+  - first:
+      213: -650641767392863747
+    second: silver ring_17
+  - first:
+      213: 8013826559338830493
+    second: silver ring_18
+  - first:
+      213: 6841782318764616072
+    second: silver ring_19
+  - first:
+      213: 1256826901643960188
+    second: silver ring_20
+  - first:
+      213: -6931908793466624895
+    second: silver ring_21
+  - first:
+      213: -5267802321346675626
+    second: silver ring_22
+  - first:
+      213: -2183475804385945893
+    second: silver ring_23
+  - first:
+      213: 8043085410130285956
+    second: silver ring_24
+  - first:
+      213: 1466549849995446324
+    second: silver ring_25
+  - first:
+      213: 2718147151717264303
+    second: silver ring_26
+  - first:
+      213: 2725166525027130340
+    second: silver ring_27
+  - first:
+      213: 3446770448955947067
+    second: silver ring_28
+  - first:
+      213: -8913773239173601538
+    second: silver ring_29
+  - first:
+      213: 1084516821349655533
+    second: silver ring_30
+  - first:
+      213: 4551320203008752338
+    second: silver ring_31
+  - first:
+      213: 6369437814985740083
+    second: silver ring_32
+  - first:
+      213: -2194117993215828613
+    second: silver ring_33
+  - first:
+      213: -4478966889249783336
+    second: silver ring_34
+  - first:
+      213: 3274913185405442819
+    second: silver ring_35
+  - first:
+      213: 3489546376330031048
+    second: silver ring_36
+  - first:
+      213: 8082306414561701150
+    second: silver ring_37
+  - first:
+      213: -8453121908162721203
+    second: silver ring_38
+  - first:
+      213: 2134697255596509070
+    second: silver ring_39
+  - first:
+      213: 4757786658541202154
+    second: silver ring_40
+  - first:
+      213: -8280531316002011332
+    second: silver ring_41
+  - first:
+      213: -1757802611234142727
+    second: silver ring_42
+  - first:
+      213: 6473596734480470874
+    second: silver ring_43
+  - first:
+      213: -6996735209767865327
+    second: silver ring_44
+  - first:
+      213: -1915920348255552748
+    second: silver ring_45
+  - first:
+      213: -5816504858769311139
+    second: silver ring_46
+  - first:
+      213: 5352507492934794069
+    second: silver ring_47
+  - first:
+      213: -3744026897017140024
+    second: silver ring_48
+  - first:
+      213: -413956179623216110
+    second: silver ring_49
+  - first:
+      213: -555503709196911386
+    second: silver ring_50
+  - first:
+      213: 2910260921413070125
+    second: silver ring_51
+  - first:
+      213: 7149437092264203185
+    second: silver ring_52
+  - first:
+      213: -4893607327608474084
+    second: silver ring_53
+  - first:
+      213: -3632530934441688059
+    second: silver ring_54
+  - first:
+      213: 5948653219839271938
+    second: silver ring_55
+  - first:
+      213: 3977714415507699010
+    second: silver ring_56
+  - first:
+      213: 3674273136983121526
+    second: silver ring_57
+  - first:
+      213: 238511806462797195
+    second: silver ring_58
+  - first:
+      213: 3517012389061953885
+    second: silver ring_59
+  - first:
+      213: 7086131301796749170
+    second: silver ring_60
+  - first:
+      213: -1845955573456503052
+    second: silver ring_61
+  - first:
+      213: 3705449729406338311
+    second: silver ring_62
+  - first:
+      213: 6139824446722372221
+    second: silver ring_63
+  - first:
+      213: -2031279618321679720
+    second: silver ring_64
+  - first:
+      213: -2480485181094392654
+    second: silver ring_65
+  - first:
+      213: -1264171975724643335
+    second: silver ring_66
+  - first:
+      213: -4863998306729592758
+    second: silver ring_67
+  - first:
+      213: -1000512430690522420
+    second: silver ring_68
+  - first:
+      213: 1006005131279199528
+    second: silver ring_69
+  - first:
+      213: -1533950519583856737
+    second: silver ring_70
+  - first:
+      213: -3118547977181852258
+    second: silver ring_71
+  - first:
+      213: 8843629073753311858
+    second: silver ring_72
+  - first:
+      213: 2525907111559693862
+    second: silver ring_73
+  - first:
+      213: 5873461137569111158
+    second: silver ring_74
+  - first:
+      213: -7557673732664068624
+    second: silver ring_75
+  - first:
+      213: 2086326838474547169
+    second: silver ring_76
+  - first:
+      213: -4572639524012120535
+    second: silver ring_77
+  - first:
+      213: -137180695124256970
+    second: silver ring_78
+  - first:
+      213: -4573473420183390046
+    second: silver ring_79
+  - first:
+      213: -2305744704652515186
+    second: silver ring_80
+  - first:
+      213: 2506971472272485703
+    second: silver ring_81
+  - first:
+      213: 8297859182562413298
+    second: silver ring_82
+  - first:
+      213: -5857771375564869700
+    second: silver ring_83
+  - first:
+      213: 3697871113372162839
+    second: silver ring_84
+  - first:
+      213: -4136301908752016774
+    second: silver ring_85
+  - first:
+      213: -6643099837399613189
+    second: silver ring_86
+  - first:
+      213: 5763799032252397363
+    second: silver ring_87
+  - first:
+      213: -8416767575965711476
+    second: silver ring_88
+  - first:
+      213: 2513392387903925302
+    second: silver ring_89
+  - first:
+      213: -6576016409348521460
+    second: silver ring_90
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: silver ring_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 891
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11482e082e1052941980928461045d29
+      internalID: -4148027830697982607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silver ring_1
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 891
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 027a96522652e574c8d9551953a9b825
+      internalID: -3662099747168911184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silver ring_2
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 891
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b5cdb7997d5c874998df03c63220610
+      internalID: 9112874353960413366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silver ring_3
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 891
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9e39a8d084eb6147bef8d878aa0dc73
+      internalID: 2285670175168954291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silver ring_4
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 891
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc7e563ec1cfb7a43b6765bb4bbcbca3
+      internalID: -2809000293026263774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silver ring_5
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 891
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aed4e96ef98b6804481eff645ac3c8cd
+      internalID: -947287828033984712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silver ring_6
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 891
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4941eb59eead1654f8dff02e9f9f340c
+      internalID: -4498435299055437252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silver ring_7
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 891
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec4bd6f9beec6684bb40bfe7cef17fa3
+      internalID: -7250082617478648251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silver ring_8
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 891
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcab7077d89280b40b7148a427242a64
+      internalID: -5812136520698538696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silver ring_9
+      rect:
+        serializedVersion: 2
+        x: 1197
+        y: 891
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaece954a51059e4b8c3d38df93852b2
+      internalID: 2837440861907619754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silver ring_10
+      rect:
+        serializedVersion: 2
+        x: 1330
+        y: 891
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f4228d4c1ba36d438cefd68824f4a1f
+      internalID: -4450855264487964206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silver ring_11
+      rect:
+        serializedVersion: 2
+        x: 1463
+        y: 891
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f7f4e63978ce0345af8f0cc7fe68061
+      internalID: 7327658622502130258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silver ring_12
+      rect:
+        serializedVersion: 2
+        x: 1596
+        y: 891
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3eb79650f9589b2428fff514de6696f6
+      internalID: -5452064995704227674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silver ring_13
+      rect:
+        serializedVersion: 2
+        x: 1729
+        y: 891
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc1cca03c1e940443ac93173e6634c3e
+      internalID: 7148615114148987165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silver ring_14
+      rect:
+        serializedVersion: 2
+        x: 1862
+        y: 891
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4addf8d50d45764ab5ed1eaeb320564
+      internalID: 3245497356505018613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silver ring_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 758
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc6f756ffee77c743b3e7c0a51c65ff8
+      internalID: -2348074509426677561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silver ring_16
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 758
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9a530dad7c11f44fbeeefddcd188fdb
+      internalID: -2069616856109793860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silver ring_17
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 758
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f808817f0ede4424c91f76beed1ceedf
+      internalID: -650641767392863747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silver ring_18
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 758
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 159f646d076f4cf4ca9219622403a71b
+      internalID: 8013826559338830493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silver ring_19
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 758
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c1767594a5e94a44b0f54c3ec752e96
+      internalID: 6841782318764616072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silver ring_20
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 758
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3f66a4318dbe654baa0022a770e17cd
+      internalID: 1256826901643960188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silver ring_21
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 758
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfa2fe6be903c3745ae659600c3f024b
+      internalID: -6931908793466624895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silver ring_22
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 758
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84775741c05036c4aa6d8849792f2d8f
+      internalID: -5267802321346675626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silver ring_23
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 758
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7099e4a5ba9ea04da0bdef552494c06
+      internalID: -2183475804385945893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silver ring_24
+      rect:
+        serializedVersion: 2
+        x: 1197
+        y: 758
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d648707d19ebaf94ebd0b3b9928857e9
+      internalID: 8043085410130285956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silver ring_25
+      rect:
+        serializedVersion: 2
+        x: 1330
+        y: 758
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64ebc31d845f36b4d9ee068594e85db3
+      internalID: 1466549849995446324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silver ring_26
+      rect:
+        serializedVersion: 2
+        x: 1463
+        y: 758
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2285beb4745020346aec9c0589e8042b
+      internalID: 2718147151717264303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silver ring_27
+      rect:
+        serializedVersion: 2
+        x: 1596
+        y: 758
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56059e5ff3d76ed47aabf6894b345933
+      internalID: 2725166525027130340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silver ring_28
+      rect:
+        serializedVersion: 2
+        x: 1729
+        y: 758
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c196483cf3ab72a46b484981ca8dbccc
+      internalID: 3446770448955947067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silver ring_29
+      rect:
+        serializedVersion: 2
+        x: 1862
+        y: 758
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a1e63600a6a8e34880424499e328202
+      internalID: -8913773239173601538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silver ring_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 625
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb576ec704a461941bf6ddf02931e272
+      internalID: 1084516821349655533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silver ring_31
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 625
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7a72bebd232b534da564d1784aa69b1
+      internalID: 4551320203008752338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silver ring_32
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 625
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f2a58d7537fb2f4eb28a7830bf832df
+      internalID: 6369437814985740083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silver ring_33
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 625
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88eb2d57d19648f43a0bbc1a58862e25
+      internalID: -2194117993215828613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silver ring_34
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 625
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20b59b03c7d39ef468c8980b194dae4d
+      internalID: -4478966889249783336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silver ring_35
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 625
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89f6966710f96794eb617c7bb3cce970
+      internalID: 3274913185405442819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silver ring_36
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 625
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9105502dfc975ff46b3862d74064c4ed
+      internalID: 3489546376330031048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silver ring_37
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 625
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 839e054af1051714c9c3334ba0a177c7
+      internalID: 8082306414561701150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silver ring_38
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 625
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e038b9422ab83844817bb6a623a2b59
+      internalID: -8453121908162721203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silver ring_39
+      rect:
+        serializedVersion: 2
+        x: 1197
+        y: 625
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e212868ee36f4b644acbe83f3163a3ad
+      internalID: 2134697255596509070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silver ring_40
+      rect:
+        serializedVersion: 2
+        x: 1330
+        y: 625
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46b251aa22bc927448bbb169ca20a946
+      internalID: 4757786658541202154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silver ring_41
+      rect:
+        serializedVersion: 2
+        x: 1463
+        y: 625
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2eb651e30d50e9940bdbc3a11766ac2b
+      internalID: -8280531316002011332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silver ring_42
+      rect:
+        serializedVersion: 2
+        x: 1596
+        y: 625
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5e2deaf7e330b345a006f3dea0148f5
+      internalID: -1757802611234142727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silver ring_43
+      rect:
+        serializedVersion: 2
+        x: 1729
+        y: 625
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a8af517ec2be844abc7e4ffd1a3c022
+      internalID: 6473596734480470874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silver ring_44
+      rect:
+        serializedVersion: 2
+        x: 1862
+        y: 625
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1d9eb89a21712148939c182f844c2b7
+      internalID: -6996735209767865327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silver ring_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 492
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba540c796fa2e584db05bf6c36d01e9f
+      internalID: -1915920348255552748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silver ring_46
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 492
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f511017206ecef2448630df9198fea55
+      internalID: -5816504858769311139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silver ring_47
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 492
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2067941d190d882429abf6ce70baa2bf
+      internalID: 5352507492934794069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silver ring_48
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 492
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac5d5af6127b26a4d87e9fd79130b302
+      internalID: -3744026897017140024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silver ring_49
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 492
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12e6a84c02da4904db36f0fc3b0c65c2
+      internalID: -413956179623216110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silver ring_50
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 492
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00fa36842f01fbb42abc4f85b39b0188
+      internalID: -555503709196911386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silver ring_51
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 492
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39649582a0fe37749b42d7ca15f6a375
+      internalID: 2910260921413070125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silver ring_52
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 492
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 390b2c88653a9b446bdaea23e1d93cdd
+      internalID: 7149437092264203185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silver ring_53
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 492
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 986ed5c9f97d528449e81265b834fe15
+      internalID: -4893607327608474084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silver ring_54
+      rect:
+        serializedVersion: 2
+        x: 1197
+        y: 492
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a2736e78e3d6594a9db765147607950
+      internalID: -3632530934441688059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silver ring_55
+      rect:
+        serializedVersion: 2
+        x: 1330
+        y: 492
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7585b07b2f482e4e933062c92f97e3d
+      internalID: 5948653219839271938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silver ring_56
+      rect:
+        serializedVersion: 2
+        x: 1463
+        y: 492
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d359ea483d43b1e479a9fc592d430067
+      internalID: 3977714415507699010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silver ring_57
+      rect:
+        serializedVersion: 2
+        x: 1596
+        y: 492
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb471eb5f73bb574988369d6fbdeeeed
+      internalID: 3674273136983121526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silver ring_58
+      rect:
+        serializedVersion: 2
+        x: 1729
+        y: 492
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0940d56d8160d044890f54a038094f36
+      internalID: 238511806462797195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silver ring_59
+      rect:
+        serializedVersion: 2
+        x: 1862
+        y: 492
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95d3d265f40db684e9e88c78ea587ef2
+      internalID: 3517012389061953885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silver ring_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 359
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e5740f9e391fcb4a9f3d5a0e31a29cc
+      internalID: 7086131301796749170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silver ring_61
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 359
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad8591c877ea24a44864186b9044012c
+      internalID: -1845955573456503052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silver ring_62
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 359
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 650afa27584d1b44686ed531b3617fb2
+      internalID: 3705449729406338311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silver ring_63
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 359
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e75336e78407c54bae17bf0dd02f992
+      internalID: 6139824446722372221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silver ring_64
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 359
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d94fbc8df4024d4686a8c721b02d18c
+      internalID: -2031279618321679720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silver ring_65
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 359
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80fe26b6072e30d46bd2cd222ac3d706
+      internalID: -2480485181094392654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silver ring_66
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 359
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93f8973e52404214f9250146a257574f
+      internalID: -1264171975724643335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silver ring_67
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 359
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcab9dd6a88dbdd4c87f7951627a925d
+      internalID: -4863998306729592758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silver ring_68
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 359
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ba4fc2840a0a4d43bc18892fdb74ced
+      internalID: -1000512430690522420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silver ring_69
+      rect:
+        serializedVersion: 2
+        x: 1197
+        y: 359
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 922dcac3d36315f4f860fdfb6f06c7ac
+      internalID: 1006005131279199528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silver ring_70
+      rect:
+        serializedVersion: 2
+        x: 1330
+        y: 359
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd15cd63be4b56b47b94b8d365850776
+      internalID: -1533950519583856737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silver ring_71
+      rect:
+        serializedVersion: 2
+        x: 1463
+        y: 359
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec93a6b8b55c8784f8bcdd674803dc51
+      internalID: -3118547977181852258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silver ring_72
+      rect:
+        serializedVersion: 2
+        x: 1596
+        y: 359
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cb679234a5b2464bb0461311a6f00cb
+      internalID: 8843629073753311858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silver ring_73
+      rect:
+        serializedVersion: 2
+        x: 1729
+        y: 359
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19868cb2e28b02e42ad29e1e8b182e01
+      internalID: 2525907111559693862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silver ring_74
+      rect:
+        serializedVersion: 2
+        x: 1862
+        y: 359
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af931a0429a6dfc40885bf3964cfb7e7
+      internalID: 5873461137569111158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silver ring_75
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 226
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d30427bb604b174895567384139e527
+      internalID: -7557673732664068624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silver ring_76
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 226
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bab6fea05f0a0b84d955f07013b1ff28
+      internalID: 2086326838474547169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silver ring_77
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 226
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b19688eaee4b214082b71843ba2e0ee
+      internalID: -4572639524012120535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silver ring_78
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 226
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e865ea2211774d8498f1927a02e7cd71
+      internalID: -137180695124256970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silver ring_79
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 226
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 772aefd1169536d4aba8e43586abc152
+      internalID: -4573473420183390046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silver ring_80
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 226
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59b5e057ef77dc54bad09ae0e53f9420
+      internalID: -2305744704652515186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silver ring_81
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 226
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b80c17c51abf62443806188ce99b54ef
+      internalID: 2506971472272485703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silver ring_82
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 226
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ccf8e439cb0bf944899e6cee45e8c38
+      internalID: 8297859182562413298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silver ring_83
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 226
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 140f02cfc44687240b9883a0251eb91b
+      internalID: -5857771375564869700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silver ring_84
+      rect:
+        serializedVersion: 2
+        x: 1197
+        y: 226
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb051404627d82d4297179a3a89e2de0
+      internalID: 3697871113372162839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silver ring_85
+      rect:
+        serializedVersion: 2
+        x: 1330
+        y: 226
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8f25e0765b34114d972134e9dfa6669
+      internalID: -4136301908752016774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silver ring_86
+      rect:
+        serializedVersion: 2
+        x: 1463
+        y: 226
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ec569d44d7d4c74b88575684f475d26
+      internalID: -6643099837399613189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silver ring_87
+      rect:
+        serializedVersion: 2
+        x: 1596
+        y: 226
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bc5170913d246140a10579692aeee51
+      internalID: 5763799032252397363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silver ring_88
+      rect:
+        serializedVersion: 2
+        x: 1729
+        y: 226
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 190a99997f1118046a275eec8e4b497f
+      internalID: -8416767575965711476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silver ring_89
+      rect:
+        serializedVersion: 2
+        x: 1862
+        y: 226
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c35e18d392a88744a84486443206fd7
+      internalID: 2513392387903925302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silver ring_90
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 93
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4c8ced7e3b87f248bd06e0fa73e081d
+      internalID: -6576016409348521460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

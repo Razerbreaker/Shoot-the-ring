@@ -1,0 +1,2311 @@
+fileFormatVersion: 2
+guid: 17602598bdc54e842a0c1ac723c8ff34
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3573249555550570167
+    second: gold ring_0
+  - first:
+      213: 453678831412852730
+    second: gold ring_1
+  - first:
+      213: -3552988551080492169
+    second: gold ring_2
+  - first:
+      213: -6511587184364499246
+    second: gold ring_3
+  - first:
+      213: 5964136317438059823
+    second: gold ring_4
+  - first:
+      213: -8967206114690293525
+    second: gold ring_5
+  - first:
+      213: -5602777234358272716
+    second: gold ring_6
+  - first:
+      213: -3435607206367627002
+    second: gold ring_7
+  - first:
+      213: 4293902921220389554
+    second: gold ring_8
+  - first:
+      213: 8244691141752769861
+    second: gold ring_9
+  - first:
+      213: 827882092010854203
+    second: gold ring_10
+  - first:
+      213: -3094521678727054171
+    second: gold ring_11
+  - first:
+      213: -1181908469375589060
+    second: gold ring_12
+  - first:
+      213: -5889313436762470885
+    second: gold ring_13
+  - first:
+      213: 8334552908056375636
+    second: gold ring_14
+  - first:
+      213: -3591217003977629567
+    second: gold ring_15
+  - first:
+      213: 6227796197934269401
+    second: gold ring_16
+  - first:
+      213: -9056428413073793584
+    second: gold ring_17
+  - first:
+      213: 730642722943359545
+    second: gold ring_18
+  - first:
+      213: 5852126421246022498
+    second: gold ring_19
+  - first:
+      213: -186673581633755879
+    second: gold ring_20
+  - first:
+      213: 7088108727138857248
+    second: gold ring_21
+  - first:
+      213: 5334393659910295362
+    second: gold ring_22
+  - first:
+      213: -998879598648768660
+    second: gold ring_23
+  - first:
+      213: -7940632561003500253
+    second: gold ring_24
+  - first:
+      213: 7703572615323206708
+    second: gold ring_25
+  - first:
+      213: -3252761970043143221
+    second: gold ring_26
+  - first:
+      213: 8258626909900962648
+    second: gold ring_27
+  - first:
+      213: 4870005231442170199
+    second: gold ring_28
+  - first:
+      213: -2083648859483348051
+    second: gold ring_29
+  - first:
+      213: 3408989921555186540
+    second: gold ring_30
+  - first:
+      213: 4499523732528116459
+    second: gold ring_31
+  - first:
+      213: -4965332795325545856
+    second: gold ring_32
+  - first:
+      213: 9066956704365032909
+    second: gold ring_33
+  - first:
+      213: -5130850350037988512
+    second: gold ring_34
+  - first:
+      213: 313058800496186207
+    second: gold ring_35
+  - first:
+      213: 663461602954847218
+    second: gold ring_36
+  - first:
+      213: -6863167743637356806
+    second: gold ring_37
+  - first:
+      213: -3066520685481167861
+    second: gold ring_38
+  - first:
+      213: 4737950735669526580
+    second: gold ring_39
+  - first:
+      213: 2827012671745236930
+    second: gold ring_40
+  - first:
+      213: 3145869511635371181
+    second: gold ring_41
+  - first:
+      213: -393545635514133416
+    second: gold ring_42
+  - first:
+      213: -6278826782398841666
+    second: gold ring_43
+  - first:
+      213: -7242420494817782407
+    second: gold ring_44
+  - first:
+      213: 8799113127211489565
+    second: gold ring_45
+  - first:
+      213: -2255694232432187793
+    second: gold ring_46
+  - first:
+      213: -839339603626018400
+    second: gold ring_47
+  - first:
+      213: -5959418423722531195
+    second: gold ring_48
+  - first:
+      213: -3736325676100101096
+    second: gold ring_49
+  - first:
+      213: -1149151294291319294
+    second: gold ring_50
+  - first:
+      213: 2801179653191955784
+    second: gold ring_51
+  - first:
+      213: 3168554338186999784
+    second: gold ring_52
+  - first:
+      213: -8455313974811649807
+    second: gold ring_53
+  - first:
+      213: 6177699154929012649
+    second: gold ring_54
+  - first:
+      213: 2529545803553277173
+    second: gold ring_55
+  - first:
+      213: -7941169822558174837
+    second: gold ring_56
+  - first:
+      213: 7612578626912048374
+    second: gold ring_57
+  - first:
+      213: -2710111842906388877
+    second: gold ring_58
+  - first:
+      213: -8759744551663296701
+    second: gold ring_59
+  - first:
+      213: -8923350098488688983
+    second: gold ring_60
+  - first:
+      213: -828843884715990854
+    second: gold ring_61
+  - first:
+      213: -290815583497316886
+    second: gold ring_62
+  - first:
+      213: -6615605443740792212
+    second: gold ring_63
+  - first:
+      213: -4058367554164338087
+    second: gold ring_64
+  - first:
+      213: -287381297022867449
+    second: gold ring_65
+  - first:
+      213: 7710450116402239887
+    second: gold ring_66
+  - first:
+      213: -7058313420185843418
+    second: gold ring_67
+  - first:
+      213: -1069875663206394266
+    second: gold ring_68
+  - first:
+      213: -6743022434775062876
+    second: gold ring_69
+  - first:
+      213: -2488912554207657610
+    second: gold ring_70
+  - first:
+      213: 4547957223564212411
+    second: gold ring_71
+  - first:
+      213: -2903553740807686668
+    second: gold ring_72
+  - first:
+      213: -8979599915481702477
+    second: gold ring_73
+  - first:
+      213: 6344672071442191809
+    second: gold ring_74
+  - first:
+      213: -3493390416293385447
+    second: gold ring_75
+  - first:
+      213: -8285760591624072746
+    second: gold ring_76
+  - first:
+      213: 4724561005333264997
+    second: gold ring_77
+  - first:
+      213: 2362650036542917933
+    second: gold ring_78
+  - first:
+      213: -5041208482742522218
+    second: gold ring_79
+  - first:
+      213: 8397864012532889532
+    second: gold ring_80
+  - first:
+      213: -6004576350197727698
+    second: gold ring_81
+  - first:
+      213: 5798986708740509433
+    second: gold ring_82
+  - first:
+      213: -2135594083987654963
+    second: gold ring_83
+  - first:
+      213: -1447641361965333582
+    second: gold ring_84
+  - first:
+      213: 4265191827411723004
+    second: gold ring_85
+  - first:
+      213: 6012386100667116779
+    second: gold ring_86
+  - first:
+      213: -7305803958856033820
+    second: gold ring_87
+  - first:
+      213: 5566644615200713425
+    second: gold ring_88
+  - first:
+      213: -8630775052484452846
+    second: gold ring_89
+  - first:
+      213: 4805024564346044986
+    second: gold ring_90
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: gold ring_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 891
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8079f7b0a9d9e674b9b807a22f0dafa8
+      internalID: -3573249555550570167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gold ring_1
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 891
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cfd1cc265baf854ea81d22ecb5a15f5
+      internalID: 453678831412852730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gold ring_2
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 891
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 287dc0849706f4d47841c189e1ec5e20
+      internalID: -3552988551080492169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gold ring_3
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 891
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47e5085d82a05cc42b6ad141273078a2
+      internalID: -6511587184364499246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gold ring_4
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 891
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29278da39b97a3d48abcdeadd4309043
+      internalID: 5964136317438059823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gold ring_5
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 891
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30cdd04e2d516f049a70d3b035118171
+      internalID: -8967206114690293525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gold ring_6
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 891
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9f5beb6fe314fe4188ad27bbb903e8b
+      internalID: -5602777234358272716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gold ring_7
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 891
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c107252271ae3034b897808a46a76f41
+      internalID: -3435607206367627002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gold ring_8
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 891
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 538bd83358f2a5149aa87612ad68b4eb
+      internalID: 4293902921220389554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gold ring_9
+      rect:
+        serializedVersion: 2
+        x: 1197
+        y: 891
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4b58a9309ba41a44a05d4bb8f804c39
+      internalID: 8244691141752769861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gold ring_10
+      rect:
+        serializedVersion: 2
+        x: 1330
+        y: 891
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4de518666987f174f84a1a6c801a82b5
+      internalID: 827882092010854203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gold ring_11
+      rect:
+        serializedVersion: 2
+        x: 1463
+        y: 891
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39ede5fda75fc974c8d047bb65b47933
+      internalID: -3094521678727054171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gold ring_12
+      rect:
+        serializedVersion: 2
+        x: 1596
+        y: 891
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19d7fd7178cb45c4d8c63855e8b992a3
+      internalID: -1181908469375589060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gold ring_13
+      rect:
+        serializedVersion: 2
+        x: 1729
+        y: 891
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc7dde768171469458b8029c62f1c832
+      internalID: -5889313436762470885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gold ring_14
+      rect:
+        serializedVersion: 2
+        x: 1862
+        y: 891
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a34381d8d834e624fa79267a1fb0927e
+      internalID: 8334552908056375636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gold ring_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 758
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bba3147b784b1664c8e49365952cf460
+      internalID: -3591217003977629567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gold ring_16
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 758
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01890fce42fd68e48b55d040d645fcc7
+      internalID: 6227796197934269401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gold ring_17
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 758
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6348e8eef14e2f74da47dc99d902885a
+      internalID: -9056428413073793584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gold ring_18
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 758
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08f7fc201a01b1c4283e4681d9234a2c
+      internalID: 730642722943359545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gold ring_19
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 758
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48ef26f7e280eb542bcff81c977b58b2
+      internalID: 5852126421246022498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gold ring_20
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 758
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d40245415fad9940bd9cfdc40b2a4ec
+      internalID: -186673581633755879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gold ring_21
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 758
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2e9085894197db48b10307c1edfe90d
+      internalID: 7088108727138857248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gold ring_22
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 758
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a15317d5314d68b48882dbb954b52d13
+      internalID: 5334393659910295362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gold ring_23
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 758
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49e26406b06fafe4990d8a7720a3335b
+      internalID: -998879598648768660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gold ring_24
+      rect:
+        serializedVersion: 2
+        x: 1197
+        y: 758
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5dd9409f343aa44e93912901c1742fe
+      internalID: -7940632561003500253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gold ring_25
+      rect:
+        serializedVersion: 2
+        x: 1330
+        y: 758
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f7888acb1fd9be469db6e1fafd791fe
+      internalID: 7703572615323206708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gold ring_26
+      rect:
+        serializedVersion: 2
+        x: 1463
+        y: 758
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8ec3476c11f86548b12597fa4ed8a3a
+      internalID: -3252761970043143221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gold ring_27
+      rect:
+        serializedVersion: 2
+        x: 1596
+        y: 758
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1ed22b978934ab48919fdc01f96fce7
+      internalID: 8258626909900962648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gold ring_28
+      rect:
+        serializedVersion: 2
+        x: 1729
+        y: 758
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6efe71a2bb6141d40945a967cfae1d65
+      internalID: 4870005231442170199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gold ring_29
+      rect:
+        serializedVersion: 2
+        x: 1862
+        y: 758
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d79a4b94e1d1a87468c9efb5be79bea7
+      internalID: -2083648859483348051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gold ring_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 625
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1346d91d5eb3664a830b0e39e55cbbd
+      internalID: 3408989921555186540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gold ring_31
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 625
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34bebb6dcf2c60d439cc13f7796f2396
+      internalID: 4499523732528116459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gold ring_32
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 625
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c92e08080098a5c4fba0b84cc1228214
+      internalID: -4965332795325545856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gold ring_33
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 625
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0f288a2740bbfc47bc339f7ffc0df05
+      internalID: 9066956704365032909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gold ring_34
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 625
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54f2c0d3cc5d11647be580bcac0f2489
+      internalID: -5130850350037988512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gold ring_35
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 625
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 955c9f307adfc7b4eac6596fefd3895e
+      internalID: 313058800496186207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gold ring_36
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 625
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3ba5d27f8d07dd449f262a725e0cb72
+      internalID: 663461602954847218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gold ring_37
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 625
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 186992bce5d2a644db9b57e7cbc9a463
+      internalID: -6863167743637356806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gold ring_38
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 625
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d48a8bb1c2a68ba4393983f8415ba3db
+      internalID: -3066520685481167861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gold ring_39
+      rect:
+        serializedVersion: 2
+        x: 1197
+        y: 625
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44c649e158af0cb4aa1a5f5c398caf93
+      internalID: 4737950735669526580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gold ring_40
+      rect:
+        serializedVersion: 2
+        x: 1330
+        y: 625
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f084ae823ec9992459daeca93ff97041
+      internalID: 2827012671745236930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gold ring_41
+      rect:
+        serializedVersion: 2
+        x: 1463
+        y: 625
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a64b5fab89c35b4f9430bbb45606e4c
+      internalID: 3145869511635371181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gold ring_42
+      rect:
+        serializedVersion: 2
+        x: 1596
+        y: 625
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5077c62c74c0e184d838e911146e103d
+      internalID: -393545635514133416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gold ring_43
+      rect:
+        serializedVersion: 2
+        x: 1729
+        y: 625
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 104586152cf335146830bdab121a23d9
+      internalID: -6278826782398841666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gold ring_44
+      rect:
+        serializedVersion: 2
+        x: 1862
+        y: 625
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f2ceb72cfbd1464997539fe023a1581
+      internalID: -7242420494817782407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gold ring_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 492
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54fa1202366c11842bf121235160c4b9
+      internalID: 8799113127211489565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gold ring_46
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 492
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05b46f9d3565ba941908931205f6b21b
+      internalID: -2255694232432187793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gold ring_47
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 492
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e5d35fcf53821c478c7716a27f139d3
+      internalID: -839339603626018400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gold ring_48
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 492
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34c3dd883601ac54b87e4a038b0772a6
+      internalID: -5959418423722531195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gold ring_49
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 492
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2451c0d51ccc0354bac72d4858b7b0fc
+      internalID: -3736325676100101096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gold ring_50
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 492
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cccec2b2ee3501147850d1d27ccef128
+      internalID: -1149151294291319294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gold ring_51
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 492
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d267e08192d673a4d81ce39f48a035f9
+      internalID: 2801179653191955784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gold ring_52
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 492
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4488e42f7102a4040b80592339de9757
+      internalID: 3168554338186999784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gold ring_53
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 492
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee4ac34689768b742a0cfb05d0422ce7
+      internalID: -8455313974811649807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gold ring_54
+      rect:
+        serializedVersion: 2
+        x: 1197
+        y: 492
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 857d8117f090b2d4897dda22760876f2
+      internalID: 6177699154929012649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gold ring_55
+      rect:
+        serializedVersion: 2
+        x: 1330
+        y: 492
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d533ae82a3c986243bd77341f034ca31
+      internalID: 2529545803553277173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gold ring_56
+      rect:
+        serializedVersion: 2
+        x: 1463
+        y: 492
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 816458c2e41278746897704d645bb106
+      internalID: -7941169822558174837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gold ring_57
+      rect:
+        serializedVersion: 2
+        x: 1596
+        y: 492
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c1d7ffa3b9704947a70ac93ad94a2f6
+      internalID: 7612578626912048374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gold ring_58
+      rect:
+        serializedVersion: 2
+        x: 1729
+        y: 492
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 884652cb7eeaff14ea3daa3a52621a89
+      internalID: -2710111842906388877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gold ring_59
+      rect:
+        serializedVersion: 2
+        x: 1862
+        y: 492
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bfefaebda0ea584494e6aeb6c8b4fc0
+      internalID: -8759744551663296701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gold ring_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 359
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d03b93da5d56cbc429d7b87e799f15a8
+      internalID: -8923350098488688983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gold ring_61
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 359
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdc0b939be6c53a46a31d32f6a577f1a
+      internalID: -828843884715990854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gold ring_62
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 359
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c38162767063c74d8ade68d3cb1fd33
+      internalID: -290815583497316886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gold ring_63
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 359
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a520e056a587e8846a14886951513393
+      internalID: -6615605443740792212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gold ring_64
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 359
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f08076f4f55a6cd458bc551405a4b23a
+      internalID: -4058367554164338087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gold ring_65
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 359
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04adc3e53a04ff847a7c61bba4a41e33
+      internalID: -287381297022867449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gold ring_66
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 359
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 901be32d24d9dd94fbe31e94aef165f1
+      internalID: 7710450116402239887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gold ring_67
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 359
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 598e4d70925500b42bc46e35e3cb0029
+      internalID: -7058313420185843418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gold ring_68
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 359
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13b3e37d169b76046a2e056800b7aad4
+      internalID: -1069875663206394266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gold ring_69
+      rect:
+        serializedVersion: 2
+        x: 1197
+        y: 359
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed84b5744a0b07e4d823282bcd8be546
+      internalID: -6743022434775062876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gold ring_70
+      rect:
+        serializedVersion: 2
+        x: 1330
+        y: 359
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64f8e423dc340e2428053386c7f611f3
+      internalID: -2488912554207657610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gold ring_71
+      rect:
+        serializedVersion: 2
+        x: 1463
+        y: 359
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a00f5ea1e77f09b4fb77df526f6246a0
+      internalID: 4547957223564212411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gold ring_72
+      rect:
+        serializedVersion: 2
+        x: 1596
+        y: 359
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3c03bcb87bb0ab4cafbdbabadb02ce8
+      internalID: -2903553740807686668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gold ring_73
+      rect:
+        serializedVersion: 2
+        x: 1729
+        y: 359
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67bc5f3442540ee41a92e67a593ba3f6
+      internalID: -8979599915481702477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gold ring_74
+      rect:
+        serializedVersion: 2
+        x: 1862
+        y: 359
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4a6cf041b943bf42b73f15bc579f07a
+      internalID: 6344672071442191809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gold ring_75
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 226
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9b270144c3e2d64e880ab613fe078fb
+      internalID: -3493390416293385447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gold ring_76
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 226
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d665172bcd0a3340a34b49bda062805
+      internalID: -8285760591624072746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gold ring_77
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 226
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a77cbf68048c8214a88eaa7aa6cb2656
+      internalID: 4724561005333264997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gold ring_78
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 226
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cc50ec50a918a7489fcafa7bc597998
+      internalID: 2362650036542917933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gold ring_79
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 226
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f48826c2a0aa12a4ebc434e376987968
+      internalID: -5041208482742522218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gold ring_80
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 226
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c4f7b432dc020044a089c8bb2b5fd17
+      internalID: 8397864012532889532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gold ring_81
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 226
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c8a4d26ba8b8ba42badca84246988e0
+      internalID: -6004576350197727698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gold ring_82
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 226
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39e469de8d3ad8246a9b6d7254b1090b
+      internalID: 5798986708740509433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gold ring_83
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 226
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f09ad094f6619d4db42477eb908870e
+      internalID: -2135594083987654963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gold ring_84
+      rect:
+        serializedVersion: 2
+        x: 1197
+        y: 226
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c8ec86587404d646a5b313fc6e53491
+      internalID: -1447641361965333582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gold ring_85
+      rect:
+        serializedVersion: 2
+        x: 1330
+        y: 226
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2b6d5d6776ab96458a5a59dcf86d65b
+      internalID: 4265191827411723004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gold ring_86
+      rect:
+        serializedVersion: 2
+        x: 1463
+        y: 226
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6385324f85ca8c4f95129363d4fc5b3
+      internalID: 6012386100667116779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gold ring_87
+      rect:
+        serializedVersion: 2
+        x: 1596
+        y: 226
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 000b03c10a35b5e48afe0e00e9103529
+      internalID: -7305803958856033820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gold ring_88
+      rect:
+        serializedVersion: 2
+        x: 1729
+        y: 226
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd2f0f0e27d5d794d8bb4f448a307361
+      internalID: 5566644615200713425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gold ring_89
+      rect:
+        serializedVersion: 2
+        x: 1862
+        y: 226
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a518c84b0f6a4045a38ddd3d90c1bc8
+      internalID: -8630775052484452846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gold ring_90
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 93
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf7c2ebe85fe4ac4aad04de7526740e1
+      internalID: 4805024564346044986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

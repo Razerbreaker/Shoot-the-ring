@@ -1,0 +1,1591 @@
+fileFormatVersion: 2
+guid: 085895cd686d65949bf4fd38d268b4d7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8712077212052877661
+    second: arrow_purple_0
+  - first:
+      213: -1654752433915334475
+    second: arrow_purple_1
+  - first:
+      213: 546368816213831829
+    second: arrow_purple_2
+  - first:
+      213: 2753572803739288380
+    second: arrow_purple_3
+  - first:
+      213: 8431113021940517344
+    second: arrow_purple_4
+  - first:
+      213: 1892059679313649566
+    second: arrow_purple_5
+  - first:
+      213: 441531430345708681
+    second: arrow_purple_6
+  - first:
+      213: 6859848991972887991
+    second: arrow_purple_7
+  - first:
+      213: 319578178847450348
+    second: arrow_purple_8
+  - first:
+      213: -4312657958901863122
+    second: arrow_purple_9
+  - first:
+      213: -2319649823627753002
+    second: arrow_purple_10
+  - first:
+      213: -4988032601892838140
+    second: arrow_purple_11
+  - first:
+      213: -845883265435613749
+    second: arrow_purple_12
+  - first:
+      213: 4857879386962011285
+    second: arrow_purple_13
+  - first:
+      213: 5282397831306608357
+    second: arrow_purple_14
+  - first:
+      213: 1935562361978797092
+    second: arrow_purple_15
+  - first:
+      213: -3880424443765909536
+    second: arrow_purple_16
+  - first:
+      213: 4376895790759531894
+    second: arrow_purple_17
+  - first:
+      213: 7765370206355453326
+    second: arrow_purple_18
+  - first:
+      213: 8412145851158751202
+    second: arrow_purple_19
+  - first:
+      213: 824195790118646601
+    second: arrow_purple_20
+  - first:
+      213: -4414999348007746954
+    second: arrow_purple_21
+  - first:
+      213: -1762898764935615743
+    second: arrow_purple_22
+  - first:
+      213: -573020252580315056
+    second: arrow_purple_23
+  - first:
+      213: 1462627732626313930
+    second: arrow_purple_24
+  - first:
+      213: 6592227958629281212
+    second: arrow_purple_25
+  - first:
+      213: -271406633429697700
+    second: arrow_purple_26
+  - first:
+      213: 6063473340371899167
+    second: arrow_purple_27
+  - first:
+      213: 9011797404820595031
+    second: arrow_purple_28
+  - first:
+      213: 2560385110944843466
+    second: arrow_purple_29
+  - first:
+      213: 7133507269847477214
+    second: arrow_purple_30
+  - first:
+      213: 5250216300924919451
+    second: arrow_purple_31
+  - first:
+      213: -817092886357501410
+    second: arrow_purple_32
+  - first:
+      213: 1311490384787207362
+    second: arrow_purple_33
+  - first:
+      213: -355562223460169590
+    second: arrow_purple_34
+  - first:
+      213: -4985745642168329354
+    second: arrow_purple_35
+  - first:
+      213: 9212292327632364952
+    second: arrow_purple_36
+  - first:
+      213: -6960096525490955260
+    second: arrow_purple_37
+  - first:
+      213: -6219778793498957325
+    second: arrow_purple_38
+  - first:
+      213: -9089058855818477836
+    second: arrow_purple_39
+  - first:
+      213: -576111969030192948
+    second: arrow_purple_40
+  - first:
+      213: -2469632497669225149
+    second: arrow_purple_41
+  - first:
+      213: 8282155512223140181
+    second: arrow_purple_42
+  - first:
+      213: -2588826816166511319
+    second: arrow_purple_43
+  - first:
+      213: 7587448207213427012
+    second: arrow_purple_44
+  - first:
+      213: -4550031332907798989
+    second: arrow_purple_45
+  - first:
+      213: -2736538343436268418
+    second: arrow_purple_46
+  - first:
+      213: -3522610362952621047
+    second: arrow_purple_47
+  - first:
+      213: -1400468683119445835
+    second: arrow_purple_48
+  - first:
+      213: 4981078996806875677
+    second: arrow_purple_49
+  - first:
+      213: 7024931495814432690
+    second: arrow_purple_50
+  - first:
+      213: -7914875270374846164
+    second: arrow_purple_51
+  - first:
+      213: -8137242773177048501
+    second: arrow_purple_52
+  - first:
+      213: -1643825676620694307
+    second: arrow_purple_53
+  - first:
+      213: -294932521847538070
+    second: arrow_purple_54
+  - first:
+      213: -426948628488060467
+    second: arrow_purple_55
+  - first:
+      213: -7315318622195088893
+    second: arrow_purple_56
+  - first:
+      213: -6478293069278936190
+    second: arrow_purple_57
+  - first:
+      213: -9120019910240098721
+    second: arrow_purple_58
+  - first:
+      213: 5157566668221416076
+    second: arrow_purple_59
+  - first:
+      213: 1849508040569979267
+    second: arrow_purple_60
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: arrow_purple_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 236
+        width: 200
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62ee5eda15c44a5478d621a1f8ef9fe6
+      internalID: 8712077212052877661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrow_purple_1
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 236
+        width: 200
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 525f710b943d1ae4580b89110737aa17
+      internalID: -1654752433915334475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrow_purple_2
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 236
+        width: 200
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d6043129d0dade45969f77912112413
+      internalID: 546368816213831829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrow_purple_3
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 236
+        width: 200
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ef819bb8b9a9a442a1318e07ed38697
+      internalID: 2753572803739288380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrow_purple_4
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 236
+        width: 200
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 966a27ccb98f17a40b141cea5982283d
+      internalID: 8431113021940517344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrow_purple_5
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 236
+        width: 200
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5617cf566f32344696a4e5ea51ca5ce
+      internalID: 1892059679313649566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrow_purple_6
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 236
+        width: 200
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 649aa7c8caee80a49af67732a73adae0
+      internalID: 441531430345708681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrow_purple_7
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 236
+        width: 200
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9fb3d80123429440bef8306b4f01273
+      internalID: 6859848991972887991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrow_purple_8
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 236
+        width: 200
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80041c569e8464c4399e04b693fefbee
+      internalID: 319578178847450348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrow_purple_9
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 236
+        width: 200
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad6120c530c78154389fccc67e048edb
+      internalID: -4312657958901863122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrow_purple_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 216
+        width: 200
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0bae7d1aed43684494629b6b4bb0333
+      internalID: -2319649823627753002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrow_purple_11
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 216
+        width: 200
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a17c576f2e99954438133bdbf63b9a93
+      internalID: -4988032601892838140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrow_purple_12
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 216
+        width: 200
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e755a5c36aaf8b24cb48c41f63ceb98e
+      internalID: -845883265435613749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrow_purple_13
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 216
+        width: 200
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1132cd28ef6894247bc67d383bfefa00
+      internalID: 4857879386962011285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrow_purple_14
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 216
+        width: 200
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6702e5ef9245e8742acad65fdb855fe4
+      internalID: 5282397831306608357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrow_purple_15
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 216
+        width: 200
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acab4cd7e30060a4ea828bc337930ec2
+      internalID: 1935562361978797092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrow_purple_16
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 216
+        width: 200
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80de95b3e0c0a554dad36d7813058890
+      internalID: -3880424443765909536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrow_purple_17
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 216
+        width: 200
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b7f1d4648d96e44fab1a038f3a2014a
+      internalID: 4376895790759531894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrow_purple_18
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 216
+        width: 200
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ace5f9b012db2c64d9c2e5ea6aa89cd2
+      internalID: 7765370206355453326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrow_purple_19
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 216
+        width: 200
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15f478f66a5a7bc4eb55fa059828a097
+      internalID: 8412145851158751202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrow_purple_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 196
+        width: 200
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b5dde3312fd68a41b271346bb372967
+      internalID: 824195790118646601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrow_purple_21
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 196
+        width: 200
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e266b9f4a85d254895657b8c0aa1551
+      internalID: -4414999348007746954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrow_purple_22
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 196
+        width: 200
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6302935898521048814e4b94e02b04f
+      internalID: -1762898764935615743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrow_purple_23
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 196
+        width: 200
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e61d1dcd4f09404a946fc425223e27f
+      internalID: -573020252580315056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrow_purple_24
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 196
+        width: 200
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0981ba84e3effe48821a4b432f1e883
+      internalID: 1462627732626313930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrow_purple_25
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 196
+        width: 200
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d64d4fcd80c5f240a59c12a9ac961f9
+      internalID: 6592227958629281212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrow_purple_26
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 196
+        width: 200
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b61861aee556b04cafc7f4eb0df6f53
+      internalID: -271406633429697700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrow_purple_27
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 196
+        width: 200
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74cb151cbe4377141a7c378f621922b8
+      internalID: 6063473340371899167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrow_purple_28
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 196
+        width: 200
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69039e3311ca39a4cacbbc35645927d4
+      internalID: 9011797404820595031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrow_purple_29
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 196
+        width: 200
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03bea032661f52a4699ed620e2c1e8ae
+      internalID: 2560385110944843466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrow_purple_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 176
+        width: 200
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c066ce7fb0960bb429ff302ce398372b
+      internalID: 7133507269847477214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrow_purple_31
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 176
+        width: 200
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bc5605b19aaf5b4c866c37c017c988c
+      internalID: 5250216300924919451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrow_purple_32
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 176
+        width: 200
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72af6c54d79238e4890b4c2654ef799e
+      internalID: -817092886357501410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrow_purple_33
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 176
+        width: 200
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df397817fe95e53499c792e8ab9e8a39
+      internalID: 1311490384787207362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrow_purple_34
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 176
+        width: 200
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61e6afd13a7f9e146901b1ed2c6aea2a
+      internalID: -355562223460169590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrow_purple_35
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 176
+        width: 200
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76c274ce4272a11488b0032c5ef8b009
+      internalID: -4985745642168329354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrow_purple_36
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 176
+        width: 200
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db1135c6be01f2c4aaa479886e67123a
+      internalID: 9212292327632364952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrow_purple_37
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 176
+        width: 200
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3056815545276b34f81438bdd5d809a5
+      internalID: -6960096525490955260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrow_purple_38
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 176
+        width: 200
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 347cd6036b2133f4aa64591e4ebbef9b
+      internalID: -6219778793498957325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrow_purple_39
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 176
+        width: 200
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11919d61954a2ed42967e95d0d424d65
+      internalID: -9089058855818477836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrow_purple_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 156
+        width: 200
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 277096cce7668a042ad8b97476835d62
+      internalID: -576111969030192948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrow_purple_41
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 156
+        width: 200
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 742bcfe265337404599b42a9a61ccfa3
+      internalID: -2469632497669225149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrow_purple_42
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 156
+        width: 200
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 450e24597871c0b45887be0b38a344e9
+      internalID: 8282155512223140181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrow_purple_43
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 156
+        width: 200
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bfa13ca27a2a594c8aaadc95093ac43
+      internalID: -2588826816166511319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrow_purple_44
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 156
+        width: 200
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27d2274b52819e44ba3f2d9809cd1038
+      internalID: 7587448207213427012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrow_purple_45
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 156
+        width: 200
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a52aaa9df93d2a499f663046647e597
+      internalID: -4550031332907798989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrow_purple_46
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 156
+        width: 200
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8716083e7880544b94fe59f0c7f0aaa
+      internalID: -2736538343436268418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrow_purple_47
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 156
+        width: 200
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1a33eae2cfb36447ab08bf599e82abb
+      internalID: -3522610362952621047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrow_purple_48
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 156
+        width: 200
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 401954a2562d0334c9f5f133b0f1aa6d
+      internalID: -1400468683119445835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrow_purple_49
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 156
+        width: 200
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd482e320cc8298478b8358aeaa87ae4
+      internalID: 4981078996806875677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrow_purple_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 136
+        width: 200
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bffc68321fb2cdb40bebe2855caf9ccc
+      internalID: 7024931495814432690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrow_purple_51
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 136
+        width: 200
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f8fceba20666d44ea0c0377c8973398
+      internalID: -7914875270374846164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrow_purple_52
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 136
+        width: 200
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35b421e2c6a6d334e86f21c48956ee3c
+      internalID: -8137242773177048501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrow_purple_53
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 136
+        width: 200
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fffec23417ab934eabbdddc2ec95b7e
+      internalID: -1643825676620694307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrow_purple_54
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 136
+        width: 200
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cbcf85439a00a24d9a266c20f6645ae
+      internalID: -294932521847538070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrow_purple_55
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 136
+        width: 200
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 719f8b0ade2831949aebce6a8d46612c
+      internalID: -426948628488060467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrow_purple_56
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 136
+        width: 200
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cbabdb9314f58044b01bcb2754e516e
+      internalID: -7315318622195088893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrow_purple_57
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 136
+        width: 200
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f29e711f7a6d8594088159faec340595
+      internalID: -6478293069278936190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrow_purple_58
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 136
+        width: 200
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c07c690c43ed5ef4b8752eb0a296d6dc
+      internalID: -9120019910240098721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrow_purple_59
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 136
+        width: 200
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab664f1e35ce53741b7fea6f49296621
+      internalID: 5157566668221416076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrow_purple_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 116
+        width: 200
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10101cefcf343534598ffe74aa0ab13b
+      internalID: 1849508040569979267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: b83e2e6cfede15742ae5fba07b5cfd0f
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,18 @@
+version: 2
+importPivots: 1
+tpsheetFileNames:
+- Assets/codeandweb.com/Example/SpriteSheet/sprites.tpsheet
+- Assets/Shoot the rings/Resources/Textures/Decor/back.tpsheet
+- Assets/Shoot the rings/Resources/Textures/Decor/Back.tpsheet
+- Assets/Shoot the rings/Resources/Textures/Level Complete/bronze/bro.tpsheet
+textureFileNames:
+- Assets/codeandweb.com/Example/SpriteSheet/sprites.png
+- Assets/Shoot the rings/Resources/Textures/Decor/gold.png
+- Assets/Shoot the rings/Resources/Textures/Decor/gold.png
+- Assets/Shoot the rings/Resources/Textures/Level Complete/bronze/bro.png
+normalmapFileNames:
+- Assets/codeandweb.com/Example/SpriteSheet/sprites_n.png
+- 
+- 
+- 
+enableDebugOutput: 0

@@ -1,0 +1,2311 @@
+fileFormatVersion: 2
+guid: e5c72cd856587694395e97d96388b1f3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1422758703086884825
+    second: menu_lvl_2_stars_0
+  - first:
+      213: 7457504207262428407
+    second: menu_lvl_2_stars_1
+  - first:
+      213: -8498417848087563374
+    second: menu_lvl_2_stars_2
+  - first:
+      213: -2292358100636193811
+    second: menu_lvl_2_stars_3
+  - first:
+      213: -6266212698211795579
+    second: menu_lvl_2_stars_4
+  - first:
+      213: 8283372477149772771
+    second: menu_lvl_2_stars_5
+  - first:
+      213: -1012390093527117245
+    second: menu_lvl_2_stars_6
+  - first:
+      213: -2856963281689510135
+    second: menu_lvl_2_stars_7
+  - first:
+      213: -8960360699368355895
+    second: menu_lvl_2_stars_8
+  - first:
+      213: 2741189794098146226
+    second: menu_lvl_2_stars_9
+  - first:
+      213: -3414547383450151144
+    second: menu_lvl_2_stars_10
+  - first:
+      213: 8010047599386301772
+    second: menu_lvl_2_stars_11
+  - first:
+      213: -570639456779162721
+    second: menu_lvl_2_stars_12
+  - first:
+      213: 3611865051321344277
+    second: menu_lvl_2_stars_13
+  - first:
+      213: 8834947395818211964
+    second: menu_lvl_2_stars_14
+  - first:
+      213: -4222104308735030757
+    second: menu_lvl_2_stars_15
+  - first:
+      213: -1654534200876514789
+    second: menu_lvl_2_stars_16
+  - first:
+      213: 8499330434365494552
+    second: menu_lvl_2_stars_17
+  - first:
+      213: 7764606437571646533
+    second: menu_lvl_2_stars_18
+  - first:
+      213: 7900225749209935402
+    second: menu_lvl_2_stars_19
+  - first:
+      213: 587241901754369139
+    second: menu_lvl_2_stars_20
+  - first:
+      213: -1428585199638003830
+    second: menu_lvl_2_stars_21
+  - first:
+      213: -3044818421219531057
+    second: menu_lvl_2_stars_22
+  - first:
+      213: -5352262058108105362
+    second: menu_lvl_2_stars_23
+  - first:
+      213: 50491582727146346
+    second: menu_lvl_2_stars_24
+  - first:
+      213: 7942806787520563084
+    second: menu_lvl_2_stars_25
+  - first:
+      213: 4118839908133304048
+    second: menu_lvl_2_stars_26
+  - first:
+      213: -2009496723431753730
+    second: menu_lvl_2_stars_27
+  - first:
+      213: 5269545951367798459
+    second: menu_lvl_2_stars_28
+  - first:
+      213: -2666629203509422866
+    second: menu_lvl_2_stars_29
+  - first:
+      213: -8852156998051919584
+    second: menu_lvl_2_stars_30
+  - first:
+      213: -5739031312893235491
+    second: menu_lvl_2_stars_31
+  - first:
+      213: -4263597226153263949
+    second: menu_lvl_2_stars_32
+  - first:
+      213: 1411115324236825646
+    second: menu_lvl_2_stars_33
+  - first:
+      213: 1174105153817171892
+    second: menu_lvl_2_stars_34
+  - first:
+      213: -9022026143451215931
+    second: menu_lvl_2_stars_35
+  - first:
+      213: 9105416434748481217
+    second: menu_lvl_2_stars_36
+  - first:
+      213: -2855267808615945999
+    second: menu_lvl_2_stars_37
+  - first:
+      213: -8951140290919080412
+    second: menu_lvl_2_stars_38
+  - first:
+      213: 4223819980875928067
+    second: menu_lvl_2_stars_39
+  - first:
+      213: 7438357195066933146
+    second: menu_lvl_2_stars_40
+  - first:
+      213: -3736068102357611051
+    second: menu_lvl_2_stars_41
+  - first:
+      213: -6107483609411132791
+    second: menu_lvl_2_stars_42
+  - first:
+      213: 382652092220007447
+    second: menu_lvl_2_stars_43
+  - first:
+      213: -4723824108064413028
+    second: menu_lvl_2_stars_44
+  - first:
+      213: -4440996102551976530
+    second: menu_lvl_2_stars_45
+  - first:
+      213: -7838521730283701667
+    second: menu_lvl_2_stars_46
+  - first:
+      213: 7693332217613523504
+    second: menu_lvl_2_stars_47
+  - first:
+      213: 4049818110685783686
+    second: menu_lvl_2_stars_48
+  - first:
+      213: -3925585656664454485
+    second: menu_lvl_2_stars_49
+  - first:
+      213: -6273113119757967609
+    second: menu_lvl_2_stars_50
+  - first:
+      213: 993933340240286261
+    second: menu_lvl_2_stars_51
+  - first:
+      213: 6414532212347823295
+    second: menu_lvl_2_stars_52
+  - first:
+      213: 1388858722546265987
+    second: menu_lvl_2_stars_53
+  - first:
+      213: -3281786794593098717
+    second: menu_lvl_2_stars_54
+  - first:
+      213: 3526126935576010156
+    second: menu_lvl_2_stars_55
+  - first:
+      213: -1838370173175226046
+    second: menu_lvl_2_stars_56
+  - first:
+      213: -1420973233470202597
+    second: menu_lvl_2_stars_57
+  - first:
+      213: 498365195395798783
+    second: menu_lvl_2_stars_58
+  - first:
+      213: 7208098461684049296
+    second: menu_lvl_2_stars_59
+  - first:
+      213: 5722558582438841176
+    second: menu_lvl_2_stars_60
+  - first:
+      213: -7771623917248692504
+    second: menu_lvl_2_stars_61
+  - first:
+      213: -8121665424514259604
+    second: menu_lvl_2_stars_62
+  - first:
+      213: 4391056652615118101
+    second: menu_lvl_2_stars_63
+  - first:
+      213: 7827516735916641162
+    second: menu_lvl_2_stars_64
+  - first:
+      213: -1763399778746807057
+    second: menu_lvl_2_stars_65
+  - first:
+      213: 3344500402864785283
+    second: menu_lvl_2_stars_66
+  - first:
+      213: -2055790546557877915
+    second: menu_lvl_2_stars_67
+  - first:
+      213: 6338890246704436076
+    second: menu_lvl_2_stars_68
+  - first:
+      213: -4315409073436948370
+    second: menu_lvl_2_stars_69
+  - first:
+      213: 7850663098762367438
+    second: menu_lvl_2_stars_70
+  - first:
+      213: 5449346660561855687
+    second: menu_lvl_2_stars_71
+  - first:
+      213: -1465415488713781526
+    second: menu_lvl_2_stars_72
+  - first:
+      213: 983334218809985225
+    second: menu_lvl_2_stars_73
+  - first:
+      213: -6409788416026020044
+    second: menu_lvl_2_stars_74
+  - first:
+      213: -7659955754110193308
+    second: menu_lvl_2_stars_75
+  - first:
+      213: 5946834878117233881
+    second: menu_lvl_2_stars_76
+  - first:
+      213: 6336176993397982343
+    second: menu_lvl_2_stars_77
+  - first:
+      213: 9068572748113917481
+    second: menu_lvl_2_stars_78
+  - first:
+      213: 7564782354285738475
+    second: menu_lvl_2_stars_79
+  - first:
+      213: 3491669749668842746
+    second: menu_lvl_2_stars_80
+  - first:
+      213: -6764527182418770769
+    second: menu_lvl_2_stars_81
+  - first:
+      213: 1893719434303035142
+    second: menu_lvl_2_stars_82
+  - first:
+      213: -5707098936604083713
+    second: menu_lvl_2_stars_83
+  - first:
+      213: 666375586277493168
+    second: menu_lvl_2_stars_84
+  - first:
+      213: -4242971599678509184
+    second: menu_lvl_2_stars_85
+  - first:
+      213: 774606608888118779
+    second: menu_lvl_2_stars_86
+  - first:
+      213: 4920018675558639115
+    second: menu_lvl_2_stars_87
+  - first:
+      213: 4262067537001639122
+    second: menu_lvl_2_stars_88
+  - first:
+      213: -1621939348404822507
+    second: menu_lvl_2_stars_89
+  - first:
+      213: -8369128252119965552
+    second: menu_lvl_2_stars_90
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: menu_lvl_2_stars_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1888
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a54ba1232201f7246bc3fa2ffdab1f01
+      internalID: -1422758703086884825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menu_lvl_2_stars_1
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 1888
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc909d72981ba6444b033f7f7ab09a55
+      internalID: 7457504207262428407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menu_lvl_2_stars_2
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1888
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2b599135346c7a4e9396818b6a011a6
+      internalID: -8498417848087563374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menu_lvl_2_stars_3
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 1888
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6613e94a2c22b174da8856a52dd7a684
+      internalID: -2292358100636193811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menu_lvl_2_stars_4
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1888
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a2945c18e75c0d4eb9a7d1196ab379c
+      internalID: -6266212698211795579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menu_lvl_2_stars_5
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 1888
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6b376b99c55f874aa829249cba354cc
+      internalID: 8283372477149772771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menu_lvl_2_stars_6
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 1888
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd440f1ace99e434490aabd971d912b3
+      internalID: -1012390093527117245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menu_lvl_2_stars_7
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 1888
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32b6275811a9d7643996e90b5207a63e
+      internalID: -2856963281689510135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menu_lvl_2_stars_8
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1888
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26a0df177a4a93945bf47ed7b2f238a8
+      internalID: -8960360699368355895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menu_lvl_2_stars_9
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 1888
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0bde6e5e3c720447891a060ed51c302
+      internalID: 2741189794098146226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menu_lvl_2_stars_10
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 1888
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa037b98b32955f4898b173214f8642f
+      internalID: -3414547383450151144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menu_lvl_2_stars_11
+      rect:
+        serializedVersion: 2
+        x: 1760
+        y: 1888
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d23a697b1d7c49b42aa3586e09dbc61f
+      internalID: 8010047599386301772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menu_lvl_2_stars_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1728
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 733cff4d076c3c243b6d4d1a7295de7a
+      internalID: -570639456779162721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menu_lvl_2_stars_13
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 1728
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f543ccda1b7c2db47bdfc4e7493c19f1
+      internalID: 3611865051321344277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menu_lvl_2_stars_14
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1728
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3116e9130a721bb478d67bfe8e50cf1c
+      internalID: 8834947395818211964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menu_lvl_2_stars_15
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 1728
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe20e7b84e7c314468da4c7c881cb888
+      internalID: -4222104308735030757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menu_lvl_2_stars_16
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1728
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3121b42bf5d41a54a8f1e8fdb940f6c2
+      internalID: -1654534200876514789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menu_lvl_2_stars_17
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 1728
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d39dc6a78f8e714680adc18f7b9d16a
+      internalID: 8499330434365494552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menu_lvl_2_stars_18
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 1728
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b61f9f98f2791d4c986f3cc80327112
+      internalID: 7764606437571646533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menu_lvl_2_stars_19
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 1728
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad073b01e03ab9e4698c8a5a209b8c5d
+      internalID: 7900225749209935402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menu_lvl_2_stars_20
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1728
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59cd5ceed3e55434db4711ee24b97e14
+      internalID: 587241901754369139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menu_lvl_2_stars_21
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 1728
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 749c46786086f954bbf508400fd9139e
+      internalID: -1428585199638003830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menu_lvl_2_stars_22
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 1728
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 055bed755a32d4b4d8dd22afe0cfe6f4
+      internalID: -3044818421219531057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menu_lvl_2_stars_23
+      rect:
+        serializedVersion: 2
+        x: 1760
+        y: 1728
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5e323cfb446bad4a8e9921025e08abd
+      internalID: -5352262058108105362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menu_lvl_2_stars_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1568
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a894dfa2b51d37043afdd8a82479fe89
+      internalID: 50491582727146346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menu_lvl_2_stars_25
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 1568
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2944df0af7fcd2741b873818ad696320
+      internalID: 7942806787520563084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menu_lvl_2_stars_26
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1568
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bf6ba6548f330a498401866199f4fb4
+      internalID: 4118839908133304048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menu_lvl_2_stars_27
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 1568
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ca64019748b4384baef707888e2f493
+      internalID: -2009496723431753730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menu_lvl_2_stars_28
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1568
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89c8fc4511fec5947973726c709e8c3d
+      internalID: 5269545951367798459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menu_lvl_2_stars_29
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 1568
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8086822dbcd2254abfd38b703323fb3
+      internalID: -2666629203509422866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menu_lvl_2_stars_30
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 1568
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2579f499dcdb5c48a67ca64d6055c99
+      internalID: -8852156998051919584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menu_lvl_2_stars_31
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 1568
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dbb92f72e5f48a44a19200ba9e7c4e1
+      internalID: -5739031312893235491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menu_lvl_2_stars_32
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1568
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31e13f65af302d346a786422c19d9228
+      internalID: -4263597226153263949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menu_lvl_2_stars_33
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 1568
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcd36aa07018720408e3e4d6b12f9c17
+      internalID: 1411115324236825646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menu_lvl_2_stars_34
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 1568
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00365f1553005df4bbef59c37b085f38
+      internalID: 1174105153817171892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menu_lvl_2_stars_35
+      rect:
+        serializedVersion: 2
+        x: 1760
+        y: 1568
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b2e59926cbb32344a658c2ab4341642
+      internalID: -9022026143451215931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menu_lvl_2_stars_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1408
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb4e7850d6e7f1b4fbc6a42845ec7638
+      internalID: 9105416434748481217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menu_lvl_2_stars_37
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 1408
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e8e09396a613b6489f8b60a89503669
+      internalID: -2855267808615945999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menu_lvl_2_stars_38
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1408
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3986b84878b7d5d46afdbbcef3e10b0a
+      internalID: -8951140290919080412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menu_lvl_2_stars_39
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 1408
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1df7db823ea36994e82089114ad4c397
+      internalID: 4223819980875928067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menu_lvl_2_stars_40
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1408
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8355482c73d09f24398e34963dbaca2a
+      internalID: 7438357195066933146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menu_lvl_2_stars_41
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 1408
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5cee3f8972139d449c0347a49e18e83
+      internalID: -3736068102357611051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menu_lvl_2_stars_42
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 1408
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef9be8802d85d0a4d803c614ec7b960b
+      internalID: -6107483609411132791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menu_lvl_2_stars_43
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 1408
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f09f5366db67174295fb2c432615e48
+      internalID: 382652092220007447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menu_lvl_2_stars_44
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1408
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dc95adbd9ca4474eaf6441c6b15db6e
+      internalID: -4723824108064413028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menu_lvl_2_stars_45
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 1408
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cdf70401283c954daa4ce75db197fbd
+      internalID: -4440996102551976530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menu_lvl_2_stars_46
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 1408
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6c2aed1b667c96498612b771b5830f1
+      internalID: -7838521730283701667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menu_lvl_2_stars_47
+      rect:
+        serializedVersion: 2
+        x: 1760
+        y: 1408
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cab82afca13b3543ba5903b3c537c32
+      internalID: 7693332217613523504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menu_lvl_2_stars_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1248
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fa27e9dfd6678d4a86a16e362ca5861
+      internalID: 4049818110685783686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menu_lvl_2_stars_49
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 1248
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e66857b24a32b9f40b10012380df7fd2
+      internalID: -3925585656664454485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menu_lvl_2_stars_50
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1248
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d105031bd8e4ad74cb0ccc340ff10beb
+      internalID: -6273113119757967609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menu_lvl_2_stars_51
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 1248
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7113e6348045e7c43b57a053cdfa4880
+      internalID: 993933340240286261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menu_lvl_2_stars_52
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1248
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e7b72657771e4944a66b3e06d2eb176
+      internalID: 6414532212347823295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menu_lvl_2_stars_53
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 1248
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d75a808d0be79924d98fa71fd11d8171
+      internalID: 1388858722546265987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menu_lvl_2_stars_54
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 1248
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5b666dbd04a98245927ec4b4b440640
+      internalID: -3281786794593098717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menu_lvl_2_stars_55
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 1248
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d8dea97bdfd5ce43b3e332f4e9d4fcc
+      internalID: 3526126935576010156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menu_lvl_2_stars_56
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1248
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a029c45753b9c0145973e6c248df7b92
+      internalID: -1838370173175226046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menu_lvl_2_stars_57
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 1248
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b72a850f98b231247850aa5836f021f1
+      internalID: -1420973233470202597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menu_lvl_2_stars_58
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 1248
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffe3f16d720534a48b5d9ca22b7059c3
+      internalID: 498365195395798783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menu_lvl_2_stars_59
+      rect:
+        serializedVersion: 2
+        x: 1760
+        y: 1248
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d0a7bf801b52874c87ab7846045c1d3
+      internalID: 7208098461684049296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menu_lvl_2_stars_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1088
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: deea717f3f8c82045b451a5ea3fc3776
+      internalID: 5722558582438841176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menu_lvl_2_stars_61
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 1088
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73db6c7568fed3f4b8c1899bce6508cf
+      internalID: -7771623917248692504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menu_lvl_2_stars_62
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1088
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8c9f277b2af55f42aa91a0fbb184097
+      internalID: -8121665424514259604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menu_lvl_2_stars_63
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 1088
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 463d84967cae7964599a37069160fe87
+      internalID: 4391056652615118101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menu_lvl_2_stars_64
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1088
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac56a1c2183f3604ebd4fa381aed7a4e
+      internalID: 7827516735916641162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menu_lvl_2_stars_65
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 1088
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa08bc5304010d44c90037cf78a35797
+      internalID: -1763399778746807057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menu_lvl_2_stars_66
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 1088
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8dadbd5d3f3b604a8a26adbdebdcd84
+      internalID: 3344500402864785283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menu_lvl_2_stars_67
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 1088
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c493e2dc9b5e3e147b9906fcccdc2936
+      internalID: -2055790546557877915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menu_lvl_2_stars_68
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1088
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0941cdd2a0a38e04cb07abbcdf3742a8
+      internalID: 6338890246704436076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menu_lvl_2_stars_69
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 1088
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc0545badd4ce9840858d3d1f1aaba69
+      internalID: -4315409073436948370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menu_lvl_2_stars_70
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 1088
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3eabd966b4b9824a88bcba2f21caa04
+      internalID: 7850663098762367438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menu_lvl_2_stars_71
+      rect:
+        serializedVersion: 2
+        x: 1760
+        y: 1088
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af698bea70809434190979d7e68c72e2
+      internalID: 5449346660561855687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menu_lvl_2_stars_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 928
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 562a6053ba5d31c4bba23d86f331c1e2
+      internalID: -1465415488713781526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menu_lvl_2_stars_73
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 928
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abf084817c955b24ebab2707853a2cd4
+      internalID: 983334218809985225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menu_lvl_2_stars_74
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 928
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 353f0e3ca91be5149ab95f5743212432
+      internalID: -6409788416026020044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menu_lvl_2_stars_75
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 928
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c7c83736e8b2114d8521e7e75de1a9e
+      internalID: -7659955754110193308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menu_lvl_2_stars_76
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 928
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9b3165a4cfa7f04dbabfaebe40608cb
+      internalID: 5946834878117233881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menu_lvl_2_stars_77
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 928
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8e0046a778f19f4fb3cff0dd8035a8f
+      internalID: 6336176993397982343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menu_lvl_2_stars_78
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 928
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47bf1e052e0497d48b69b85e88f68eb1
+      internalID: 9068572748113917481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menu_lvl_2_stars_79
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 928
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 558a833dd636b644d8a54a2eb9302068
+      internalID: 7564782354285738475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menu_lvl_2_stars_80
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 928
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f304464769d670e49bf215cb1b4e1ceb
+      internalID: 3491669749668842746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menu_lvl_2_stars_81
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 928
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a52d67f38f8fd99478b9e61548202496
+      internalID: -6764527182418770769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menu_lvl_2_stars_82
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 928
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6ab355aa6dcd8b4189d8dc9abf85d03
+      internalID: 1893719434303035142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menu_lvl_2_stars_83
+      rect:
+        serializedVersion: 2
+        x: 1760
+        y: 928
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08dd3d761d5e6f947ae9625364c15186
+      internalID: -5707098936604083713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menu_lvl_2_stars_84
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d300ef4ef5d16c45a1cd27ba809a96c
+      internalID: 666375586277493168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menu_lvl_2_stars_85
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 768
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1726823cd37788646a99612dae65e65e
+      internalID: -4242971599678509184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menu_lvl_2_stars_86
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 768
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d99875e2b70ac7f4c95d2fc86753b9d1
+      internalID: 774606608888118779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menu_lvl_2_stars_87
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 768
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63e649ac2dca6b44b801f2ce3111c390
+      internalID: 4920018675558639115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menu_lvl_2_stars_88
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 768
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbff1ad7b39fd4b4380cb96d0d5388b1
+      internalID: 4262067537001639122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menu_lvl_2_stars_89
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 768
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9215d933ffea51d408b28661486fab5c
+      internalID: -1621939348404822507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menu_lvl_2_stars_90
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 768
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f530cdcf12641b49ac4ab70082b0daf
+      internalID: -8369128252119965552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: e6c1fcd243510cd448fdd858040b6b81
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
