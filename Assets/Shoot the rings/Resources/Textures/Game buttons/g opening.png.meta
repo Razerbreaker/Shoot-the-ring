@@ -1,0 +1,835 @@
+fileFormatVersion: 2
+guid: e400172620376e8469eea3ea6de60bf8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -487720527361282724
+    second: g opening_0
+  - first:
+      213: 4546796323841360514
+    second: g opening_1
+  - first:
+      213: 5741953280946761828
+    second: g opening_2
+  - first:
+      213: -3693924386663598709
+    second: g opening_3
+  - first:
+      213: -5059880745316330620
+    second: g opening_4
+  - first:
+      213: -2168791214473293279
+    second: g opening_5
+  - first:
+      213: -2413393717537727042
+    second: g opening_6
+  - first:
+      213: 1185092842458588278
+    second: g opening_7
+  - first:
+      213: -3799380910599486863
+    second: g opening_8
+  - first:
+      213: -9136689621134410473
+    second: g opening_9
+  - first:
+      213: -1127824670451705603
+    second: g opening_10
+  - first:
+      213: 4988038640269434285
+    second: g opening_11
+  - first:
+      213: -2812473392292378562
+    second: g opening_12
+  - first:
+      213: 558777779251228112
+    second: g opening_13
+  - first:
+      213: 9172443926899253477
+    second: g opening_14
+  - first:
+      213: 8239036558956865878
+    second: g opening_15
+  - first:
+      213: 1302871027002146348
+    second: g opening_16
+  - first:
+      213: 5259236579571717972
+    second: g opening_17
+  - first:
+      213: -7193728186253986452
+    second: g opening_18
+  - first:
+      213: -284645168977202240
+    second: g opening_19
+  - first:
+      213: -540727975381221054
+    second: g opening_20
+  - first:
+      213: -2433052741568725184
+    second: g opening_21
+  - first:
+      213: -5636634906992291447
+    second: g opening_22
+  - first:
+      213: 2287243862929645396
+    second: g opening_23
+  - first:
+      213: 4055165369103416524
+    second: g opening_24
+  - first:
+      213: -2410802637982580686
+    second: g opening_25
+  - first:
+      213: 4799307339680912444
+    second: g opening_26
+  - first:
+      213: -6297242666519470756
+    second: g opening_27
+  - first:
+      213: 3938707822715396033
+    second: g opening_28
+  - first:
+      213: -4883659918545851039
+    second: g opening_29
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: g opening_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 824
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c5150000dcabfe48bd8a54ad333e97b
+      internalID: -487720527361282724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: g opening_1
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 824
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74989bf643eea394fa40383c2cd26246
+      internalID: 4546796323841360514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: g opening_2
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 824
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caef838ac624dd64180490e6494c1024
+      internalID: 5741953280946761828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: g opening_3
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 824
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49fb8c74b81f4c340bc0913e7f51bfd8
+      internalID: -3693924386663598709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: g opening_4
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 824
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48a9935a53e53884287b2e98fe2a4264
+      internalID: -5059880745316330620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: g opening_5
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 824
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf79b379343b38e4babdc95755707607
+      internalID: -2168791214473293279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: g opening_6
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 824
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f0a9f5b4448a5643addb516764e62ec
+      internalID: -2413393717537727042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: g opening_7
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 824
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8df599531061a3e4ea9d2a2d0d5d681e
+      internalID: 1185092842458588278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: g opening_8
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 824
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be81a2edcc80ffb458c8f899df5fd959
+      internalID: -3799380910599486863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: g opening_9
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 824
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d622bf16586b7f4cbee533aef5da39c
+      internalID: -9136689621134410473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: g opening_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 624
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24dfa3197c671e04e9e6c3fdc54e656b
+      internalID: -1127824670451705603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: g opening_11
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 624
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5acb3810acb82e4ca9ec4464d3d27d1
+      internalID: 4988038640269434285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: g opening_12
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 624
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b81f61726b38fae40afcb33afd8bc98e
+      internalID: -2812473392292378562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: g opening_13
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 624
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4698a7a4d4e913489d637fd91c16bed
+      internalID: 558777779251228112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: g opening_14
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 624
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fac00383df4a0b64a80244febe092ed0
+      internalID: 9172443926899253477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: g opening_15
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 624
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e72c8603e146514b9279d408187251d
+      internalID: 8239036558956865878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: g opening_16
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 624
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f7ad9ba80592484e94926d5cd704141
+      internalID: 1302871027002146348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: g opening_17
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 624
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39956287b000dd24a91d1e3328405ee8
+      internalID: 5259236579571717972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: g opening_18
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 624
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 156367a02524faf4aaa9421e197b253d
+      internalID: -7193728186253986452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: g opening_19
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 624
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97499ae5727a7af46b82d0eda47a6c88
+      internalID: -284645168977202240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: g opening_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 424
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40f1e4c2cd2b538499bff17e1daaec75
+      internalID: -540727975381221054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: g opening_21
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 424
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23aaf1f5079ae7a41b9daf71b262211b
+      internalID: -2433052741568725184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: g opening_22
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 424
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f67b1a8bbe200c449b6fe63d29a74093
+      internalID: -5636634906992291447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: g opening_23
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 424
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db1f4d424b7d6c646979ebe167ded14c
+      internalID: 2287243862929645396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: g opening_24
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 424
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d4a80f62680a0946916138fb4840af3
+      internalID: 4055165369103416524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: g opening_25
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 424
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2eaaa60201f3e414a8add7f332374dff
+      internalID: -2410802637982580686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: g opening_26
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 424
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 687e15acead9dbe4c8fd9ddddbf98acb
+      internalID: 4799307339680912444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: g opening_27
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 424
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e018ceb1209d99b458142fefb4e049fa
+      internalID: -6297242666519470756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: g opening_28
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 424
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84ccbafce89654c4bbd2d07691a521bc
+      internalID: 3938707822715396033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: g opening_29
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 424
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57f79b7a293a3ba45976a5e076e183de
+      internalID: -4883659918545851039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

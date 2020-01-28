@@ -1,0 +1,835 @@
+fileFormatVersion: 2
+guid: 7c8262361ef37964e822086e18e01df1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5287862807388936054
+    second: b opening_0
+  - first:
+      213: -2585610093699015606
+    second: b opening_1
+  - first:
+      213: -5225371398978806989
+    second: b opening_2
+  - first:
+      213: -7324358228815904769
+    second: b opening_3
+  - first:
+      213: -336547799968987995
+    second: b opening_4
+  - first:
+      213: -6422103139007323611
+    second: b opening_5
+  - first:
+      213: 6610664419788306700
+    second: b opening_6
+  - first:
+      213: -2713645998460043055
+    second: b opening_7
+  - first:
+      213: -348844777263512969
+    second: b opening_8
+  - first:
+      213: 2383179160468830290
+    second: b opening_9
+  - first:
+      213: -5742134646683524683
+    second: b opening_10
+  - first:
+      213: -8477046710094156666
+    second: b opening_11
+  - first:
+      213: -8761033049561482567
+    second: b opening_12
+  - first:
+      213: -5273040257547665335
+    second: b opening_13
+  - first:
+      213: 8257185479697833526
+    second: b opening_14
+  - first:
+      213: 6870080590434704025
+    second: b opening_15
+  - first:
+      213: -5035706082561959967
+    second: b opening_16
+  - first:
+      213: 7806239602390982219
+    second: b opening_17
+  - first:
+      213: -1637256845330525649
+    second: b opening_18
+  - first:
+      213: 2964790572189154388
+    second: b opening_19
+  - first:
+      213: 365540342860979653
+    second: b opening_20
+  - first:
+      213: 3303796695232761492
+    second: b opening_21
+  - first:
+      213: -4786123621229231705
+    second: b opening_22
+  - first:
+      213: -8054319918375730722
+    second: b opening_23
+  - first:
+      213: -807838081628765182
+    second: b opening_24
+  - first:
+      213: -8039998630058733458
+    second: b opening_25
+  - first:
+      213: -4647685452329817599
+    second: b opening_26
+  - first:
+      213: 3481616854342177782
+    second: b opening_27
+  - first:
+      213: -3044645366781020446
+    second: b opening_28
+  - first:
+      213: 9042419288712734680
+    second: b opening_29
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: b opening_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 824
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6289801aa43ae494d98dd33d07c229fa
+      internalID: -5287862807388936054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: b opening_1
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 824
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cf53d1e1b6eb7f4d838b765b25e17b9
+      internalID: -2585610093699015606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: b opening_2
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 824
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba3e9ee609025164fbd017b8b65fdf3c
+      internalID: -5225371398978806989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: b opening_3
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 824
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 766098559fec0f44eb8558c7cf9432b0
+      internalID: -7324358228815904769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: b opening_4
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 824
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29c96238f31de70479b09cb02ad9cbc1
+      internalID: -336547799968987995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: b opening_5
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 824
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dc03aee67228b647b12cae150b6fb9d
+      internalID: -6422103139007323611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: b opening_6
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 824
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a644eeaae94b3645b74b0611b6c36e2
+      internalID: 6610664419788306700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: b opening_7
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 824
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6807469a0fdca20489116f2b1428f062
+      internalID: -2713645998460043055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: b opening_8
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 824
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8adf9eca66f22614ca91ecd68e604a50
+      internalID: -348844777263512969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: b opening_9
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 824
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4af380ba1c9f81c488ce0f7ffc677d68
+      internalID: 2383179160468830290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: b opening_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 624
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7419e099c0ba3a469344253cbf18fee
+      internalID: -5742134646683524683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: b opening_11
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 624
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d248b9a0c6079946a85e6fb663e6768
+      internalID: -8477046710094156666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: b opening_12
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 624
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fbed53c536d96c4c82706ec405c91d2
+      internalID: -8761033049561482567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: b opening_13
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 624
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f5f9d4a171a99a4480fba046d8906ea
+      internalID: -5273040257547665335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: b opening_14
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 624
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10cbeb80fb73dda4db32e8abfaaa3f7d
+      internalID: 8257185479697833526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: b opening_15
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 624
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b984745aaed2a249ae355525ea70561
+      internalID: 6870080590434704025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: b opening_16
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 624
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 445b46df6861c2a4a8dae08baa5b4ed6
+      internalID: -5035706082561959967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: b opening_17
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 624
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f03983ce24ffd69419403021f604952b
+      internalID: 7806239602390982219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: b opening_18
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 624
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6c7325aedf532140bf77419de1d798e
+      internalID: -1637256845330525649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: b opening_19
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 624
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d353e0ddc2e35847ae4058336f93925
+      internalID: 2964790572189154388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: b opening_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 424
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5edcd09663c8f4d49a2f4d529b190242
+      internalID: 365540342860979653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: b opening_21
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 424
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8032262201615a8488004446070698c2
+      internalID: 3303796695232761492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: b opening_22
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 424
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cc1a4c9bfdacce4bb92a47554bcf221
+      internalID: -4786123621229231705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: b opening_23
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 424
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba2e367f2c3d3274ea1517cae11356e8
+      internalID: -8054319918375730722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: b opening_24
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 424
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60fcd9742849d6d40a657fb087a6e709
+      internalID: -807838081628765182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: b opening_25
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 424
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dff2e3d9ea95c24b805de3599d64d07
+      internalID: -8039998630058733458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: b opening_26
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 424
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7bc3972116035a4e94094c6b6d6cac4
+      internalID: -4647685452329817599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: b opening_27
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 424
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c68b23c0c9d86194885aed585c63ea0c
+      internalID: 3481616854342177782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: b opening_28
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 424
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d9d5525b072ac5449f2d6bab41725a3
+      internalID: -3044645366781020446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: b opening_29
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 424
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22adee5567af0464fb9b15edcd315d5d
+      internalID: 9042419288712734680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

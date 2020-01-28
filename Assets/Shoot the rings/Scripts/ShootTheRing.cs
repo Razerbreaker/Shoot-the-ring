@@ -127,7 +127,7 @@ public class ShootTheRing : MonoBehaviour
     {
         lvlProgressDestination = -6.4f;
 
-        //Application.targetFrameRate = 60;
+        Application.targetFrameRate = 60;
         //create the PlayerPref
         //PlayerPrefs.DeleteAll();
         SaveInitialization();
@@ -143,7 +143,7 @@ public class ShootTheRing : MonoBehaviour
             PauseCanvas.transform.GetChild(1).GetChild(1).GetComponent<Image>().sprite = Resources.LoadAll<Sprite>("Textures/Main menu/icons")[2];   //неактив
         }
 
-        sv.stars[0] = 18;
+        sv.stars[0] = 8;
 
         if (sv.stars[0] < 10)
         {
@@ -161,17 +161,7 @@ public class ShootTheRing : MonoBehaviour
         sv.stars[2] = 1;
         sv.stars[3] = 3;
         sv.stars[4] = 2;
-        //sv.stars[5] = 1;
-        //sv.stars[6] = 0;
-        //sv.stars[7] = 0;
-        //sv.stars[8] = 0;
-        //sv.stars[9] = 0;
-        //sv.stars[10] = 0;
-        //sv.stars[11] = 2;
-        //sv.stars[12] = 1;
-        //sv.stars[13] = 0;
-        //sv.stars[14] = 1;
-        //sv.stars[15] = 2;
+
 
         animator = GetComponent<Animator>();
         // set the UI screens
@@ -198,10 +188,6 @@ public class ShootTheRing : MonoBehaviour
         bowStringPosition.Add(new Vector3(-1f, 0.66f, 2f));
         bowStringPosition.Add(new Vector3(-1f, 0f, 2f));
         bowStringPosition.Add(new Vector3(-1f, -0.66f, 2f));
-
-        //bowStringPosition.Add(new Vector3(-1f, 1.4f, 2f));
-        //bowStringPosition.Add(new Vector3(-1f, 0f, 2f));
-        //bowStringPosition.Add(new Vector3(-1f, -1.4f, 2f));
 
         bowStringLinerenderer.SetPosition(0, bowStringPosition[0]);
         bowStringLinerenderer.SetPosition(1, bowStringPosition[1]);
@@ -624,7 +610,7 @@ public class ShootTheRing : MonoBehaviour
         gameOverCanvas.transform.GetChild(0).GetComponent<Animator>().SetTrigger("reset");      // ресет анимации проигранного уровня
         CanvasLvlComplete.transform.GetChild(0).GetComponent<Animator>().SetTrigger("reset");
         CanvasLvlComplete.transform.GetChild(1).GetComponent<Animator>().SetTrigger("reset");
-
+        gameButtonsHandler.GetComponent<GameButtonsHandler>().StartAppearAnimation();
         ringsCreatedCounter = 0;
         ResetLanterns();
         totalCountRingsOnScene = 0;
@@ -908,6 +894,7 @@ public class Save
     public int[] stars = new int[91];    // [0] - колво открытых уровней. далее колво звезд за уровень
 
     public bool tutorialLvl1Passed;
+    public bool tutorialLvl3Passed;
     public bool vibrate;
     public bool sound;
     public void SetStarsToLvl(int lvl, int numOfStars)

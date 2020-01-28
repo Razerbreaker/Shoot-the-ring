@@ -4,13 +4,8 @@ using UnityEngine;
 
 public class GameButton : MonoBehaviour
 {
-    private SpriteRenderer spriteRenderer;
     private ShootTheRing shootTheRing;
     private GameButtonsHandler gameButtonsHandler;
-    public Sprite active;
-    public Sprite noactive;
-
-    //private int lastFrameCount;
 
 
     public enum GameButtonStates
@@ -23,17 +18,12 @@ public class GameButton : MonoBehaviour
 
     private void Start()
     {
-        spriteRenderer = gameObject.GetComponent<SpriteRenderer>();
         shootTheRing = GameObject.FindGameObjectWithTag("main").GetComponent<ShootTheRing>();
         gameButtonsHandler = transform.parent.GetComponent<GameButtonsHandler>();
     }
 
-
     private void OnMouseDown()
     {
-        //if ((Time.frameCount - lastFrameCount) > 20)
-        //{
-        //    lastFrameCount = Time.frameCount;
         gameButtonsHandler.SetActiveButton(gameObject);
 
         switch (button)
@@ -50,17 +40,29 @@ public class GameButton : MonoBehaviour
                 shootTheRing.redMod_Click();
                 break;
         }
-        //}
 
     }
 
     public void ResetButton()
     {
-        spriteRenderer.sprite = noactive;
+        GetComponent<Animator>().SetTrigger("reset");
     }
+
 
     public void SetButton()
     {
-        spriteRenderer.sprite = active;
+        switch (button)
+        {
+            case GameButtonStates.blue:
+                GetComponent<Animator>().SetTrigger("blue");
+                break;
+
+            case GameButtonStates.green:
+                GetComponent<Animator>().SetTrigger("green");
+                break;
+            case GameButtonStates.red:
+                GetComponent<Animator>().SetTrigger("red");
+                break;
+        }
     }
 }
