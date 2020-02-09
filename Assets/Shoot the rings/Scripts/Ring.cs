@@ -4,19 +4,18 @@ using UnityEngine;
 
 public class Ring : MonoBehaviour
 {
-    public ShootTheRing main;
-    public GameObject bucket;
+    [SerializeField] private ShootTheRing main;
+    [SerializeField] private GameObject bucket;
 
-    public GameObject RingHandler;
-    public BoxCollider boxCollider;
-    public bool shootted;
-    public bool startMoveToBucket;
-    public float verticalSpeed;
-    public float scale;
-    public Vector3 destination;
-    public Vector3 destinationFinal;
+    [SerializeField] private GameObject RingHandler;
+    [SerializeField] private BoxCollider boxCollider;
+    private bool shootted;
+    private bool startMoveToBucket;
+    private float scale = 1;
+    private Vector3 destination;
+    private Vector3 destinationFinal;
 
-    Animator animator;
+    private Animator animator;
 
     public enum RingStates
     {
@@ -27,20 +26,18 @@ public class Ring : MonoBehaviour
     };
     public RingStates ringstate;
 
+    public float VerticalSpeed { get; set; } = 0.0015f;
+
     void Start()
     {
         main = GameObject.FindGameObjectWithTag("main").GetComponent<ShootTheRing>();
         bucket = GameObject.FindGameObjectWithTag("bucket");
         animator = GetComponent<Animator>();
         RingHandler = GameObject.FindGameObjectWithTag("RingHandler");
-        verticalSpeed = 0.0015f;
-        scale = 1;
 
         destination = bucket.transform.GetChild(0).transform.position;
         destinationFinal = bucket.transform.GetChild(3).transform.position;
         Ringstate(ringstate);
-
-
     }
 
     private void SetRandomRingstate()
@@ -54,7 +51,7 @@ public class Ring : MonoBehaviour
     {
         if (ShootTheRing.gameState == ShootTheRing.GameStates.game)
         {
-            ringFalling();
+            RingFalling();
         }
     }
 
@@ -72,7 +69,7 @@ public class Ring : MonoBehaviour
                 }
                 else
                 {
-                    switchOnOff();
+                    SwitchOnOff();
                     animator.SetTrigger("red rings");
                 }
                 break;
@@ -87,7 +84,7 @@ public class Ring : MonoBehaviour
                 }
                 else
                 {
-                    switchOnOff();
+                    SwitchOnOff();
                     animator.SetTrigger("blue rings");
                 }
                 break;
@@ -102,29 +99,29 @@ public class Ring : MonoBehaviour
                 }
                 else
                 {
-                    switchOnOff();
+                    SwitchOnOff();
                     animator.SetTrigger("green rings");
                 }
                 break;
 
             case RingStates.white:
                 transform.parent = RingHandler.transform.Find("white rings");
-                switchOnOff();
+                SwitchOnOff();
                 break;
         }
     }
 
-    public void switchOnOff()
+    public void SwitchOnOff()
     {
         boxCollider.enabled = !boxCollider.enabled;
     }
 
-    void ringFalling()
+    private void RingFalling()
     {
 
         if (!startMoveToBucket)
         {
-            gameObject.transform.position = new Vector3(gameObject.transform.position.x, gameObject.transform.position.y - verticalSpeed, gameObject.transform.position.z);
+            gameObject.transform.position = new Vector3(gameObject.transform.position.x, gameObject.transform.position.y - VerticalSpeed, gameObject.transform.position.z);
         }
 
 
@@ -134,16 +131,11 @@ public class Ring : MonoBehaviour
             {
                 main.TurnLanternOff();
             }
-            Destroy(gameObject);
             main.RingCountDec();
+            Destroy(gameObject);
         }
 
-        if (shootted && transform.position.y < -4)
-        {
-            Destroy(gameObject);
-            main.RingCountDec();
 
-        }
 
 
         if (shootted && transform.position.y < -1)
@@ -162,12 +154,17 @@ public class Ring : MonoBehaviour
 
             if (transform.position.x > -6.5)
             {
-                transform.position = Vector3.Lerp(gameObject.transform.position, destination, 0.005f);
+                transform.position = Vector3.Lerp(gameObject.transform.position, destination, 0.01f);
             }
             else
             {
                 transform.position = Vector3.Lerp(gameObject.transform.position, destinationFinal, 0.005f);
+                if (transform.position.y < -4)
+                {
+                    main.RingCountDec();
+                    Destroy(gameObject);
 
+                }
             }
         }
 
@@ -176,10 +173,13 @@ public class Ring : MonoBehaviour
     {
         if (other.transform.name == "arrow")
         {
+            if (main.sv.sound)
+            {
+                AudioManager.PlaySound(AudioManager.Sounds.RingShotted);
+            }
             shootted = true;
-            verticalSpeed = 0.03f;
+            VerticalSpeed = 0.03f;
             animator.SetFloat("speed", 3);
-
         }
     }
 }

@@ -43,6 +43,7 @@ public class ShootTheRing : MonoBehaviour
 
     public GameObject gameManager;
     public GameObject risingText;
+    public GameObject TutorialAnimations;
 
 
     // Sound effects
@@ -108,7 +109,7 @@ public class ShootTheRing : MonoBehaviour
     public Canvas gameOverCanvas;
     public Canvas LevelsCanvas;
     public Canvas PauseCanvas;
-    public Canvas tutorialCanvas;
+    //public Canvas tutorialCanvas;
 
     public string currentLvl;
     public int currentLvlNumber;
@@ -143,7 +144,7 @@ public class ShootTheRing : MonoBehaviour
             PauseCanvas.transform.GetChild(1).GetChild(1).GetComponent<Image>().sprite = Resources.LoadAll<Sprite>("Textures/Main menu/icons")[2];   //неактив
         }
 
-        sv.stars[0] = 8;
+        //sv.stars[0] = 8;
 
         if (sv.stars[0] < 10)
         {
@@ -157,10 +158,10 @@ public class ShootTheRing : MonoBehaviour
             menuCanvas.gameObject.transform.GetChild(3).GetComponent<Image>().sprite = Resources.LoadAll<Sprite>("Textures/Main menu/buttons big")[3];
         }
 
-        sv.stars[1] = 2;
-        sv.stars[2] = 1;
-        sv.stars[3] = 3;
-        sv.stars[4] = 2;
+        //sv.stars[1] = 2;
+        //sv.stars[2] = 1;
+        //sv.stars[3] = 3;
+        //sv.stars[4] = 2;
 
 
         animator = GetComponent<Animator>();
@@ -171,7 +172,7 @@ public class ShootTheRing : MonoBehaviour
         gameOverCanvas.enabled = false;
         LevelsCanvas.enabled = false;
         PauseCanvas.enabled = false;
-        tutorialCanvas.enabled = false;
+        //tutorialCanvas.enabled = false;
 
 
         // create an arrow to shoot
@@ -185,9 +186,9 @@ public class ShootTheRing : MonoBehaviour
         bowStringLinerenderer.useWorldSpace = false;
         bowStringLinerenderer.material = Resources.Load("Materials/bowStringMaterial") as Material;
         bowStringPosition = new List<Vector3>();
-        bowStringPosition.Add(new Vector3(-1f, 0.66f, 2f));
+        bowStringPosition.Add(new Vector3(-1f, 0.85f, 2f));  //0.66
         bowStringPosition.Add(new Vector3(-1f, 0f, 2f));
-        bowStringPosition.Add(new Vector3(-1f, -0.66f, 2f));
+        bowStringPosition.Add(new Vector3(-1f, -0.85f, 2f));
 
         bowStringLinerenderer.SetPosition(0, bowStringPosition[0]);
         bowStringLinerenderer.SetPosition(1, bowStringPosition[1]);
@@ -195,21 +196,14 @@ public class ShootTheRing : MonoBehaviour
         arrowStartX = 0.7f;
 
         stringPullout = stringRestPosition;
+
+
+
     }
 
-    void FixedUpdate()
-    {
-        if (lvlProgress)
-        {
-            ChangeLvlProgressIndicator();
-        }
-    }
 
     void Update()
     {
-
-
-        // check the game states
         switch (gameState)
         {
             case GameStates.menu:
@@ -226,6 +220,11 @@ public class ShootTheRing : MonoBehaviour
                 break;
 
             case GameStates.game:
+
+                if (lvlProgress)
+                {
+                    ChangeLvlProgressIndicator();
+                }
 
                 if (timeScaleNeedToUp)
                 {
@@ -284,14 +283,6 @@ public class ShootTheRing : MonoBehaviour
                 // (also works with touch on android)
                 if (Input.GetMouseButton(0) && AllowToShoot)
                 {
-                    //// the player pulls the string                                        звук натягиваемой тетивы
-                    //if (!stringPullSoundPlayed)
-                    //{
-                    //    // play sound
-                    //    GetComponent<AudioSource>().PlayOneShot(stringPull);
-                    //    stringPullSoundPlayed = true;
-                    //}
-                    // detrmine the pullout and set up the arrow
                     PrepareArrow();
                 }
 
@@ -299,19 +290,10 @@ public class ShootTheRing : MonoBehaviour
                 // (player released the touch on android)
                 if (Input.GetMouseButtonUp(0) && arrowPrepared)
                 {
-                    // play string sound
-                    if (!stringReleaseSoundPlayed)
+                    if (sv.sound)
                     {
-                        GetComponent<AudioSource>().PlayOneShot(stringRelease);
-                        stringReleaseSoundPlayed = true;
+                        AudioManager.PlaySound(AudioManager.Sounds.ArrowRelease);
                     }
-                    // play arrow sound
-                    if (!arrowSwooshSoundPlayed)
-                    {
-                        GetComponent<AudioSource>().PlayOneShot(arrowSwoosh);
-                        arrowSwooshSoundPlayed = true;
-                    }
-                    // shot the arrow (rigid body physics)
                     ShootArrow();
                 }
                 // in any case: update the bowstring line renderer
@@ -321,14 +303,18 @@ public class ShootTheRing : MonoBehaviour
             case GameStates.tutorial:
 
                 mouseRay1 = Camera.main.ScreenPointToRay(Input.mousePosition);
-                if (Physics.Raycast(mouseRay1, out rayHit, 500f))
+                if (Physics.Raycast(mouseRay1, out rayHit, 50f))
                 {
                     // determine the position on the screen
                     posX = this.rayHit.point.x;
                     posY = this.rayHit.point.y;
-                    if ((Input.GetMouseButton(0) && (posX > -7.5f && posX < -5f)) && (posY > 0 && posY < 2.5f))
+                    if ((Input.GetMouseButton(0) && (posX > -7.5f && posX < -5f)) && (posY > 0 && posY < 2.5f) && currentLvlNumber == 1)
                     {
-                        CloseTutorial();
+                        CloseTutorial(1);
+                    }
+                    if ((Input.GetMouseButton(0) && (posX > 4f && posX < 6.5f)) && (posY > -5 && posY < -2.5f) && currentLvlNumber == 3)
+                    {
+                        CloseTutorial(3);
                     }
                 }
                 break;
@@ -420,52 +406,66 @@ public class ShootTheRing : MonoBehaviour
 
     public void StartTutorial(int number)
     {
-        string firstLvlStart = ("Pull");
-        string thirdLvl = ("To shoot colored rings click correspond button to change light mode");
-        string textToAppear;
-
-        if (number == 1)
+        if (sv.sound)
         {
-            textToAppear = firstLvlStart;
-        }
-        else
-        {
-            tutorialCanvas.transform.GetChild(0).GetComponent<Text>().rectTransform.position = new Vector3(125, 50, 0);
-            textToAppear = thirdLvl;
+            AudioManager.PlaySound(AudioManager.Sounds.Tutorial);
         }
 
         gameCanvas.gameObject.transform.GetChild(0).GetComponent<Button>().interactable = false;        // делаем кнопку паузы неактивной
-        light.GetComponent<Lighthandler>().TutorialLight("tutorial");
-        tutorialCanvas.transform.GetChild(0).GetComponent<Text>().text = textToAppear;
-        tutorialCanvas.transform.GetChild(0).GetComponent<Animator>().SetTrigger("tutorial");
+        if (number == 1)
+        {
+            light.GetComponent<Lighthandler>().TutorialLightLvl1("tutorial");
+            TutorialAnimations.transform.GetChild(0).GetComponent<Animator>().SetTrigger("tutorial lvl" + number);
+
+        }
+        else
+        {
+            light.GetComponent<Lighthandler>().TutorialLightLvl3("tutorial");
+            SwitchOnOffColorButton(0, true);  // - red button unblocked
+            gameButtonsHandler.GetComponent<GameButtonsHandler>().StartAppearAnimation();
+
+            TutorialAnimations.transform.GetChild(1).GetComponent<Animator>().SetTrigger("tutorial lvl" + number);
+
+
+        }
+        //tutorialCanvas.transform.GetChild(0).GetComponent<Animator>().SetTrigger("tutorial lvl" + number);
         AllowToShoot = true;
         gameState = GameStates.tutorial;
-        tutorialCanvas.enabled = true;
+        //tutorialCanvas.enabled = true;
         Time.timeScale = 0;
-
     }
 
-    public void CloseTutorial()
+    public void CloseTutorial(int number)
     {
-        sv.tutorialLvl1Passed = true;
-        string firstLvlEnd = ("Release");
-
         gameCanvas.gameObject.transform.GetChild(0).GetComponent<Button>().interactable = true;        // делаем кнопку паузы активной
-        light.GetComponent<Lighthandler>().TutorialLight("tutorial");
-        tutorialCanvas.transform.GetChild(0).GetComponent<Text>().text = firstLvlEnd;
-        tutorialCanvas.transform.GetChild(0).GetComponent<Animator>().SetTrigger("tutorial");
+        if (number == 1)
+        {
+            sv.tutorialLvl1Passed = true;
+            light.GetComponent<Lighthandler>().TutorialLightLvl1("tutorial");
+        }
+        else
+        {
+            sv.tutorialLvl3Passed = true;
 
+            light.GetComponent<Lighthandler>().TutorialLightLvl3("tutorial");
 
+        }
+        TutorialAnimations.transform.GetChild(0).GetComponent<Animator>().SetTrigger("reset");
+        TutorialAnimations.transform.GetChild(1).GetComponent<Animator>().SetTrigger("reset");
         gameState = GameStates.game;
         //tutorialCanvas.enabled = false;
         timeScaleNeedToUp = true;
-
     }
 
 
     public void BackToMenu()
     {
-        light.GetComponent<Lighthandler>().Button_pressed("Reset");
+        if (sv.sound)
+        {
+            AudioManager.PlaySound(AudioManager.Sounds.MenuClick);
+        }
+
+        light.GetComponent<Lighthandler>().ResetState("Reset");
         showMenu();
 
         lvlProgressIndicator.transform.position = new Vector3(lvlProgressIndicator.transform.position.x, -6.4f, lvlProgressIndicator.transform.position.z);
@@ -484,13 +484,13 @@ public class ShootTheRing : MonoBehaviour
 
         RingHandler.GetComponent<RingHandler>().DelateAllRings();
         ResetLanterns();
-        light.GetComponent<Lighthandler>().Button_pressed("Reset");
+        light.GetComponent<Lighthandler>().ResetState("Reset");
         LightState = LightStates.white;
         gameState = GameStates.levels;
     }
     public void GoToLevelsFromLvlCompleteScreen()
     {
-        light.GetComponent<Lighthandler>().Button_pressed("Reset");
+        light.GetComponent<Lighthandler>().ResetState("Reset");
 
         CanvasLvlComplete.enabled = false;
         LevelsCanvas.enabled = true;
@@ -499,6 +499,10 @@ public class ShootTheRing : MonoBehaviour
     }
     public void ShowLvlCompleteScreen(int count_stars)
     {
+        if (sv.sound)
+        {
+            AudioManager.PlaySound(AudioManager.Sounds.CompleteLvl);
+        }
         CanvasLvlComplete.transform.GetChild(0).GetComponent<Animator>().SetTrigger(count_stars.ToString() + " stars");
         CanvasLvlComplete.transform.GetChild(1).GetComponent<Animator>().SetTrigger(count_stars.ToString() + " stars");
 
@@ -523,6 +527,11 @@ public class ShootTheRing : MonoBehaviour
     }
     public void RestartCurrentLevel()
     {
+        if (sv.sound)
+        {
+            AudioManager.PlaySound(AudioManager.Sounds.MenuClick);
+        }
+
         lvlProgressDestination = -6.4f;
 
         gameOverCanvas.enabled = false;
@@ -538,6 +547,10 @@ public class ShootTheRing : MonoBehaviour
     }
     public void StartNextLvl()
     {
+        if (sv.sound)
+        {
+            AudioManager.PlaySound(AudioManager.Sounds.MenuClick);
+        }
         CanvasLvlComplete.enabled = false;
         levels.GetComponent<Levels>().Stoplvl(currentLvl);
         GetNextLvlString();
@@ -573,9 +586,14 @@ public class ShootTheRing : MonoBehaviour
     }       // показывает меню и  Gamestate = menu
     public void showLevels()
     {
+        if (sv.sound)
+        {
+            AudioManager.PlaySound(AudioManager.Sounds.MenuClick);
+        }
         Time.timeScale = 1;
         menuCanvas.enabled = false;
         LevelsCanvas.enabled = true;
+        Input.multiTouchEnabled = false;
         LevelsCanvas.gameObject.transform.Find("Grid").gameObject.SetActive(true);
 
         gameState = GameStates.levels;
@@ -585,6 +603,11 @@ public class ShootTheRing : MonoBehaviour
     }
     public void hideLevels()
     {
+
+        if (sv.sound)
+        {
+            AudioManager.PlaySound(AudioManager.Sounds.MenuClick);
+        }
         LevelsCanvas.enabled = false;
         LevelsCanvas.gameObject.transform.Find("Grid").gameObject.SetActive(false);
         LevelsCanvas.gameObject.transform.Find("Grid").GetComponent<LvlButtonsHandler>().anyAnimPlayed = 0;
@@ -606,18 +629,20 @@ public class ShootTheRing : MonoBehaviour
 
         gameButtonsHandler.GetComponent<GameButtonsHandler>().ResetAll();
 
+        Input.multiTouchEnabled = true;
         gameCanvas.gameObject.transform.GetChild(0).GetComponent<Button>().interactable = true;        // делаем кнопку паузы активной
         gameOverCanvas.transform.GetChild(0).GetComponent<Animator>().SetTrigger("reset");      // ресет анимации проигранного уровня
         CanvasLvlComplete.transform.GetChild(0).GetComponent<Animator>().SetTrigger("reset");
         CanvasLvlComplete.transform.GetChild(1).GetComponent<Animator>().SetTrigger("reset");
-        gameButtonsHandler.GetComponent<GameButtonsHandler>().StartAppearAnimation();
-        ringsCreatedCounter = 0;
         ResetLanterns();
+        ringsCreatedCounter = 0;
         totalCountRingsOnScene = 0;
-        Time.timeScale = 1;
         gameCanvas.enabled = true;
+        Time.timeScale = 1;
+        gameButtonsHandler.GetComponent<GameButtonsHandler>().StartAppearAnimation();
         light.GetComponent<Lighthandler>().ChangeLightBrightness("game active");
-        light.GetComponent<Lighthandler>().Button_pressed("Reset");
+        //light.GetComponent<Lighthandler>().ResetState("Reset");
+        LightState = LightStates.white;
         gameState = GameStates.game;
 
     }
@@ -626,13 +651,17 @@ public class ShootTheRing : MonoBehaviour
     public void Breaklvl()
     {
         gameButtonsHandler.GetComponent<GameButtonsHandler>().SetONOFF(false);
-        animator.SetTrigger("reset");
+        light.GetComponent<Lighthandler>().ResetState("Reset");
+        if (!animator.GetCurrentAnimatorStateInfo(0).IsName("white"))
+        {
+            animator.SetTrigger("reset");
+        }
         gameCanvas.enabled = false;
 
     }
-    public void DisableColorButton(int index, bool trueORfalse)
+    public void SwitchOnOffColorButton(int index, bool trueORfalse)
     {
-        gameButtonsHandler.GetComponent<GameButtonsHandler>().setOffSeparately(index, trueORfalse);
+        gameButtonsHandler.GetComponent<GameButtonsHandler>().SetOffSeparately(index, trueORfalse);
 
     }
 
@@ -662,6 +691,10 @@ public class ShootTheRing : MonoBehaviour
     // PAUSE
     public void StartPause()
     {
+        if (sv.sound)
+        {
+            AudioManager.PlaySound(AudioManager.Sounds.MenuLvlClick);
+        }
         gameCanvas.gameObject.transform.GetChild(0).GetComponent<Button>().interactable = false;        // делаем кнопку паузы неактивной
         gameButtonsHandler.GetComponent<GameButtonsHandler>().SetInteractable(false);   // делаем игровые кнопки неактивными
         light.GetComponent<Lighthandler>().ChangeLightBrightness("game inactive");
@@ -688,6 +721,33 @@ public class ShootTheRing : MonoBehaviour
 
     //Прочее
 
+    public void Survival()
+    {
+        if (sv.sound)
+        {
+            AudioManager.PlaySound(AudioManager.Sounds.MenuClick);
+        }
+    }
+    public void RateUs()
+    {
+        if (sv.sound)
+        {
+            AudioManager.PlaySound(AudioManager.Sounds.MenuClick);
+        }
+    }
+
+    public void Highscore()
+    {
+        if (sv.sound)
+        {
+            AudioManager.PlaySound(AudioManager.Sounds.MenuClick);
+        }
+    }
+
+
+
+
+
     public float CalculatelengthOfpartLvlIndicator()
     {
 
@@ -699,6 +759,11 @@ public class ShootTheRing : MonoBehaviour
     }
     public void VibrateToggle()      //переключатель вибрации
     {
+        if (sv.sound)
+        {
+            AudioManager.PlaySound(AudioManager.Sounds.SoundVibrateToggle);
+        }
+
         if (sv.vibrate == true)
         {
             sv.vibrate = false;
@@ -715,6 +780,10 @@ public class ShootTheRing : MonoBehaviour
     }
     public void SoundToggle()      //переключатель звука
     {
+        if (sv.sound)
+        {
+            AudioManager.PlaySound(AudioManager.Sounds.SoundVibrateToggle);
+        }
         if (sv.sound == true)
         {
             sv.sound = false;
@@ -742,12 +811,27 @@ public class ShootTheRing : MonoBehaviour
         partsOfLvlIndicator = CalculatelengthOfpartLvlIndicator();
     }       // Сохраняет  номер и строку текущего уровня
 
-    public void createRing(float positionX, Ring.RingStates ringState)
+    public void CreateRing(float positionX, Ring.RingStates ringState)
     {
         Vector3 position = new Vector3(positionX, 5.7f, -1);
         ring = Instantiate(ringPrefab, position, Quaternion.identity) as GameObject;
         ring.name = "ring";
         ring.GetComponent<Ring>().ringstate = ringState;
+        timerCounter = 0;
+        ringsCreatedCounter++;
+        totalCountRingsOnScene++;
+
+        lvlProgress = true;
+        lvlProgressDestination += partsOfLvlIndicator;
+
+    }       // создает кольцо заданного цвета на определенной позиции
+    public void CreateRing(float positionX, Ring.RingStates ringState, float verticalSpeed)
+    {
+        Vector3 position = new Vector3(positionX, 5.7f, -1);
+        ring = Instantiate(ringPrefab, position, Quaternion.identity) as GameObject;
+        ring.name = "ring";
+        ring.GetComponent<Ring>().ringstate = ringState;
+        ring.GetComponent<Ring>().VerticalSpeed = verticalSpeed;
         timerCounter = 0;
 
         ringsCreatedCounter++;
@@ -756,7 +840,7 @@ public class ShootTheRing : MonoBehaviour
         lvlProgress = true;
         lvlProgressDestination += partsOfLvlIndicator;
 
-    }       // создает кольцо заданного цвета на определенной позиции
+    }       // создает кольцо заданного цвета на определенной позиции c заданной начальной скоростью
     public void RingCountDec()
     {
         totalCountRingsOnScene--;
@@ -800,6 +884,10 @@ public class ShootTheRing : MonoBehaviour
     }       // переключает фонарь On\off
     public void redMod_Click()
     {
+        if (sv.sound)
+        {
+            AudioManager.PlaySound(AudioManager.Sounds.ColourChange);
+        }
         if (LightState == LightStates.green)
         {
             RingHandler.GetComponent<RingHandler>().RingsReachAbility("green rings");
@@ -825,6 +913,10 @@ public class ShootTheRing : MonoBehaviour
     }      // обрабатывает нажатие красной кнопки
     public void GreenMod_Click()
     {
+        if (sv.sound)
+        {
+            AudioManager.PlaySound(AudioManager.Sounds.ColourChange);
+        }
         if (LightState == LightStates.red)
         {
             animator.SetTrigger("green");
@@ -850,6 +942,10 @@ public class ShootTheRing : MonoBehaviour
     }      // обрабатывает нажатие зеленой кнопки
     public void BlueMod_Click()
     {
+        if (sv.sound)
+        {
+            AudioManager.PlaySound(AudioManager.Sounds.ColourChange);
+        }
         if (LightState == LightStates.red)
         {
             animator.SetTrigger("blue");
@@ -881,6 +977,8 @@ public class ShootTheRing : MonoBehaviour
             PlayerPrefs.SetString("Save", JsonUtility.ToJson(sv));
             Debug.Log("создали сейв");
             sv.stars[0] = 1;    // устанавливаем первый открытый уровень
+            sv.sound = true;
+            sv.vibrate = true;
         }
         else
         {
@@ -897,6 +995,7 @@ public class Save
     public bool tutorialLvl3Passed;
     public bool vibrate;
     public bool sound;
+
     public void SetStarsToLvl(int lvl, int numOfStars)
     {
         stars[lvl] = numOfStars;

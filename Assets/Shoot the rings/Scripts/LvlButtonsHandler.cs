@@ -205,14 +205,24 @@ public class LvlButtonsHandler : MonoBehaviour
     }   // снимает выбор уровня при выходе с меню уровней
     public void SetprePickButton(GameObject button)
     {
+
+
+
         if (prePickButton == null && button != null)
         {
+            if (mainScript.sv.sound)
+            {
+                AudioManager.PlaySound(AudioManager.Sounds.MenuLvlClick);
+            }
             //Debug.Log("было нал стало не нал");
-
             prePickButton = button;
         }
         else if (prePickButton != button && button != null)  // выбран другой уровень
         {
+            if (mainScript.sv.sound)
+            {
+                AudioManager.PlaySound(AudioManager.Sounds.MenuLvlClick);
+            }
             //Debug.Log("было не нал стало тоже не нал");
             prePickButton.GetComponent<LvlButtonHandler>().ReversAnim();
             prePickButton = button;
@@ -220,6 +230,10 @@ public class LvlButtonsHandler : MonoBehaviour
         }
         else if (prePickButton != null && button != null)
         {
+            if (mainScript.sv.sound)
+            {
+                AudioManager.PlaySound(AudioManager.Sounds.MenuClick);
+            }
             //Debug.Log("было не нал выбран тот же заново - уровень запущен");
 
             levels.GetComponent<Levels>().Startlvl(button.name);
@@ -246,6 +260,10 @@ public class LvlButtonsHandler : MonoBehaviour
 
         if (currentPageNumber != pageNumber && anyAnimPlayed == 0) // проверка что мы не на последней странице и что анимации в покое
         {
+            if (mainScript.sv.sound)
+            {
+                AudioManager.PlaySound(AudioManager.Sounds.MenuClick);
+            }
             lastOpenedLvl = mainScript.sv.stars[0];
             pagesPoints.GetComponent<Pages_points>().NextPage();
             SetprePickButton(null);
@@ -257,8 +275,13 @@ public class LvlButtonsHandler : MonoBehaviour
     }
     public void OpenPreviousPage()
     {
+
         if (currentPageNumber != 0 && anyAnimPlayed == 0)     // проверка что мы не на первой странице и что анимации в покое
         {
+            if (mainScript.sv.sound)
+            {
+                AudioManager.PlaySound(AudioManager.Sounds.MenuClick);
+            }
             lastOpenedLvl = mainScript.sv.stars[0];
             pagesPoints.GetComponent<Pages_points>().PreviousPage();
             SetprePickButton(null);

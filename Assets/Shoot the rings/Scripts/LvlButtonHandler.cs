@@ -14,6 +14,8 @@ public class LvlButtonHandler : MonoBehaviour
         starsCount_3,
         locked
     }
+
+
     public Image image;
     public ButtonType currentType;
     public int levelNumber;                    // тот который сейчас отображается на кнопке
@@ -114,6 +116,7 @@ public class LvlButtonHandler : MonoBehaviour
     }
     public void Onclick()
     {
+
         animator.enabled = true;
         animator.ResetTrigger("reset 0stars");
         animator.ResetTrigger("reset 1stars");

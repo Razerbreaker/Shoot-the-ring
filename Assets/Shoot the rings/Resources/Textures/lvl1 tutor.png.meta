@@ -1,0 +1,1675 @@
+fileFormatVersion: 2
+guid: 6fe01b2fa80878a4d84d84d4173088de
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5896760771479784009
+    second: lvl1 tutor_0
+  - first:
+      213: -9118390454346897023
+    second: lvl1 tutor_1
+  - first:
+      213: -8943718816777923757
+    second: lvl1 tutor_2
+  - first:
+      213: 2020519136885424009
+    second: lvl1 tutor_3
+  - first:
+      213: 8957798732312751624
+    second: lvl1 tutor_4
+  - first:
+      213: -3284006726102312046
+    second: lvl1 tutor_5
+  - first:
+      213: 3318979785103801265
+    second: lvl1 tutor_6
+  - first:
+      213: 4584760793069667028
+    second: lvl1 tutor_7
+  - first:
+      213: -2910359339639951803
+    second: lvl1 tutor_8
+  - first:
+      213: -1015871490407654344
+    second: lvl1 tutor_9
+  - first:
+      213: -1563269546727325415
+    second: lvl1 tutor_10
+  - first:
+      213: -8665315176332934890
+    second: lvl1 tutor_11
+  - first:
+      213: 4779765897639554746
+    second: lvl1 tutor_12
+  - first:
+      213: -4859040118952057648
+    second: lvl1 tutor_13
+  - first:
+      213: -6974612643601291770
+    second: lvl1 tutor_14
+  - first:
+      213: -8368487851942983095
+    second: lvl1 tutor_15
+  - first:
+      213: -1533605821306514582
+    second: lvl1 tutor_16
+  - first:
+      213: -2978553199873100690
+    second: lvl1 tutor_17
+  - first:
+      213: 87855957593876394
+    second: lvl1 tutor_18
+  - first:
+      213: -9264971446936320
+    second: lvl1 tutor_19
+  - first:
+      213: 5518647097774314920
+    second: lvl1 tutor_20
+  - first:
+      213: 3626070789198200335
+    second: lvl1 tutor_21
+  - first:
+      213: 6582006197456015532
+    second: lvl1 tutor_22
+  - first:
+      213: 4819314095763128471
+    second: lvl1 tutor_23
+  - first:
+      213: -4390133424298766573
+    second: lvl1 tutor_24
+  - first:
+      213: -8616974067921870112
+    second: lvl1 tutor_25
+  - first:
+      213: 6367960659891722133
+    second: lvl1 tutor_26
+  - first:
+      213: -5014318137895986679
+    second: lvl1 tutor_27
+  - first:
+      213: -3539853147944157199
+    second: lvl1 tutor_28
+  - first:
+      213: 5655667003888600990
+    second: lvl1 tutor_29
+  - first:
+      213: -6367534681272623650
+    second: lvl1 tutor_30
+  - first:
+      213: -3314876515774396376
+    second: lvl1 tutor_31
+  - first:
+      213: -8974332474042826569
+    second: lvl1 tutor_32
+  - first:
+      213: -1906437645950786944
+    second: lvl1 tutor_33
+  - first:
+      213: -4872489105484202316
+    second: lvl1 tutor_34
+  - first:
+      213: 7400359111343862337
+    second: lvl1 tutor_35
+  - first:
+      213: -1598142877371173418
+    second: lvl1 tutor_36
+  - first:
+      213: 5326382077021937290
+    second: lvl1 tutor_37
+  - first:
+      213: -1385572045667463339
+    second: lvl1 tutor_38
+  - first:
+      213: 1117494040511820663
+    second: lvl1 tutor_39
+  - first:
+      213: -1769454505698704060
+    second: lvl1 tutor_40
+  - first:
+      213: -88690824790686175
+    second: lvl1 tutor_41
+  - first:
+      213: 5953992404023224267
+    second: lvl1 tutor_42
+  - first:
+      213: 5353206956530015046
+    second: lvl1 tutor_43
+  - first:
+      213: -3685059414866390704
+    second: lvl1 tutor_44
+  - first:
+      213: -6597521080588128678
+    second: lvl1 tutor_45
+  - first:
+      213: -2434998325239806582
+    second: lvl1 tutor_46
+  - first:
+      213: -7992617176615145809
+    second: lvl1 tutor_47
+  - first:
+      213: -7237652215081003793
+    second: lvl1 tutor_48
+  - first:
+      213: -8763028056835732360
+    second: lvl1 tutor_49
+  - first:
+      213: 4530313183859309553
+    second: lvl1 tutor_50
+  - first:
+      213: -9200917739518565815
+    second: lvl1 tutor_51
+  - first:
+      213: -6708475417940908471
+    second: lvl1 tutor_52
+  - first:
+      213: 5910968004684037031
+    second: lvl1 tutor_53
+  - first:
+      213: -1035083968219583424
+    second: lvl1 tutor_54
+  - first:
+      213: 4239626379282841938
+    second: lvl1 tutor_55
+  - first:
+      213: 6526363753732612200
+    second: lvl1 tutor_56
+  - first:
+      213: -3432523070736996593
+    second: lvl1 tutor_57
+  - first:
+      213: -5418914746153930599
+    second: lvl1 tutor_58
+  - first:
+      213: -2212133966761199496
+    second: lvl1 tutor_59
+  - first:
+      213: -6856831075625538706
+    second: lvl1 tutor_60
+  - first:
+      213: -9069726224352326097
+    second: lvl1 tutor_61
+  - first:
+      213: 7647304202719710726
+    second: lvl1 tutor_62
+  - first:
+      213: 6822848987224159836
+    second: lvl1 tutor_63
+  - first:
+      213: -1085780843528762492
+    second: lvl1 tutor_64
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: lvl1 tutor_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1898
+        width: 190
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07a0349afe27a3142810713d8fb85e60
+      internalID: 5896760771479784009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lvl1 tutor_1
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 1898
+        width: 190
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95794e4d46820c842884ef1e31d2731b
+      internalID: -9118390454346897023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lvl1 tutor_2
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 1898
+        width: 190
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1999170577a4184ca99cf71f978dca1
+      internalID: -8943718816777923757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lvl1 tutor_3
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 1898
+        width: 190
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e06386be8ad332a45a5a5032af46a2ca
+      internalID: 2020519136885424009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lvl1 tutor_4
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 1898
+        width: 190
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 573f1420f7fdc3a4f9d61712e026d5da
+      internalID: 8957798732312751624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lvl1 tutor_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1748
+        width: 190
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9b045c83d71bfb47a84c1f20edcb4af
+      internalID: -3284006726102312046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lvl1 tutor_6
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 1748
+        width: 190
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f498f65eee7a53f4e934c78ceda23324
+      internalID: 3318979785103801265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lvl1 tutor_7
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 1748
+        width: 190
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d34e2b674e98434f85f02db2d2b6127
+      internalID: 4584760793069667028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lvl1 tutor_8
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 1748
+        width: 190
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a4d8cecb34d0b44ea449d9290570cf1
+      internalID: -2910359339639951803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lvl1 tutor_9
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 1748
+        width: 190
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45f1d448b3a2b8d4da999ab4e2e378f0
+      internalID: -1015871490407654344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lvl1 tutor_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1598
+        width: 190
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa049705cea22104d9bceb8489d304c3
+      internalID: -1563269546727325415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lvl1 tutor_11
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 1598
+        width: 190
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 503d893fd6747ef449fe27cb3b222ebf
+      internalID: -8665315176332934890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lvl1 tutor_12
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 1598
+        width: 190
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71bf192def5236c47ba087c76fa9e1bd
+      internalID: 4779765897639554746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lvl1 tutor_13
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 1598
+        width: 190
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52ff86887a9616d4fbd80abe026e26be
+      internalID: -4859040118952057648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lvl1 tutor_14
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 1598
+        width: 190
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cd8b444bf81e3b4db0eeb9d9e8ea58e
+      internalID: -6974612643601291770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lvl1 tutor_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1448
+        width: 190
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 199dca402cf6dc74fa814d71efb12b9b
+      internalID: -8368487851942983095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lvl1 tutor_16
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 1448
+        width: 190
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f6ed1e178e820f468cbff9305d22cda
+      internalID: -1533605821306514582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lvl1 tutor_17
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 1448
+        width: 190
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3644934efbfa9f541b91ea6e1f7735a5
+      internalID: -2978553199873100690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lvl1 tutor_18
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 1448
+        width: 190
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffabe565a5ef7bf48ac09b90f2a76c9d
+      internalID: 87855957593876394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lvl1 tutor_19
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 1448
+        width: 190
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9ce761dbf7593a459a36f9b33a0d482
+      internalID: -9264971446936320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lvl1 tutor_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1298
+        width: 190
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e37ae9a493ef77c4eb62cc6733bbff43
+      internalID: 5518647097774314920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lvl1 tutor_21
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 1298
+        width: 190
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6802d6448c6956445928e055fc4aebe2
+      internalID: 3626070789198200335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lvl1 tutor_22
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 1298
+        width: 190
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e2c2b10570ed6944b61d9881a48356e
+      internalID: 6582006197456015532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lvl1 tutor_23
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 1298
+        width: 190
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 635f890f8b51160459785d53644bb618
+      internalID: 4819314095763128471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lvl1 tutor_24
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 1298
+        width: 190
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 206a5a92e24ffc145aa3a031cee9bcf6
+      internalID: -4390133424298766573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lvl1 tutor_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1148
+        width: 190
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 832c7b20568330e45bb77c7d4d41e232
+      internalID: -8616974067921870112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lvl1 tutor_26
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 1148
+        width: 190
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1bc9ad78daffd149b51653882ba4f7b
+      internalID: 6367960659891722133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lvl1 tutor_27
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 1148
+        width: 190
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9a2e8677a8fe484c96933b41d541e47
+      internalID: -5014318137895986679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lvl1 tutor_28
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 1148
+        width: 190
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4bd083f11ee5764f8c5e7a9c68d80dc
+      internalID: -3539853147944157199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lvl1 tutor_29
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 1148
+        width: 190
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c3e5b8c05594864c857bc55d87d9036
+      internalID: 5655667003888600990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lvl1 tutor_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 998
+        width: 190
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0719d860643b1c645bf565bdb89381a5
+      internalID: -6367534681272623650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lvl1 tutor_31
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 998
+        width: 190
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef99462b65052cb44ad66ba432895eb4
+      internalID: -3314876515774396376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lvl1 tutor_32
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 998
+        width: 190
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ef194472b9f51a418409b0f13ad2942
+      internalID: -8974332474042826569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lvl1 tutor_33
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 998
+        width: 190
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 069b290c4963d9c4abe65d6fb271cf60
+      internalID: -1906437645950786944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lvl1 tutor_34
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 998
+        width: 190
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a7931929e8a0d34bac685b54462c6c4
+      internalID: -4872489105484202316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lvl1 tutor_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 848
+        width: 190
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86c15a5167c53db46bb41bcf9e804df8
+      internalID: 7400359111343862337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lvl1 tutor_36
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 848
+        width: 190
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35d9fd161083b86419b4453ef59bd77c
+      internalID: -1598142877371173418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lvl1 tutor_37
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 848
+        width: 190
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3aa5ee2ef2891b4b9cb0a1a1fbc2721
+      internalID: 5326382077021937290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lvl1 tutor_38
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 848
+        width: 190
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc56c1a1fc82e2d4cb192129c9909b82
+      internalID: -1385572045667463339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lvl1 tutor_39
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 848
+        width: 190
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86a66e3fd8c05f743840e3996bf4405c
+      internalID: 1117494040511820663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lvl1 tutor_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 698
+        width: 190
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 156aa6e2af462b74987d59499157a01a
+      internalID: -1769454505698704060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lvl1 tutor_41
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 698
+        width: 190
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9adc0ce342cd6da4b88a671419202c35
+      internalID: -88690824790686175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lvl1 tutor_42
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 698
+        width: 190
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5101e49e01b90e545be9cb4020054b7c
+      internalID: 5953992404023224267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lvl1 tutor_43
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 698
+        width: 190
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f7c64eadd227754db498efff3a87313
+      internalID: 5353206956530015046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lvl1 tutor_44
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 698
+        width: 190
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a95d9151111bc8c46adc5175ec15c287
+      internalID: -3685059414866390704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lvl1 tutor_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 548
+        width: 190
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 510508ca6b64d404c827dea30461d342
+      internalID: -6597521080588128678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lvl1 tutor_46
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 548
+        width: 190
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 386501fbf183cee40a355f2c44ad6efb
+      internalID: -2434998325239806582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lvl1 tutor_47
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 548
+        width: 190
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1ce2ff92897d5749b185ba3b00f43a4
+      internalID: -7992617176615145809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lvl1 tutor_48
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 548
+        width: 190
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92d1e034a96dab84584ecb0ba22d65dc
+      internalID: -7237652215081003793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lvl1 tutor_49
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 548
+        width: 190
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79382a103e986714794caa6c2ebd1fe6
+      internalID: -8763028056835732360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lvl1 tutor_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 398
+        width: 190
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 151059c956a05634fafa9fe2a7dc6b4f
+      internalID: 4530313183859309553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lvl1 tutor_51
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 398
+        width: 190
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f0fdf00ad598384f8dc808ac7869505
+      internalID: -9200917739518565815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lvl1 tutor_52
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 398
+        width: 190
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c332b495ce9076647934efd5fd44cc66
+      internalID: -6708475417940908471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lvl1 tutor_53
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 398
+        width: 190
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 541ec0bda74f1f64ea7539cbae7ff561
+      internalID: 5910968004684037031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lvl1 tutor_54
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 398
+        width: 190
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b0f495e26899154ba0a20919ecbb82f
+      internalID: -1035083968219583424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lvl1 tutor_55
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 248
+        width: 190
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c328d54cdaf551441b0312b67027b7cf
+      internalID: 4239626379282841938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lvl1 tutor_56
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 248
+        width: 190
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28713f30a7eee3b459864bec61a3645c
+      internalID: 6526363753732612200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lvl1 tutor_57
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 248
+        width: 190
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d3aad1c077d6b440aa5af69418c0597
+      internalID: -3432523070736996593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lvl1 tutor_58
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 248
+        width: 190
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18a556b31253eb34d886f87ca4bacb48
+      internalID: -5418914746153930599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lvl1 tutor_59
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 248
+        width: 190
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d528b7e36cca89e42a826a6b90ffbecb
+      internalID: -2212133966761199496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lvl1 tutor_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 98
+        width: 190
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb65df9ced82c1248ba07b50862c94f0
+      internalID: -6856831075625538706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lvl1 tutor_61
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 98
+        width: 190
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78966b5a2c7ea2449a1ccca04090f699
+      internalID: -9069726224352326097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lvl1 tutor_62
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 98
+        width: 190
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28773e6635a8eb7429549f3b9c84afb3
+      internalID: 7647304202719710726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lvl1 tutor_63
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 98
+        width: 190
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33095ee58b5815743915a77251377297
+      internalID: 6822848987224159836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lvl1 tutor_64
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 98
+        width: 190
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e46ab0152e9e2814aaa004aab1af4035
+      internalID: -1085780843528762492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

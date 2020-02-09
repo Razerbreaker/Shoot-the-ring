@@ -15,11 +15,6 @@ public class Pages_points : MonoBehaviour
 
     public void Init()
     {
-        //while (transform.childCount > 0)
-        //{
-
-        //    Destroy(GetChild(transform.childCount - 1).gameObject);
-        //}
         transform.DetachChildren();
 
         for (int i = 0; i <= totalCountOfPages; i++)

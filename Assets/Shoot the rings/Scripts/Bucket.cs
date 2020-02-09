@@ -12,7 +12,7 @@ public class Bucket : MonoBehaviour
     {
         if (isOpen)
         {
-            counter += Time.deltaTime;
+            counter += Time.fixedDeltaTime;
             if (counter > timeWait)
             {
                 CloseCap();
@@ -40,12 +40,12 @@ public class Bucket : MonoBehaviour
         gameObject.transform.GetChild(1).GetComponent<Animator>().SetTrigger("close");
     }
 
-    public void setFront()
+    public void SetFront()
     {
         gameObject.GetComponent<SpriteRenderer>().sortingOrder = 1;
     }
 
-    public void setBack()
+    public void SetBack()
     {
         gameObject.GetComponent<SpriteRenderer>().sortingOrder = -1;
     }

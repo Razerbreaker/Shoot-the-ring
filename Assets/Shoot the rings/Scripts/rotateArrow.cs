@@ -48,36 +48,15 @@ public class rotateArrow : MonoBehaviour {
 				transform.eulerAngles = new Vector3(0,-angleY,angleZ);
 			}
 		}
-
-		// if the arrow hit something...
-		if (collisionOccurred) {
-			// fade the arrow out
-			alpha -= Time.deltaTime * life_loss;
-			GetComponent<Renderer>().material.color = new Color(color.r,color.g,color.b,alpha);
-			
-			// if completely faded out, die:
-			if (alpha <= 0f) {
-				// create new arrow
-				bow.GetComponent<ShootTheRing>().CreateArrow();
-				// and destroy the current one
-				Destroy(gameObject);
-			}
-		}
 	}
 
-    void OnTriggerEnter(Collider other)
-    {
-        if (other.transform.name == "ring")
-        {
-            //bow.GetComponent<ShootTheRing>().setPoints(10);
-        }
-    }
-    //
-    // void OnCollisionEnter(Collision other)
-    //
-    // other: the other object the arrow collided with
-    //
-
+    //void OnTriggerEnter(Collider other)
+    //{
+    //    if (other.transform.name == "ring")
+    //    {
+    //        //bow.GetComponent<ShootTheRing>().setPoints(10);
+    //    }
+    //}
 
     void OnCollisionEnter(Collision other) {
 		// I installed cubes as border collider outside the screen

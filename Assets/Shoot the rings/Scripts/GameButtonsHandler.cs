@@ -17,6 +17,8 @@ public class GameButtonsHandler : MonoBehaviour
         buttons[2] = transform.GetChild(2).gameObject;      //blue
     }
 
+
+
     public void SetActiveButton(GameObject button)
     {
         if (activeButton == null)
@@ -50,6 +52,10 @@ public class GameButtonsHandler : MonoBehaviour
         buttons[1].GetComponent<GameButton>().ResetButton();
         buttons[2].GetComponent<GameButton>().ResetButton();
     }
+    public void ResetRedForLvl3()
+    {
+        buttons[0].GetComponent<GameButton>().ResetButton();
+    }
 
     public void StartAppearAnimation()
     {
@@ -67,7 +73,7 @@ public class GameButtonsHandler : MonoBehaviour
         }
     }
 
-    public void setOffSeparately(int index, bool trueORfalse)
+    public void SetOffSeparately(int index, bool trueORfalse)
     {
         buttons[index].GetComponent<SpriteRenderer>().enabled = trueORfalse;
         buttons[index].GetComponent<CircleCollider2D>().enabled = trueORfalse;
@@ -81,4 +87,21 @@ public class GameButtonsHandler : MonoBehaviour
         }
     }
 
+    public void StartAppearAnimationGreenOnly()
+    {
+        buttons[1].GetComponent<Animator>().SetTrigger("green");
+    }
+    public void StartAppearAnimationBlueOnly()
+    {
+        buttons[2].GetComponent<Animator>().SetTrigger("blue");
+    }
+
+    public void ResetGreen()
+    {
+        buttons[1].GetComponent<GameButton>().ResetButton();
+    }
+    public void ResetBlue()
+    {
+        buttons[2].GetComponent<GameButton>().ResetButton();
+    }
 }

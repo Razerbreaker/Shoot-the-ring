@@ -9,6 +9,8 @@ TagManager:
   - main
   - back button
   - bucket
+  - red button
+  - game buttons
   layers:
   - Default
   - TransparentFX
@@ -19,8 +21,8 @@ TagManager:
   - 
   - 
   - ring
-  - 
-  - 
+  - bow
+  - game buttons
   - 
   - 
   - 
@@ -57,4 +59,7 @@ TagManager:
     locked: 0
   - name: Front cable
     uniqueID: 2659432965
+    locked: 0
+  - name: tutorial anim
+    uniqueID: 4087249181
     locked: 0

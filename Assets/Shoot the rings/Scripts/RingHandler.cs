@@ -6,38 +6,6 @@ using UnityEngine;
 public class RingHandler : MonoBehaviour
 {
 
-
-    //int accumulator = 0;
-    //int counter = 0;
-    //float timer = 0f;
-    //GUIStyle style = new GUIStyle();
-
-    //void Start()
-    //{
-    //    style.normal.textColor = Color.white;
-    //    style.fontSize = 32;
-    //    style.fontStyle = FontStyle.Bold;
-    //}
-
-    //void OnGUI()
-    //{
-    //    GUI.Label(new Rect(10, 10, 100, 34), "FPS: " + counter, style);
-    //}
-
-    //void Update()
-    //{
-    //    accumulator++;
-    //    timer += Time.deltaTime;
-
-    //    if (timer >= 1)
-    //    {
-    //        timer = 0;
-    //        counter = accumulator;
-    //        accumulator = 0;
-    //    }
-    //}
-
-
     public void RingsReachAbility(string color)
     {
         int ringCount = transform.Find(color).transform.childCount;
@@ -46,7 +14,7 @@ public class RingHandler : MonoBehaviour
         {
             for (int i = 0; ringCount > i; i++)
             {
-                transform.Find(color).transform.GetChild(i).GetComponent<Ring>().switchOnOff();
+                transform.Find(color).transform.GetChild(i).GetComponent<Ring>().SwitchOnOff();
                 transform.Find(color).transform.GetChild(i).GetComponent<Ring>().GetComponent<Animator>().SetTrigger(color);
             }
         }
