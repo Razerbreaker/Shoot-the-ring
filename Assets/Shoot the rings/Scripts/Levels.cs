@@ -166,7 +166,7 @@ public class Levels : MonoBehaviour
     {
         shootTheRing.SwitchOnOffColorButton(2, false);  // - blue button blocked
 
-        SetRingsCountOnlvl(9);
+        SetRingsCountOnlvl(10);
         yield return new WaitForSeconds(0.1f);
 
         shootTheRing.CreateRing(4, Ring.RingStates.white);

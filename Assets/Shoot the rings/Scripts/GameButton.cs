@@ -41,64 +41,72 @@ public class GameButton : MonoBehaviour
 
     //        // do something
     //    }
-
-
     //private void Update()
     //{
-    //    for (int i = 0; i < Input.touchCount; ++i)
+    //    if (Input.touchCount == 1)
     //    {
-    //        if (Input.GetTouch(i).phase == TouchPhase.Ended)
+    //        Vector3 wp = Camera.main.ScreenToWorldPoint(Input.GetTouch(0).position);
+    //        Vector2 touchPos = new Vector2(wp.x, wp.y);
+    //        if (collider2D == Physics2D.OverlapPoint(touchPos))
     //        {
-
-    //            // Construct a ray from the current touch coordinates
-    //            Ray ray = Camera.main.ScreenPointToRay(Input.GetTouch(i).position);
-
-    //            if (Physics.Raycast(ray, out rayHit, 500f))
-    //            {
-    //                if (rayHit.collider.tag == "game buttons")
-    //                {
-    //                    gameButtonsHandler.SetActiveButton(gameObject);
-
-    //                    switch (button)
-    //                    {
-    //                        case GameButtonStates.blue:
-    //                            shootTheRing.BlueMod_Click();
-    //                            break;
-
-    //                        case GameButtonStates.green:
-    //                            shootTheRing.GreenMod_Click();
-
-    //                            break;
-    //                        case GameButtonStates.red:
-    //                            shootTheRing.redMod_Click();
-    //                            break;
-    //                    }
-    //                }
-    //            }
     //        }
-    //    }
-    //}
 
-    private void OnMouseDown()
+    private void Update()
     {
-        gameButtonsHandler.SetActiveButton(gameObject);
-
-        switch (button)
+        for (int i = 0; i < Input.touchCount; ++i)
         {
-            case GameButtonStates.blue:
-                shootTheRing.BlueMod_Click();
-                break;
+            if (Input.GetTouch(i).phase == TouchPhase.Ended)
+            {
 
-            case GameButtonStates.green:
-                shootTheRing.GreenMod_Click();
+                RaycastHit2D hit = Physics2D.Raycast(Camera.main.ScreenToWorldPoint((Input.GetTouch(0).position)), Vector2.zero);
+                if (hit.collider != null)
+                {
+                    Debug.Log(hit.collider.name);
 
-                break;
-            case GameButtonStates.red:
-                shootTheRing.redMod_Click();
-                break;
+                    
+                       
+                        gameButtonsHandler.SetActiveButton(gameObject);
+
+                        switch (button)
+                        {
+                            case GameButtonStates.blue:
+                                shootTheRing.BlueMod_Click();
+                                break;
+
+                            case GameButtonStates.green:
+                                shootTheRing.GreenMod_Click();
+
+                                break;
+                            case GameButtonStates.red:
+                                shootTheRing.redMod_Click();
+                                break;
+                        }
+                    }
+                }
+            }
         }
-
     }
+
+    //private void OnMouseDown()
+    //{
+    //    gameButtonsHandler.SetActiveButton(gameObject);
+
+    //    switch (button)
+    //    {
+    //        case GameButtonStates.blue:
+    //            shootTheRing.BlueMod_Click();
+    //            break;
+
+    //        case GameButtonStates.green:
+    //            shootTheRing.GreenMod_Click();
+
+    //            break;
+    //        case GameButtonStates.red:
+    //            shootTheRing.redMod_Click();
+    //            break;
+    //    }
+
+    //}
 
     public void ButtonClick()
     {
