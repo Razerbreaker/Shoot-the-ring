@@ -150,7 +150,7 @@ public class Levels : MonoBehaviour
         yield return new WaitForSeconds(3f);
         shootTheRing.CreateRing(-3, Ring.RingStates.green);
 
-        yield return new WaitForSeconds(4f);
+        yield return new WaitForSeconds(3f);
         shootTheRing.gameButtonsHandler.GetComponent<GameButtonsHandler>().ResetGreen();
         yield return new WaitForSeconds(0.2f);
         shootTheRing.SwitchOnOffColorButton(1, true);  // - green button unblocked

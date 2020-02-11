@@ -9,6 +9,7 @@ public class ShootTheRing : MonoBehaviour
     private float timerToInvokeMethod = 1;
     private float counter = 1;
 
+    public GameObject InputHandler;
     public GameObject adManager;
     public GameObject gameButtonsHandler;
     public GameObject LvlButtonsHandler;
@@ -20,6 +21,8 @@ public class ShootTheRing : MonoBehaviour
     public int numberOfLanterns = 3;
 
     private Ray mouseRay1;
+    private bool bowToched;
+
     private RaycastHit rayHit;
     // position of the raycast on the screen
     private float posX;
@@ -125,6 +128,8 @@ public class ShootTheRing : MonoBehaviour
     public int totalCountRingsOnScene;
     private bool allowToShoot = true;
     public bool AllowToShoot { get => allowToShoot; set => allowToShoot = value; }
+    public bool BowToched { get => bowToched; set => bowToched = value; }
+
     void Awake()
     {
         lvlProgressDestination = -6.4f;
@@ -145,7 +150,7 @@ public class ShootTheRing : MonoBehaviour
             PauseCanvas.transform.GetChild(1).GetChild(1).GetComponent<Image>().sprite = Resources.LoadAll<Sprite>("Textures/Main menu/icons")[2];   //неактив
         }
 
-        sv.stars[0] = 6;
+        //sv.stars[0] = 6;
 
         if (sv.stars[0] < 10)
         {
@@ -280,44 +285,33 @@ public class ShootTheRing : MonoBehaviour
                     StartPause();
                 }
 
-                // game is steered via mouse
-                // (also works with touch on android)
-                if (Input.GetMouseButton(0) && AllowToShoot)
-                {
-                    PrepareArrow();
-                }
 
-                // ok, player released the mouse
-                // (player released the touch on android)
-                if (Input.GetMouseButtonUp(0) && arrowPrepared)
-                {
-                    if (sv.sound)
-                    {
-                        AudioManager.PlaySound(AudioManager.Sounds.ArrowRelease);
-                    }
-                    ShootArrow();
-                }
                 // in any case: update the bowstring line renderer
                 DrawBowString();
                 break;
 
             case GameStates.tutorial:
+                var tapCount = Input.touchCount;
 
-                mouseRay1 = Camera.main.ScreenPointToRay(Input.mousePosition);
-                if (Physics.Raycast(mouseRay1, out rayHit, 50f))
+                if (tapCount > 0)
                 {
-                    // determine the position on the screen
-                    posX = this.rayHit.point.x;
-                    posY = this.rayHit.point.y;
-                    if ((Input.GetMouseButton(0) && (posX > -7.5f && posX < -5f)) && (posY > 0 && posY < 2.5f) && currentLvlNumber == 1)
+                    var touch = Input.GetTouch(0);
+                    Vector3 touchPos = Camera.main.ScreenToWorldPoint((touch.position));
+                    RaycastHit2D hit = Physics2D.Raycast(touchPos, Vector2.zero);
+
+                    if (hit.collider != null && hit.collider.name == "bow area" && BowToched == false)
                     {
+                        BowToched = true;
+                        PrepareArrow(touchPos);
                         CloseTutorial(1);
                     }
-                    if ((Input.GetMouseButton(0) && (posX > 4f && posX < 6.5f)) && (posY > -5 && posY < -2.5f) && currentLvlNumber == 3)
+                    if (hit.collider.name == "red")
                     {
                         CloseTutorial(3);
+
                     }
                 }
+
                 break;
         }
     }
@@ -326,15 +320,6 @@ public class ShootTheRing : MonoBehaviour
     // операции с луком и стрелой
     public void CreateArrow()
     {
-        //Camera.main.GetComponent<camMovement>().resetCamera();
-        // when a new arrow is created means that:
-        // sounds has been played
-        stringPullSoundPlayed = false;
-        stringReleaseSoundPlayed = false;
-        arrowSwooshSoundPlayed = false;
-
-
-        // now instantiate a new arrow
         this.transform.localRotation = Quaternion.identity;
         arrow = Instantiate(arrowPrefab, Vector3.zero, Quaternion.identity) as GameObject;
         arrow.name = "arrow";
@@ -346,12 +331,15 @@ public class ShootTheRing : MonoBehaviour
         arrow.GetComponent<rotateArrow>().setBow(gameObject);
         arrowShot = false;
         arrowPrepared = false;
-
     }
     public void ShootArrow()
     {
-        if (arrow.GetComponent<Rigidbody>() == null)
+        if (arrow.GetComponent<Rigidbody>() == null && arrowPrepared)
         {
+            if (sv.sound)
+            {
+                AudioManager.PlaySound(AudioManager.Sounds.ArrowRelease);
+            }
             arrowShot = true;
             arrow.AddComponent<Rigidbody>();
             arrow.transform.parent = gameManager.transform;
@@ -360,41 +348,41 @@ public class ShootTheRing : MonoBehaviour
         arrowPrepared = false;
         stringPullout = stringRestPosition;
     }
-    public void PrepareArrow()
+    public void PrepareArrow(Vector3 touchPos)
     {
-        if (!arrowShot)
+        if (!arrowShot && allowToShoot)
         {
             // get the touch point on the screen
-            mouseRay1 = Camera.main.ScreenPointToRay(Input.mousePosition);
-            if (Physics.Raycast(mouseRay1, out rayHit, 500f))
-            {
-                // determine the position on the screen
-                posX = this.rayHit.point.x;
-                posY = this.rayHit.point.y;
+            //mouseRay1 = Camera.main.ScreenPointToRay(Input.mousePosition);
+            //if (Physics.Raycast(mouseRay1, out rayHit, 500f))
+            //{
+            //    // determine the position on the screen
+            posX = touchPos.x;
+            posY = touchPos.y;
 
-                if (posX > -9f && posX < -3)
-                {
+            //if (posX > -9f && posX < -3)
+            //{
 
-                    // set the bows angle to the arrow
-                    Vector2 mousePos = new Vector2(transform.position.x - posX, transform.position.y - posY);
-                    float angleZ = Mathf.Atan2(mousePos.y, mousePos.x) * Mathf.Rad2Deg;
-                    transform.eulerAngles = new Vector3(0, 0, angleZ);
-                    // determine the arrow pullout
-                    length = mousePos.magnitude / 3f;
-                    length = Mathf.Clamp(length, 0, 1);
-                    // set the bowstrings line renderer
-                    stringPullout = new Vector3(-(0.6f + length), 0f, 2f);
-                    //stringPullout = new Vector3(-(1.1f + length), -0.06f, 2f);
+            // set the bows angle to the arrow
+            Vector2 mousePos = new Vector2(transform.position.x - posX, transform.position.y - posY);
+            float angleZ = Mathf.Atan2(mousePos.y, mousePos.x) * Mathf.Rad2Deg;
+            transform.eulerAngles = new Vector3(0, 0, angleZ);
+            // determine the arrow pullout
+            length = mousePos.magnitude / 3f;
+            length = Mathf.Clamp(length, 0, 1);
+            // set the bowstrings line renderer
+            stringPullout = new Vector3(-(0.6f + length), 0f, 2f);
+            //stringPullout = new Vector3(-(1.1f + length), -0.06f, 2f);
 
-                    // set the arrows position
-                    Vector3 arrowPosition = arrow.transform.localPosition;
-                    arrowPosition.x = (arrowStartX - length);
-                    arrow.transform.localPosition = arrowPosition;
-                    arrowPrepared = true;
+            // set the arrows position
+            Vector3 arrowPosition = arrow.transform.localPosition;
+            arrowPosition.x = (arrowStartX - length);
+            arrow.transform.localPosition = arrowPosition;
+            arrowPrepared = true;
 
-                }
-            }
         }
+        //    }
+        //}
     }
     public void DrawBowString()
     {
@@ -466,6 +454,7 @@ public class ShootTheRing : MonoBehaviour
             AudioManager.PlaySound(AudioManager.Sounds.MenuClick);
         }
 
+        arrow.GetComponent<rotateArrow>().ReCreate();
         light.GetComponent<Lighthandler>().ResetState("Reset");
         showMenu();
 
@@ -532,6 +521,7 @@ public class ShootTheRing : MonoBehaviour
         {
             AudioManager.PlaySound(AudioManager.Sounds.MenuClick);
         }
+        arrow.GetComponent<rotateArrow>().ReCreate();
 
         lvlProgressDestination = -6.4f;
 
@@ -883,8 +873,9 @@ public class ShootTheRing : MonoBehaviour
         lantern.GetComponentInChildren<Transform>().Find("flare").gameObject.SetActive(state);
 
     }       // переключает фонарь On\off
-    public void redMod_Click()
+    public void redMod_Click(GameObject button)
     {
+        gameButtonsHandler.GetComponent<GameButtonsHandler>().SetActiveButton(button);
         if (sv.sound)
         {
             AudioManager.PlaySound(AudioManager.Sounds.ColourChange);
@@ -912,8 +903,10 @@ public class ShootTheRing : MonoBehaviour
         light.GetComponent<Lighthandler>().Button_pressed("red");
         RingHandler.GetComponent<RingHandler>().RingsReachAbility("red rings");
     }      // обрабатывает нажатие красной кнопки
-    public void GreenMod_Click()
+    public void GreenMod_Click(GameObject button)
     {
+        gameButtonsHandler.GetComponent<GameButtonsHandler>().SetActiveButton(button);
+
         if (sv.sound)
         {
             AudioManager.PlaySound(AudioManager.Sounds.ColourChange);
@@ -941,8 +934,10 @@ public class ShootTheRing : MonoBehaviour
         light.GetComponent<Lighthandler>().Button_pressed("green");
         RingHandler.GetComponent<RingHandler>().RingsReachAbility("green rings");
     }      // обрабатывает нажатие зеленой кнопки
-    public void BlueMod_Click()
+    public void BlueMod_Click(GameObject button)
     {
+        gameButtonsHandler.GetComponent<GameButtonsHandler>().SetActiveButton(button);
+
         if (sv.sound)
         {
             AudioManager.PlaySound(AudioManager.Sounds.ColourChange);
