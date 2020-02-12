@@ -115,7 +115,9 @@ public class Ring : MonoBehaviour
     {
         boxCollider.enabled = !boxCollider.enabled;
     }
-
+    /// <summary>
+    /// отвечает за вертикальную скорость падения, направления в карзину и удаление кольца
+    /// </summary>
     private void RingFalling()
     {
 
@@ -123,7 +125,7 @@ public class Ring : MonoBehaviour
         {
             gameObject.transform.position = new Vector3(gameObject.transform.position.x, gameObject.transform.position.y - VerticalSpeed, gameObject.transform.position.z);
         }
-
+        HorizontalMove(0.001f);
 
         if (transform.position.y < -5.6f)
         {
@@ -168,6 +170,10 @@ public class Ring : MonoBehaviour
             }
         }
 
+    }
+    private void HorizontalMove(float horizontalSpeed)
+    {
+        transform.position = new Vector3(transform.position.x + horizontalSpeed, transform.position.y, transform.position.z);
     }
     void OnTriggerEnter(Collider other)
     {

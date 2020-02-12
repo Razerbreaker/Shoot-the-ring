@@ -150,7 +150,7 @@ public class ShootTheRing : MonoBehaviour
             PauseCanvas.transform.GetChild(1).GetChild(1).GetComponent<Image>().sprite = Resources.LoadAll<Sprite>("Textures/Main menu/icons")[2];   //неактив
         }
 
-        //sv.stars[0] = 6;
+        sv.stars[0] = 6;
 
         if (sv.stars[0] < 10)
         {
