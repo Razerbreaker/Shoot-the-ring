@@ -1,18 +1,10 @@
 ﻿using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class Levels : MonoBehaviour
 {
-    public GameObject bow;
-    public GameObject attentionMark;
-    ShootTheRing shootTheRing;
-    public int currentLevel;
-
-    private int ringAmountOnLvl; //общее кол-во колец на уровень
-
-    public int RingAmountOnLvl { get => ringAmountOnLvl; set => ringAmountOnLvl = value; }
-
+    [SerializeField]private GameObject attentionMark;
+    private ShootTheRing shootTheRing;
     public void Start()
     {
         shootTheRing = GameObject.FindGameObjectWithTag("main").GetComponent<ShootTheRing>();
@@ -28,18 +20,7 @@ public class Levels : MonoBehaviour
     public void Stoplvl(string lvlNumber)
     {
         StopCoroutine(lvlNumber);
-        RingAmountOnLvl = 0;
         shootTheRing.Breaklvl();
-    }
-
-    public void RingsCounterDec()
-    {
-        RingAmountOnLvl--;
-    }
-
-    public void SetRingsCountOnlvl(int count)
-    {
-        RingAmountOnLvl = count;
     }
 
     //                                     Создание уровня
@@ -53,7 +34,8 @@ public class Levels : MonoBehaviour
 
     private IEnumerator Lvl1()
     {
-        SetRingsCountOnlvl(6);
+
+        shootTheRing.SetRingCountToWinLvl(6);
 
         shootTheRing.SwitchOnOffColorButton(0, false);  // - red button blocked
         shootTheRing.SwitchOnOffColorButton(1, false);  // - green button blocked
@@ -92,7 +74,8 @@ public class Levels : MonoBehaviour
         shootTheRing.SwitchOnOffColorButton(1, false);  // - green button blocked
         shootTheRing.SwitchOnOffColorButton(2, false);  // - blue button blocked
 
-        SetRingsCountOnlvl(9);
+        shootTheRing.SetRingCountToWinLvl(9);
+
         yield return new WaitForSeconds(1f);
 
         shootTheRing.CreateRing(0, Ring.RingStates.white);
@@ -113,7 +96,7 @@ public class Levels : MonoBehaviour
     }
     private IEnumerator Lvl3()
     {
-        SetRingsCountOnlvl(8);
+        shootTheRing.SetRingCountToWinLvl(8);
 
         shootTheRing.SwitchOnOffColorButton(1, false);  // - green button blocked
         shootTheRing.SwitchOnOffColorButton(2, false);  // - blue button blocked
@@ -165,8 +148,8 @@ public class Levels : MonoBehaviour
     private IEnumerator Lvl4()
     {
         shootTheRing.SwitchOnOffColorButton(2, false);  // - blue button blocked
+        shootTheRing.SetRingCountToWinLvl(10);
 
-        SetRingsCountOnlvl(10);
         yield return new WaitForSeconds(0.1f);
 
         shootTheRing.CreateRing(4, Ring.RingStates.white);
@@ -194,12 +177,13 @@ public class Levels : MonoBehaviour
         shootTheRing.CreateRing(1, Ring.RingStates.white);
         shootTheRing.CreateRing(2, Ring.RingStates.white);
 
-    }       
+    }
     private IEnumerator Lvl5()
     {
         shootTheRing.SwitchOnOffColorButton(2, false);  // - blue button blocked
 
-        SetRingsCountOnlvl(12);
+        shootTheRing.SetRingCountToWinLvl(12);
+
         yield return new WaitForSeconds(0.1f);
 
         shootTheRing.CreateRing(-4, Ring.RingStates.white);
@@ -217,7 +201,7 @@ public class Levels : MonoBehaviour
         shootTheRing.CreateRing(2, Ring.RingStates.white);
         attentionMark.GetComponent<Attention>().CallAttention(3);
         yield return new WaitForSeconds(2f);
-        shootTheRing.CreateRing(3, Ring.RingStates.red,0.003f);
+        shootTheRing.CreateRing(3, Ring.RingStates.red, 0.003f);
         shootTheRing.CreateRing(4, Ring.RingStates.white);
         shootTheRing.CreateRing(-2, Ring.RingStates.white);
         yield return new WaitForSeconds(4f);
@@ -225,10 +209,11 @@ public class Levels : MonoBehaviour
         yield return new WaitForSeconds(2f);
         shootTheRing.CreateRing(0, Ring.RingStates.white);
 
-    } 
+    }
     private IEnumerator Lvl6()
     {
-        SetRingsCountOnlvl(13);
+        shootTheRing.SetRingCountToWinLvl(13);
+
         shootTheRing.SwitchOnOffColorButton(2, false);  // - blue button blocked
 
         yield return new WaitForSeconds(0.2f);
@@ -273,33 +258,34 @@ public class Levels : MonoBehaviour
     }      //done
     private IEnumerator Lvl7()
     {
-        SetRingsCountOnlvl(10);
+        shootTheRing.SetRingCountToWinLvl(8);
+
         yield return new WaitForSeconds(0.2f);
 
-        shootTheRing.CreateRing(2, Ring.RingStates.white);
-        yield return new WaitForSeconds(0.2f);
-        shootTheRing.CreateRing(1, Ring.RingStates.red);
-        yield return new WaitForSeconds(0.2f);
+        shootTheRing.CreateRing(0, Ring.RingStates.white);
+        shootTheRing.CreateRing(0, Ring.RingStates.red);
         shootTheRing.CreateRing(0, Ring.RingStates.blue);
-        yield return new WaitForSeconds(0.2f);
+        yield return new WaitForSeconds(1f);
         shootTheRing.CreateRing(-1, Ring.RingStates.green);
-        yield return new WaitForSeconds(0.2f);
-        shootTheRing.CreateRing(-2, Ring.RingStates.white);
-        yield return new WaitForSeconds(0.2f);
+        shootTheRing.CreateRing(-1, Ring.RingStates.white);
+        yield return new WaitForSeconds(1f);
         shootTheRing.CreateRing(-3, Ring.RingStates.white);
     }
     private IEnumerator Lvl8()
     {
-        SetRingsCountOnlvl(2);
+        shootTheRing.SetRingCountToWinLvl(8);
+
         yield return new WaitForSeconds(0.2f);
         shootTheRing.CreateRing(-3, Ring.RingStates.white);
         shootTheRing.CreateRing(0, Ring.RingStates.white);
 
 
     }
+
     private IEnumerator Lvl9()
     {
-        SetRingsCountOnlvl(2);
+        shootTheRing.SetRingCountToWinLvl(8);
+
         yield return new WaitForSeconds(0.2f);
         shootTheRing.CreateRing(-3, Ring.RingStates.white);
         shootTheRing.CreateRing(0, Ring.RingStates.white);
@@ -308,7 +294,8 @@ public class Levels : MonoBehaviour
     }
     private IEnumerator Lvl10()
     {
-        SetRingsCountOnlvl(2);
+        shootTheRing.SetRingCountToWinLvl(8);
+
         yield return new WaitForSeconds(0.2f);
         shootTheRing.CreateRing(-3, Ring.RingStates.white);
         shootTheRing.CreateRing(0, Ring.RingStates.white);
@@ -316,7 +303,8 @@ public class Levels : MonoBehaviour
 
     private IEnumerator Lvl18()
     {
-        SetRingsCountOnlvl(2);
+        shootTheRing.SetRingCountToWinLvl(8);
+
         yield return new WaitForSeconds(0.2f);
         shootTheRing.CreateRing(-3, Ring.RingStates.white);
         shootTheRing.CreateRing(0, Ring.RingStates.white);

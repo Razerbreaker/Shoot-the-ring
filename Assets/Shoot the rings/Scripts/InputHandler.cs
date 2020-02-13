@@ -6,7 +6,7 @@ public class InputHandler : MonoBehaviour
 {
     public GameObject shootTheRing;
     private ShootTheRing ShootTheRing;
-    private bool bowOnlyOneTouch;
+    //private bool bowOnlyOneTouch;
     private void Start()
     {
         ShootTheRing = shootTheRing.GetComponent<ShootTheRing>();
@@ -32,7 +32,7 @@ public class InputHandler : MonoBehaviour
                         {
                             if (hit.collider.name == "red")
                             {
-                                ShootTheRing.redMod_Click(hit.collider.gameObject);
+                                ShootTheRing.RedMod_Click(hit.collider.gameObject);
                             }
                             if (hit.collider.name == "green")
                             {
@@ -58,7 +58,6 @@ public class InputHandler : MonoBehaviour
                         {
                             ShootTheRing.BowToched = true;
                             ShootTheRing.PrepareArrow(touchPos);
-                            Debug.Log("prepare arrow");
                         }
 
 
@@ -70,7 +69,6 @@ public class InputHandler : MonoBehaviour
 
                             ShootTheRing.PrepareArrow(touchPos);
 
-                            Debug.Log("prepare arrow moved");
 
 
 

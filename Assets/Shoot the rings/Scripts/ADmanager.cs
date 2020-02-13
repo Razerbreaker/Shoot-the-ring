@@ -1,9 +1,7 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using GoogleMobileAds.Api;
 using System;
-using System.Net;
+
 
 public class ADmanager : MonoBehaviour
 {
@@ -17,13 +15,13 @@ public class ADmanager : MonoBehaviour
     static TimeSpan AdsInterval = new TimeSpan(0, 1, 0);   // 1 минута
 
 
-    void Start()
-    {
+    //void Start()
+    //{
 
         //MobileAds.Initialize(APP_ID);           // для паблиша, пока закоментить
 
         /*RequestInterstitial();*/      // запрос межстраничной рекл
-    }
+    //}
 
     public void RequestInterstitial()
     {

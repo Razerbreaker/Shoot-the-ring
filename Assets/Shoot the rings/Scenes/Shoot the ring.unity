@@ -165,9 +165,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a98aaa8d64acc13408dcec2570c6ac9e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bow: {fileID: 1806644681}
   attentionMark: {fileID: 126525214}
-  currentLevel: 0
 --- !u!114 &10046514
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1515,7 +1513,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1806644684}
-        m_MethodName: showLevels
+        m_MethodName: ShowLevels
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -12335,7 +12333,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1806644684}
-        m_MethodName: hideLevels
+        m_MethodName: HideLevels
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -13905,10 +13903,7 @@ MonoBehaviour:
   currentLvl: 
   currentLvlNumber: 0
   lvlProgressDestination: 0
-  lvlProgress: 0
-  timerCounter: 0
-  ringsCreatedCounter: 0
-  totalCountRingsOnScene: 0
+  ringCountToWinLvl: 0
 --- !u!95 &1806644686
 Animator:
   serializedVersion: 3

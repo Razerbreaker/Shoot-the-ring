@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class Attention : MonoBehaviour
 {
@@ -10,10 +8,4 @@ public class Attention : MonoBehaviour
         GetComponent<Animator>().SetTrigger("attention");
     }
 }
-
-
-
-
-
-
 

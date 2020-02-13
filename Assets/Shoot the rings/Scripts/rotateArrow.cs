@@ -1,5 +1,5 @@
 ﻿using UnityEngine;
-using System.Collections;
+
 
 // this class steers the arrow and its behaviour
 
@@ -87,7 +87,7 @@ public class rotateArrow : MonoBehaviour
     //
     // set a reference to the main game object 
 
-    public void setBow(GameObject _bow)
+    public void SetBow(GameObject _bow)
     {
         bow = _bow;
     }

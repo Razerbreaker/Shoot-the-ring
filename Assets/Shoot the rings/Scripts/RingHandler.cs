@@ -1,6 +1,4 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
+﻿
 using UnityEngine;
 
 public class RingHandler : MonoBehaviour
@@ -26,20 +24,28 @@ public class RingHandler : MonoBehaviour
         Destroy(transform.GetChild(2).gameObject);
         Destroy(transform.GetChild(3).gameObject);
 
-        GameObject red = new GameObject();
-        red.name = "red rings";
+        GameObject red = new GameObject
+        {
+            name = "red rings"
+        };
         red.transform.parent = this.transform;
 
-        GameObject blue = new GameObject();
-        blue.name = "blue rings";
+        GameObject blue = new GameObject
+        {
+            name = "blue rings"
+        };
         blue.transform.parent = this.transform;
 
-        GameObject green = new GameObject();
-        green.name = "green rings";
+        GameObject green = new GameObject
+        {
+            name = "green rings"
+        };
         green.transform.parent = this.transform;
 
-        GameObject white = new GameObject();
-        white.name = "white rings";
+        GameObject white = new GameObject
+        {
+            name = "white rings"
+        };
         white.transform.parent = this.transform;
 
     }

@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class Ring : MonoBehaviour
 {
@@ -125,7 +123,7 @@ public class Ring : MonoBehaviour
         {
             gameObject.transform.position = new Vector3(gameObject.transform.position.x, gameObject.transform.position.y - VerticalSpeed, gameObject.transform.position.z);
         }
-        HorizontalMove(0.001f);
+        //HorizontalMove(0.001f);
 
         if (transform.position.y < -5.6f)
         {
