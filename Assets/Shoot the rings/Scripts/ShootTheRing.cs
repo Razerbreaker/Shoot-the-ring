@@ -6,11 +6,9 @@ using UnityEngine.UI;
 
 public class ShootTheRing : MonoBehaviour
 {
-    private float timerToInvokeMethod = 1;
-    private float counter = 1;
+    //private float timerToInvokeMethod = 1;
+    //private float counter = 1;
 
-    public GameObject InputHandler;
-    public GameObject adManager;
     public GameObject gameButtonsHandler;
     public GameObject LvlButtonsHandler;
     public GameObject levels;
@@ -20,17 +18,12 @@ public class ShootTheRing : MonoBehaviour
 
     public int numberOfLanterns = 3;
 
-    // position of the raycast on the screen
-    private float posX;
-    private float posY;
-
     // References to the gameobjects / prefabs
     public GameObject bowString;
     public GameObject arrow;
-    public GameObject ring;
+
 
     public GameObject lvlProgressIndicator;
-    public GameObject bottonCube;
 
     public GameObject lanternLight1;
     public GameObject lanternLight2;
@@ -40,29 +33,20 @@ public class ShootTheRing : MonoBehaviour
     public GameObject ringPrefab;
     public GameObject ringHandlerPrefab;
 
+    public GameObject ring;
     public GameObject gameManager;
-    public GameObject risingText;
     public GameObject TutorialAnimations;
-
-
-    // Sound effects
-    public AudioClip stringPull;
-    public AudioClip stringRelease;
-    public AudioClip arrowSwoosh;
-
-    // has sound already be played
-
 
     // the bowstring is a line renderer
     private List<Vector3> bowStringPosition;
-    LineRenderer bowStringLinerenderer;
+    private LineRenderer bowStringLinerenderer;
 
     // to determine the string pullout
     float arrowStartX;
     float length;
 
     // some status vars
-    public bool timeScaleNeedToUp;   // когда активно, срабатывает плавное увеличение до 1
+    //public bool timeScaleNeedToUp;   // когда активно, срабатывает плавное увеличение до 1
     public bool arrowShot;
     public bool arrowPrepared;
     float partsOfLvlIndicator; // длинна деления шкалы уровня
@@ -106,7 +90,6 @@ public class ShootTheRing : MonoBehaviour
     public Canvas gameOverCanvas;
     public Canvas LevelsCanvas;
     public Canvas PauseCanvas;
-    //public Canvas tutorialCanvas;
 
 
     public string currentLvl;
@@ -330,19 +313,8 @@ public class ShootTheRing : MonoBehaviour
     {
         if (!arrowShot && AllowToShoot)
         {
-            // get the touch point on the screen
-            //mouseRay1 = Camera.main.ScreenPointToRay(Input.mousePosition);
-            //if (Physics.Raycast(mouseRay1, out rayHit, 500f))
-            //{
-            //    // determine the position on the screen
-            posX = touchPos.x;
-            posY = touchPos.y;
-
-            //if (posX > -9f && posX < -3)
-            //{
-
             // set the bows angle to the arrow
-            Vector2 mousePos = new Vector2(transform.position.x - posX, transform.position.y - posY);
+            Vector2 mousePos = new Vector2(transform.position.x - touchPos.x, transform.position.y - touchPos.y);
             float angleZ = Mathf.Atan2(mousePos.y, mousePos.x) * Mathf.Rad2Deg;
             transform.eulerAngles = new Vector3(0, 0, angleZ);
             // determine the arrow pullout
@@ -628,26 +600,26 @@ public class ShootTheRing : MonoBehaviour
     }
 
 
-    public void CreateRings()
-    {
-        float x = UnityEngine.Random.Range(-3f, 8f);
-        Vector3 position = new Vector3(x, 5.5f, -1);
-        ring = Instantiate(ringPrefab, position, Quaternion.identity) as GameObject;
-        ring.name = "ring";
-    }       // TODO рандом для survival
-    public void FallingRings()
-    {
-        counter += Time.deltaTime;
-        if (counter > timerToInvokeMethod)
-        {
-            counter = 0;
-            UnityEngine.Random.Range(0, 1);
-            if (UnityEngine.Random.Range(0, 2) == 1)
-            {
-                CreateRings();
-            }
-        }
-    }       // TODO рандом для survival
+    //public void CreateRings()
+    //{
+    //    float x = UnityEngine.Random.Range(-3f, 8f);
+    //    Vector3 position = new Vector3(x, 5.5f, -1);
+    //    ring = Instantiate(ringPrefab, position, Quaternion.identity) as GameObject;
+    //    ring.name = "ring";
+    //}       // TODO рандом для survival
+    //public void FallingRings()
+    //{
+    //    counter += Time.deltaTime;
+    //    if (counter > timerToInvokeMethod)
+    //    {
+    //        counter = 0;
+    //        UnityEngine.Random.Range(0, 1);
+    //        if (UnityEngine.Random.Range(0, 2) == 1)
+    //        {
+    //            CreateRings();
+    //        }
+    //    }
+    //}       // TODO рандом для survival
 
     // Отработчики UI элементов
     // PAUSE
