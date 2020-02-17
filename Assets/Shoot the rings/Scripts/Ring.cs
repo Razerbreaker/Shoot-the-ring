@@ -1,13 +1,18 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using UnityEngine;
 
 public class Ring : MonoBehaviour
 {
-    [SerializeField] private ShootTheRing main;
-    [SerializeField] private GameObject bucket;
+    private ShootTheRing main;
+    private GameObject bucket;
 
-    [SerializeField] private GameObject RingHandler;
+    private GameObject RingHandler;
     [SerializeField] private BoxCollider boxCollider;
+
     private bool shootted;
+    private bool missUP;
+    private bool missDown;
+    public bool smoothDestroy;
     private bool startMoveToBucket;
     private float scale = 1;
     private Vector3 destination;
@@ -24,8 +29,13 @@ public class Ring : MonoBehaviour
     };
     public RingStates ringstate;
 
-    public float VerticalSpeed { get; set; } = 0.0015f;
-
+    public float startPosX;
+    public float NumberOfBounds = 0f;
+    public float VerticalSpeed = 0.0015f;
+    public float HorizontalSpeed = 0f;
+    public float WindRange = 0f;
+    public float leftMax;
+    public float rightMax;
     void Start()
     {
         main = GameObject.FindGameObjectWithTag("main").GetComponent<ShootTheRing>();
@@ -36,6 +46,9 @@ public class Ring : MonoBehaviour
         destination = bucket.transform.GetChild(0).transform.position;
         destinationFinal = bucket.transform.GetChild(3).transform.position;
         Ringstate(ringstate);
+        startPosX = transform.position.x;
+        leftMax = startPosX - WindRange;
+        rightMax = startPosX + WindRange;
     }
 
     private void SetRandomRingstate()
@@ -51,6 +64,28 @@ public class Ring : MonoBehaviour
         {
             RingFalling();
         }
+        if (smoothDestroy)
+        {
+            if (scale > 0.01f)
+            {
+                scale -= 0.005f;
+                transform.localScale = new Vector3(scale, scale, 1);
+            }
+            else
+            {
+                Destroy(gameObject);
+            }
+        }
+    }
+
+
+    public void ScaleToZero()
+    {
+        if (scale > 0.1)
+        {
+            scale -= 0.001f;
+        }
+        transform.localScale = new Vector3(scale, scale, 1);
     }
 
     public void Ringstate(RingStates ringstate)
@@ -119,11 +154,24 @@ public class Ring : MonoBehaviour
     private void RingFalling()
     {
 
+
+
         if (!startMoveToBucket)
         {
             gameObject.transform.position = new Vector3(gameObject.transform.position.x, gameObject.transform.position.y - VerticalSpeed, gameObject.transform.position.z);
+            if (HorizontalSpeed != 0)
+            {
+                HorizontalMove(HorizontalSpeed);
+                if (NumberOfBounds > 0)
+                {
+                    if ((transform.position.x > rightMax) || (transform.position.x < leftMax))
+                    {
+                        HorizontalSpeed = -HorizontalSpeed;
+                        NumberOfBounds--;
+                    }
+                }
+            }
         }
-        //HorizontalMove(0.001f);
 
         if (transform.position.y < -5.6f)
         {
@@ -146,11 +194,7 @@ public class Ring : MonoBehaviour
             }
 
             startMoveToBucket = true;
-            if (scale > 0.1)
-            {
-                scale -= 0.001f;
-            }
-            transform.localScale = new Vector3(scale, scale, 1);
+            ScaleToZero();
 
             if (transform.position.x > -6.5)
             {
@@ -173,17 +217,39 @@ public class Ring : MonoBehaviour
     {
         transform.position = new Vector3(transform.position.x + horizontalSpeed, transform.position.y, transform.position.z);
     }
-    void OnTriggerEnter(Collider other)
+
+    public void Hit()
     {
-        if (other.transform.name == "arrow")
+        shootted = true;
+        if (main.sv.sound)
+        {
+            AudioManager.PlaySound(AudioManager.Sounds.RingShotted);
+        }
+        VerticalSpeed = 0.03f;
+        animator.SetFloat("speed", 3);
+    }
+
+    public void MissHandler()
+    {
+        if ((missDown || missUP) && !shootted)
         {
             if (main.sv.sound)
             {
-                AudioManager.PlaySound(AudioManager.Sounds.RingShotted);
+                AudioManager.PlaySound(AudioManager.Sounds.miss);
             }
-            shootted = true;
-            VerticalSpeed = 0.03f;
-            animator.SetFloat("speed", 3);
+            transform.GetChild(2).GetComponent<Animator>().SetTrigger("miss");
         }
     }
+    public void MissUp()
+    {
+        missUP = true;
+        MissHandler();
+    }
+
+    public void MissDown()
+    {
+        missDown = true;
+        MissHandler();
+    }
+
 }

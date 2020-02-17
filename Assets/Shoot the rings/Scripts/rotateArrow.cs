@@ -71,11 +71,24 @@ public class rotateArrow : MonoBehaviour
         {
             ReCreate();
         }
-
-
-
     }
 
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.name == "ring")
+        {
+            other.GetComponentInParent<Ring>().Hit();
+        }
+        if (other.gameObject.name == "Miss up")
+        {
+            other.GetComponentInParent<Ring>().MissUp();
+        }
+
+        if (other.gameObject.name == "Miss down")
+        {
+            other.GetComponentInParent<Ring>().MissDown();
+        }
+    }
     public void ReCreate()
     {
         bow.GetComponent<ShootTheRing>().CreateArrow();

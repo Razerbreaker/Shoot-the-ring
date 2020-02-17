@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class Levels : MonoBehaviour
 {
-    [SerializeField]private GameObject attentionMark;
+    [SerializeField] private GameObject attentionMark;
     private ShootTheRing shootTheRing;
     public void Start()
     {
@@ -107,7 +107,7 @@ public class Levels : MonoBehaviour
             shootTheRing.AllowToShoot = false;
         }   // блокируем стрелбу из лука до прохождения туториала и выключаем красную кнопку
 
-        yield return new WaitForSeconds(0.2f);
+        yield return new WaitForSeconds(1f);
         if (!shootTheRing.sv.tutorialLvl3Passed)
         {
             shootTheRing.gameButtonsHandler.GetComponent<GameButtonsHandler>().ResetAll();
@@ -149,8 +149,8 @@ public class Levels : MonoBehaviour
     {
         shootTheRing.SwitchOnOffColorButton(2, false);  // - blue button blocked
         shootTheRing.SetRingCountToWinLvl(10);
+        yield return new WaitForSeconds(1f);
 
-        yield return new WaitForSeconds(0.1f);
 
         shootTheRing.CreateRing(4, Ring.RingStates.white);
         yield return new WaitForSeconds(2f);
@@ -184,7 +184,7 @@ public class Levels : MonoBehaviour
 
         shootTheRing.SetRingCountToWinLvl(12);
 
-        yield return new WaitForSeconds(0.1f);
+        yield return new WaitForSeconds(1f);
 
         shootTheRing.CreateRing(-4, Ring.RingStates.white);
         yield return new WaitForSeconds(1f);
@@ -216,7 +216,7 @@ public class Levels : MonoBehaviour
 
         shootTheRing.SwitchOnOffColorButton(2, false);  // - blue button blocked
 
-        yield return new WaitForSeconds(0.2f);
+        yield return new WaitForSeconds(1f);
 
 
         shootTheRing.CreateRing(2, Ring.RingStates.white);
@@ -259,17 +259,19 @@ public class Levels : MonoBehaviour
     private IEnumerator Lvl7()
     {
         shootTheRing.SetRingCountToWinLvl(8);
-
-        yield return new WaitForSeconds(0.2f);
-
-        shootTheRing.CreateRing(0, Ring.RingStates.white);
-        shootTheRing.CreateRing(0, Ring.RingStates.red);
-        shootTheRing.CreateRing(0, Ring.RingStates.blue);
         yield return new WaitForSeconds(1f);
-        shootTheRing.CreateRing(-1, Ring.RingStates.green);
-        shootTheRing.CreateRing(-1, Ring.RingStates.white);
-        yield return new WaitForSeconds(1f);
-        shootTheRing.CreateRing(-3, Ring.RingStates.white);
+
+        //shootTheRing.CreateRing(-2, Ring.RingStates.white, 1, 0.002f);
+        shootTheRing.CreateRing(2, Ring.RingStates.white, 2, 2, 0.002f);
+        shootTheRing.CreateRing(2, Ring.RingStates.white, 3, 2, 0.002f);
+        shootTheRing.CreateRing(2, Ring.RingStates.white, 4, 2, 0.002f);
+        //shootTheRing.CreateRing(0, Ring.RingStates.red);
+        //shootTheRing.CreateRing(0, Ring.RingStates.blue);
+        //yield return new WaitForSeconds(1f);
+        //shootTheRing.CreateRing(-1, Ring.RingStates.green);
+        //shootTheRing.CreateRing(-1, Ring.RingStates.white);
+        //yield return new WaitForSeconds(1f);
+        //shootTheRing.CreateRing(-3, Ring.RingStates.white);
     }
     private IEnumerator Lvl8()
     {

@@ -13,6 +13,7 @@ public static class AudioManager
         titel,
         Tutorial,
         MenuLvlClick,
+        miss,
     }
 
     private static GameObject oneShotGameObject;

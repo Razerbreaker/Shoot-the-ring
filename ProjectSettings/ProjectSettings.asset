@@ -260,7 +260,7 @@ PlayerSettings:
   clonedFromGUID: 4d3e37ef5bd30754080b27481a793fa9
   templatePackageId: 
   templateDefaultScene: 
-  AndroidTargetArchitectures: 2
+  AndroidTargetArchitectures: 1
   AndroidSplashScreenScale: 0
   androidSplashScreen: {fileID: 0}
   AndroidKeystoreName: C:/Users/user/Desktop/shoot the ring KEY.keystore

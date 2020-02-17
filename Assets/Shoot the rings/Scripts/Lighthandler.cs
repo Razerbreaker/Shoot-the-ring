@@ -37,7 +37,6 @@ public class Lighthandler : MonoBehaviour
     {
         globalLight.GetComponent<Animator>().SetTrigger(trigger);
         symbolslight.GetComponent<Animator>().SetTrigger(trigger);
-        lvlindicator.GetComponent<Animator>().SetTrigger(trigger);
         colorButtons.transform.GetChild(0).GetComponent<Animator>().SetTrigger(trigger);
         colorButtons.transform.GetChild(1).GetComponent<Animator>().SetTrigger(trigger);
         colorButtons.transform.GetChild(2).GetComponent<Animator>().SetTrigger(trigger);
@@ -59,4 +58,8 @@ public class Lighthandler : MonoBehaviour
         tutorialLightlvl3.GetComponent<Animator>().SetTrigger(trigger);
     }
 
+    public void ResetLvlIndicator()
+    {
+        lvlindicator.GetComponent<Animator>().SetTrigger("reset");
+    }
 }
