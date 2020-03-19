@@ -6,7 +6,7 @@ public class Ring : MonoBehaviour
     private ShootTheRing main;
     private GameObject bucket;
 
-    private GameObject RingHandler;
+    private GameObject RingContainer;
     [SerializeField] private BoxCollider boxCollider;
 
     private bool shootted;
@@ -24,8 +24,9 @@ public class Ring : MonoBehaviour
     {
         red,
         green,
-        blue,
         white,
+        blue,
+        random,
     };
     public RingStates ringstate;
 
@@ -41,7 +42,7 @@ public class Ring : MonoBehaviour
         main = GameObject.FindGameObjectWithTag("main").GetComponent<ShootTheRing>();
         bucket = GameObject.FindGameObjectWithTag("bucket");
         animator = GetComponent<Animator>();
-        RingHandler = GameObject.FindGameObjectWithTag("RingHandler");
+        RingContainer = GameObject.FindGameObjectWithTag("RingHandler");
 
         destination = bucket.transform.GetChild(0).transform.position;
         destinationFinal = bucket.transform.GetChild(3).transform.position;
@@ -51,16 +52,16 @@ public class Ring : MonoBehaviour
         rightMax = startPosX + WindRange;
     }
 
-    private void SetRandomRingstate()
+    public void SetRandomRingstate()
     {
-        System.Array enumValues = System.Enum.GetValues(typeof(RingStates));
-        ringstate = (RingStates)enumValues.GetValue(Random.Range(0, enumValues.Length));
+        ringstate = RingHandler.ringStates[Random.Range(0, 9)];
+        Debug.Log(ringstate.ToString());
         Ringstate(ringstate);
     }
 
     private void FixedUpdate()
     {
-        if (ShootTheRing.gameState == ShootTheRing.GameStates.game)
+        if (ShootTheRing.gameState == ShootTheRing.GameStates.game || ShootTheRing.gameState == ShootTheRing.GameStates.survival)
         {
             RingFalling();
         }
@@ -92,8 +93,12 @@ public class Ring : MonoBehaviour
     {
         switch (ringstate)
         {
+            case RingStates.random:
+                SetRandomRingstate();
+                break;
+
             case RingStates.red:
-                transform.parent = RingHandler.transform.Find("red rings");
+                transform.parent = RingContainer.transform.Find("red rings");
                 if (main.LightState == ShootTheRing.LightStates.green ||
                     main.LightState == ShootTheRing.LightStates.blue ||
                     main.LightState == ShootTheRing.LightStates.white)
@@ -108,7 +113,7 @@ public class Ring : MonoBehaviour
                 break;
 
             case RingStates.blue:
-                transform.parent = RingHandler.transform.Find("blue rings");
+                transform.parent = RingContainer.transform.Find("blue rings");
                 if (main.LightState == ShootTheRing.LightStates.green ||
                     main.LightState == ShootTheRing.LightStates.red ||
                     main.LightState == ShootTheRing.LightStates.white)
@@ -123,7 +128,7 @@ public class Ring : MonoBehaviour
                 break;
 
             case RingStates.green:
-                transform.parent = RingHandler.transform.Find("green rings");
+                transform.parent = RingContainer.transform.Find("green rings");
                 if (main.LightState == ShootTheRing.LightStates.red ||
                     main.LightState == ShootTheRing.LightStates.blue ||
                     main.LightState == ShootTheRing.LightStates.white)
@@ -138,7 +143,7 @@ public class Ring : MonoBehaviour
                 break;
 
             case RingStates.white:
-                transform.parent = RingHandler.transform.Find("white rings");
+                transform.parent = RingContainer.transform.Find("white rings");
                 SwitchOnOff();
                 break;
         }
@@ -153,9 +158,6 @@ public class Ring : MonoBehaviour
     /// </summary>
     private void RingFalling()
     {
-
-
-
         if (!startMoveToBucket)
         {
             gameObject.transform.position = new Vector3(gameObject.transform.position.x, gameObject.transform.position.y - VerticalSpeed, gameObject.transform.position.z);
@@ -175,17 +177,15 @@ public class Ring : MonoBehaviour
 
         if (transform.position.y < -5.6f)
         {
-            if (!shootted)
+            if (!shootted && !smoothDestroy)
             {
                 main.TurnLanternOff();
             }
             main.RingCountDec();
+            main.totalRingsCounter--;
             Destroy(gameObject);
+
         }
-
-
-
-
         if (shootted && transform.position.y < -1)
         {
             if (!startMoveToBucket)
@@ -206,8 +206,8 @@ public class Ring : MonoBehaviour
                 if (transform.position.y < -4)
                 {
                     main.RingCountDec();
+                    main.totalRingsCounter--;
                     Destroy(gameObject);
-
                 }
             }
         }
@@ -251,5 +251,4 @@ public class Ring : MonoBehaviour
         missDown = true;
         MissHandler();
     }
-
 }

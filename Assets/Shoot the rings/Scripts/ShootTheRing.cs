@@ -6,9 +6,9 @@ using UnityEngine.UI;
 
 public class ShootTheRing : MonoBehaviour
 {
-    //private float timerToInvokeMethod = 1;
-    //private float counter = 1;
+    public bool godMod;
 
+    public int totalRingsCounter = 0;
     public GameObject gameButtonsHandler;
     public GameObject LvlButtonsHandler;
     public GameObject levels;
@@ -31,6 +31,7 @@ public class ShootTheRing : MonoBehaviour
 
     public GameObject arrowPrefab;
     public GameObject ringPrefab;
+    public GameObject bombPrefab;
     public GameObject ringHandlerPrefab;
 
     public GameObject ring;
@@ -59,7 +60,7 @@ public class ShootTheRing : MonoBehaviour
     public enum GameStates
     {
         menu,
-        instructions,
+        survival,
         game,
         over,
         lvlComplete,
@@ -70,7 +71,7 @@ public class ShootTheRing : MonoBehaviour
 
     // store the actual game state
     public static GameStates gameState = GameStates.menu;
-
+    private GameStates gameStateBerorePause;
     //public static GameStates gameStateStat = GameStates.menu;
 
     public enum LightStates
@@ -112,12 +113,13 @@ public class ShootTheRing : MonoBehaviour
     public void DecrementRingCountToWinLvl()
     {
         ringCountToWinLvl--;
-        if (ringCountToWinLvl == 0)
+        if (ringCountToWinLvl == 0 && (numberOfLanterns > 0))
         {
             if (sv.GetStarsOfLvl(currentLvlNumber) < numberOfLanterns)
             {
-                Debug.Log("уровень перезаписан");
                 sv.SetStarsToLvl(currentLvlNumber, numberOfLanterns);
+                PlayerPrefs.SetString("Save", JsonUtility.ToJson(sv));
+
             }  // прошли на больше звезд чсем было?
 
             if (sv.stars[currentLvlNumber] <= numberOfLanterns)
@@ -129,6 +131,8 @@ public class ShootTheRing : MonoBehaviour
             {
                 //Debug.Log("открыт новый");
                 sv.stars[0]++;
+                PlayerPrefs.SetString("Save", JsonUtility.ToJson(sv));
+
                 LvlButtonsHandler.GetComponent<LvlButtonsHandler>().UpdateLvlButton(currentLvlNumber + 1, 0);   // открываем след уровень и ставим на него 0 звезд
             }
             ShowLvlCompleteScreen(numberOfLanterns);
@@ -156,7 +160,6 @@ public class ShootTheRing : MonoBehaviour
             PauseCanvas.transform.GetChild(1).GetChild(1).GetComponent<Image>().sprite = Resources.LoadAll<Sprite>("Textures/Main menu/icons")[2];   //неактив
         }
 
-        sv.stars[0] = 7;
 
         if (sv.stars[0] < 10)
         {
@@ -170,10 +173,11 @@ public class ShootTheRing : MonoBehaviour
             menuCanvas.gameObject.transform.GetChild(3).GetComponent<Image>().sprite = Resources.LoadAll<Sprite>("Textures/Main menu/buttons big")[3];
         }
 
-        //sv.stars[1] = 2;
-        //sv.stars[2] = 1;
-        //sv.stars[3] = 3;
-        //sv.stars[4] = 2;
+        sv.stars[0] = 11;
+        sv.stars[1] = 2;
+        sv.stars[2] = 1;
+        sv.stars[3] = 3;
+        sv.stars[4] = 2;
 
 
         animator = GetComponent<Animator>();
@@ -253,6 +257,11 @@ public class ShootTheRing : MonoBehaviour
                 DrawBowString();
                 break;
 
+            case GameStates.survival:
+                DrawBowString();
+
+                break;
+
             case GameStates.tutorial:
                 var tapCount = Input.touchCount;
 
@@ -325,7 +334,6 @@ public class ShootTheRing : MonoBehaviour
             // set the bowstrings line renderer
             stringPullout = new Vector3(-(0.6f + length), 0f, 2f);
             //stringPullout = new Vector3(-(1.1f + length), -0.06f, 2f);
-
             // set the arrows position
             Vector3 arrowPosition = arrow.transform.localPosition;
             arrowPosition.x = (arrowStartX - length);
@@ -417,7 +425,7 @@ public class ShootTheRing : MonoBehaviour
         LevelsCanvas.gameObject.transform.Find("Grid").gameObject.SetActive(true);
 
         RingHandler.GetComponent<RingHandler>().DelateAllRings();
-        ResetLanterns();
+        //ResetLanterns();
         light.GetComponent<Lighthandler>().ResetState("Reset");
         LightState = LightStates.white;
         gameState = GameStates.levels;
@@ -437,6 +445,8 @@ public class ShootTheRing : MonoBehaviour
         {
             AudioManager.PlaySound(AudioManager.Sounds.CompleteLvl);
         }
+        ResetLanterns(false);
+
         CanvasLvlComplete.transform.GetChild(1).GetChild(0).GetComponent<Text>().text = currentLvlNumber.ToString();
         CanvasLvlComplete.transform.GetChild(0).GetComponent<Animator>().SetTrigger(count_stars.ToString() + " stars");
         CanvasLvlComplete.transform.GetChild(1).GetComponent<Animator>().SetTrigger(count_stars.ToString() + " stars");
@@ -462,23 +472,36 @@ public class ShootTheRing : MonoBehaviour
     }
     public void RestartCurrentLevel()
     {
+
+
         if (sv.sound)
         {
             AudioManager.PlaySound(AudioManager.Sounds.MenuClick);
         }
         arrow.GetComponent<rotateArrow>().ReCreate();
-        //light.GetComponent<Lighthandler>().ResetLvlIndicator();
-        //lvlProgressDestination = -7.2f;
+
         gameOverCanvas.enabled = false;
         PauseCanvas.enabled = false;
         CanvasLvlComplete.enabled = false;
-        ResetLanterns();
-        gameState = GameStates.game;
-        LightState = LightStates.white;
 
+        if (gameStateBerorePause == GameStates.survival)
+        {
+            gameManager.GetComponent<SurvivalMode>().SetStartValues();
+            gameState = GameStates.survival;
+            totalRingsCounter = 0;
+            EndPause();
+
+
+        }
+        else
+        {
+            gameState = GameStates.game;
+            levels.GetComponent<Levels>().Stoplvl(currentLvl);
+            levels.GetComponent<Levels>().Startlvl(currentLvl);
+
+        }
+        LightState = LightStates.white;
         RingHandler.GetComponent<RingHandler>().DelateAllRings();
-        levels.GetComponent<Levels>().Stoplvl(currentLvl);
-        levels.GetComponent<Levels>().Startlvl(currentLvl);
     }
     public void StartNextLvl()
     {
@@ -565,15 +588,16 @@ public class ShootTheRing : MonoBehaviour
         gameButtonsHandler.GetComponent<GameButtonsHandler>().ResetAll();
 
         Input.multiTouchEnabled = true;
+        ResetLanterns(true);
+        Time.timeScale = 1;
+        light.GetComponent<Lighthandler>().ChangeLightBrightness("game active");
+        gameButtonsHandler.GetComponent<GameButtonsHandler>().StartAppearAnimation();
+
         gameCanvas.gameObject.transform.GetChild(0).GetComponent<Button>().interactable = true;        // делаем кнопку паузы активной
         gameOverCanvas.transform.GetChild(0).GetComponent<Animator>().SetTrigger("reset");      // ресет анимации проигранного уровня
         CanvasLvlComplete.transform.GetChild(0).GetComponent<Animator>().SetTrigger("reset");
         CanvasLvlComplete.transform.GetChild(1).GetComponent<Animator>().SetTrigger("reset");
-        ResetLanterns();
         gameCanvas.enabled = true;
-        Time.timeScale = 1;
-        gameButtonsHandler.GetComponent<GameButtonsHandler>().StartAppearAnimation();
-        light.GetComponent<Lighthandler>().ChangeLightBrightness("game active");
         LightState = LightStates.white;
         gameState = GameStates.game;
 
@@ -600,13 +624,7 @@ public class ShootTheRing : MonoBehaviour
     }
 
 
-    //public void CreateRings()
-    //{
-    //    float x = UnityEngine.Random.Range(-3f, 8f);
-    //    Vector3 position = new Vector3(x, 5.5f, -1);
-    //    ring = Instantiate(ringPrefab, position, Quaternion.identity) as GameObject;
-    //    ring.name = "ring";
-    //}       // TODO рандом для survival
+    // TODO рандом для survival
     //public void FallingRings()
     //{
     //    counter += Time.deltaTime;
@@ -634,7 +652,7 @@ public class ShootTheRing : MonoBehaviour
         light.GetComponent<Lighthandler>().ChangeLightBrightness("game inactive");
         Time.timeScale = 0;
 
-
+        gameStateBerorePause = gameState;
         gameState = GameStates.pause;
         PauseCanvas.enabled = true;
         PauseCanvas.gameObject.transform.GetChild(0).GetComponent<Animator>().SetTrigger("pause");
@@ -650,18 +668,40 @@ public class ShootTheRing : MonoBehaviour
 
         PauseCanvas.enabled = false;
         Time.timeScale = 1;
-        gameState = GameStates.game;
+
+        gameState = gameStateBerorePause;
     }
 
     //Прочее
 
     public void Survival()
     {
+        gameState = GameStates.survival;
+        gameManager.GetComponent<SurvivalMode>().StartSurvival();
+
+        gameButtonsHandler.GetComponent<GameButtonsHandler>().SetONOFF(true);
+        gameButtonsHandler.GetComponent<GameButtonsHandler>().ResetAll();
+        menuCanvas.enabled = false;
+        gameCanvas.enabled = true;
+        Input.multiTouchEnabled = true;
+        ResetLanterns(true);
+        Time.timeScale = 1;
+        light.GetComponent<Lighthandler>().ChangeLightBrightness("game active");
+        gameButtonsHandler.GetComponent<GameButtonsHandler>().StartAppearAnimation();
+        gameCanvas.gameObject.transform.GetChild(0).GetComponent<Button>().interactable = true;        // делаем кнопку паузы активной
+
         if (sv.sound)
         {
             AudioManager.PlaySound(AudioManager.Sounds.MenuClick);
         }
     }
+
+    public void sentHitToSurvival()
+    {
+
+    }
+
+
     public void RateUs()
     {
         if (sv.sound)
@@ -744,36 +784,54 @@ public class ShootTheRing : MonoBehaviour
         currentLvlNumber = Int32.Parse(lvlInfo.Substring(3));
         partsOfLvlIndicator = CalculatelengthOfpartLvlIndicator();
     }       // Сохраняет  номер и строку текущего уровня
+    //public void CreateRandomRing(float windRange = 0f, int numberOfBounds = 0)
+    //{
+    //    float x = UnityEngine.Random.Range(-4f, 5f);
+    //    Vector3 position = new Vector3(x, 5.5f, -1);
+    //    ring = Instantiate(ringPrefab, position, Quaternion.identity) as GameObject;
+    //    ring.name = "ring";
+    //    ring.GetComponent<Ring>().SetRandomRingstate();
 
-    public void CreateRing(float positionX, Ring.RingStates ringState)
+    //    totalRingsCounter++;
+    //}
+    //public void CreateRing(float positionX, Ring.RingStates ringState)
+    //{
+    //    Vector3 position = new Vector3(positionX, 5.7f, -1);
+    //    ring = Instantiate(ringPrefab, position, Quaternion.identity) as GameObject;
+    //    ring.name = "ring";
+    //    ring.GetComponent<Ring>().ringstate = ringState;
+
+    //    lvlProgressDestination += partsOfLvlIndicator;
+
+    //}       // создает кольцо заданного цвета на определенной позиции
+    //public void CreateRing(float positionX, Ring.RingStates ringState, float verticalSpeed)
+    //{
+    //    Vector3 position = new Vector3(positionX, 5.7f, -1);
+    //    ring = Instantiate(ringPrefab, position, Quaternion.identity) as GameObject;
+    //    ring.name = "ring";
+    //    ring.GetComponent<Ring>().ringstate = ringState;
+    //    ring.GetComponent<Ring>().VerticalSpeed = verticalSpeed;
+
+
+    //    lvlProgressDestination += partsOfLvlIndicator;
+
+    //}       // создает кольцо заданного цвета на определенной позиции c заданной начальной скоростью
+
+    public void CreateRing(float positionX, Ring.RingStates ringState, float WindRange = 0, float numberOfBounds = 0, float horizontalSpeed = 0, float verticalSpeed = 0.0015f)
     {
+        if (positionX == 111f)
+        {
+            positionX = UnityEngine.Random.Range(-4f, 5f);
+        }
         Vector3 position = new Vector3(positionX, 5.7f, -1);
+
         ring = Instantiate(ringPrefab, position, Quaternion.identity) as GameObject;
         ring.name = "ring";
+
         ring.GetComponent<Ring>().ringstate = ringState;
 
-        lvlProgressDestination += partsOfLvlIndicator;
-
-    }       // создает кольцо заданного цвета на определенной позиции
-    public void CreateRing(float positionX, Ring.RingStates ringState, float verticalSpeed)
-    {
-        Vector3 position = new Vector3(positionX, 5.7f, -1);
-        ring = Instantiate(ringPrefab, position, Quaternion.identity) as GameObject;
-        ring.name = "ring";
-        ring.GetComponent<Ring>().ringstate = ringState;
         ring.GetComponent<Ring>().VerticalSpeed = verticalSpeed;
 
-
-        lvlProgressDestination += partsOfLvlIndicator;
-
-    }       // создает кольцо заданного цвета на определенной позиции c заданной начальной скоростью
-
-    public void CreateRing(float positionX, Ring.RingStates ringState, float WindRange, float numberOfBounds, float horizontalSpeed)
-    {
-        Vector3 position = new Vector3(positionX, 5.7f, -1);
-        ring = Instantiate(ringPrefab, position, Quaternion.identity) as GameObject;
-        ring.name = "ring";
-        ring.GetComponent<Ring>().ringstate = ringState;
         ring.GetComponent<Ring>().WindRange = WindRange;
         ring.GetComponent<Ring>().HorizontalSpeed = horizontalSpeed;
         ring.GetComponent<Ring>().NumberOfBounds = numberOfBounds;
@@ -781,6 +839,17 @@ public class ShootTheRing : MonoBehaviour
 
         lvlProgressDestination += partsOfLvlIndicator;
 
+    }
+
+    public void CreateBomb(float positionX)
+    {
+        if (positionX == 111f)
+        {
+            positionX = UnityEngine.Random.Range(-4f, 5f);
+        }
+        Vector3 position = new Vector3(positionX, 5.7f, -1);
+        ring = Instantiate(bombPrefab, position, Quaternion.identity) as GameObject;
+        ring.name = "bomb";
     }
     public void RingCountDec()
     {
@@ -802,27 +871,39 @@ public class ShootTheRing : MonoBehaviour
         {
             SwitchLantern(lanternLight2, false);
         }
-        else if (numberOfLanterns == 0)
+        else if (numberOfLanterns == 0 && !godMod)
         {
-            SwitchLantern(lanternLight3, false);
             ShowLvlFailedScreen();
+            SwitchLantern(lanternLight3, false);
 
         }
     }       // выключает фонарь при падении кольца
-    public void ResetLanterns()
+    public void ResetLanterns(bool state)
     {
-        numberOfLanterns = 3;
-        SwitchLantern(lanternLight1, true);
-        SwitchLantern(lanternLight2, true);
-        SwitchLantern(lanternLight3, true);
+        if (state)
+        {
+            numberOfLanterns = 3;
+        }
+        SwitchLantern(lanternLight1, state);
+        SwitchLantern(lanternLight2, state);
+        SwitchLantern(lanternLight3, state);
 
     }       // включает все фонари
     private void SwitchLantern(GameObject lantern, Boolean state)
     {
-        lantern.GetComponentInChildren<Transform>().Find("on").gameObject.SetActive(state);
-        lantern.GetComponentInChildren<Transform>().Find("light").gameObject.SetActive(state);
-        lantern.GetComponentInChildren<Transform>().Find("off").gameObject.SetActive(!state);
-        lantern.GetComponentInChildren<Transform>().Find("flare").gameObject.SetActive(state);
+        if (state == false && (lantern.GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).IsName("enable") || lantern.GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).IsName("awake")))
+        {
+            lantern.GetComponent<Animator>().SetTrigger("disable");
+        }
+        else if (state == true && (lantern.GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).IsName("disable") || lantern.GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).IsName("start")))
+        {
+            lantern.GetComponent<Animator>().SetTrigger("enable");
+        }
+
+        //lantern.GetComponentInChildren<Transform>().Find("on").gameObject.SetActive(state);
+        //lantern.GetComponentInChildren<Transform>().Find("light").gameObject.SetActive(state);
+        //lantern.GetComponentInChildren<Transform>().Find("off").gameObject.SetActive(!state);
+        //lantern.GetComponentInChildren<Transform>().Find("flare").gameObject.SetActive(state);
 
     }       // переключает фонарь On\off
     public void RedMod_Click(GameObject button)
@@ -922,11 +1003,14 @@ public class ShootTheRing : MonoBehaviour
     {
         if (!PlayerPrefs.HasKey("Save"))
         {
-            PlayerPrefs.SetString("Save", JsonUtility.ToJson(sv));
-            Debug.Log("создали сейв");
+            //PlayerPrefs.SetString("Save", JsonUtility.ToJson(sv));
+            //Debug.Log("создали сейв");
             sv.stars[0] = 1;    // устанавливаем первый открытый уровень
             sv.sound = true;
             sv.vibrate = true;
+            Debug.Log("уровень перезаписан");
+            PlayerPrefs.SetString("Save", JsonUtility.ToJson(sv));
+
         }
         else
         {

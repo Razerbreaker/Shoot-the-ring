@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class AnimMethotds : MonoBehaviour
+public class AnimMethods : MonoBehaviour
 {
     public void LvlIndicatorResetPos()
     {

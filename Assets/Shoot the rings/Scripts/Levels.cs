@@ -162,7 +162,7 @@ public class Levels : MonoBehaviour
 
         yield return new WaitForSeconds(0.1f);
         attentionMark.GetComponent<Attention>().CallAttention(2);
-        shootTheRing.CreateRing(2, Ring.RingStates.green, 0.002f);
+        shootTheRing.CreateRing(2, Ring.RingStates.green, 0, 0, 0, 0.002f);
 
         yield return new WaitForSeconds(3f);
         shootTheRing.CreateRing(1, Ring.RingStates.white);
@@ -201,7 +201,7 @@ public class Levels : MonoBehaviour
         shootTheRing.CreateRing(2, Ring.RingStates.white);
         attentionMark.GetComponent<Attention>().CallAttention(3);
         yield return new WaitForSeconds(2f);
-        shootTheRing.CreateRing(3, Ring.RingStates.red, 0.003f);
+        shootTheRing.CreateRing(3, Ring.RingStates.red, 0, 0, 0, 0.003f);
         shootTheRing.CreateRing(4, Ring.RingStates.white);
         shootTheRing.CreateRing(-2, Ring.RingStates.white);
         yield return new WaitForSeconds(4f);
@@ -255,60 +255,114 @@ public class Levels : MonoBehaviour
         yield return new WaitForSeconds(0.5f);
 
         shootTheRing.CreateRing(-3, Ring.RingStates.white);
-    }      //done
+    }
     private IEnumerator Lvl7()
     {
-        shootTheRing.SetRingCountToWinLvl(8);
+        shootTheRing.SetRingCountToWinLvl(11);
         yield return new WaitForSeconds(1f);
 
-        //shootTheRing.CreateRing(-2, Ring.RingStates.white, 1, 0.002f);
-        shootTheRing.CreateRing(2, Ring.RingStates.white, 2, 2, 0.002f);
-        shootTheRing.CreateRing(2, Ring.RingStates.white, 3, 2, 0.002f);
-        shootTheRing.CreateRing(2, Ring.RingStates.white, 4, 2, 0.002f);
-        //shootTheRing.CreateRing(0, Ring.RingStates.red);
-        //shootTheRing.CreateRing(0, Ring.RingStates.blue);
-        //yield return new WaitForSeconds(1f);
-        //shootTheRing.CreateRing(-1, Ring.RingStates.green);
-        //shootTheRing.CreateRing(-1, Ring.RingStates.white);
-        //yield return new WaitForSeconds(1f);
-        //shootTheRing.CreateRing(-3, Ring.RingStates.white);
+        shootTheRing.CreateRing(-3, Ring.RingStates.white);
+        yield return new WaitForSeconds(1f);
+        shootTheRing.CreateRing(4, Ring.RingStates.green);
+        yield return new WaitForSeconds(2f);
+        shootTheRing.CreateRing(0.5f, Ring.RingStates.white);
+        yield return new WaitForSeconds(2f);
+        shootTheRing.CreateRing(0.5f, Ring.RingStates.red);
+        yield return new WaitForSeconds(2f);
+        shootTheRing.CreateRing(0.5f, Ring.RingStates.blue);
+        yield return new WaitForSeconds(2f);
+        shootTheRing.CreateRing(0.5f, Ring.RingStates.green);
+        yield return new WaitForSeconds(4f);
+        shootTheRing.CreateRing(-2, Ring.RingStates.green);
+        shootTheRing.CreateRing(2, Ring.RingStates.white, 4, 6, -0.0015f);
+        yield return new WaitForSeconds(2f);
+        shootTheRing.CreateRing(2, Ring.RingStates.white, 4, 6, -0.0015f);
+        yield return new WaitForSeconds(2f);
+        shootTheRing.CreateRing(2, Ring.RingStates.white, 4, 6, -0.0015f);
+        shootTheRing.CreateRing(5, Ring.RingStates.blue);
     }
     private IEnumerator Lvl8()
     {
         shootTheRing.SetRingCountToWinLvl(8);
+        yield return new WaitForSeconds(1f);
 
-        yield return new WaitForSeconds(0.2f);
         shootTheRing.CreateRing(-3, Ring.RingStates.white);
         shootTheRing.CreateRing(0, Ring.RingStates.white);
+        yield return new WaitForSeconds(3f);
 
+        shootTheRing.CreateRing(1, Ring.RingStates.green);
+        shootTheRing.CreateRing(2, Ring.RingStates.red);
+        shootTheRing.CreateRing(3, Ring.RingStates.white);
+        yield return new WaitForSeconds(5f);
 
+        shootTheRing.CreateRing(1, Ring.RingStates.red, 2, 3, 0.0015f);
+        shootTheRing.CreateRing(1, Ring.RingStates.green, 3, 3, 0.0015f);
+        shootTheRing.CreateRing(1, Ring.RingStates.blue, 4, 3, 0.0015f);
     }
-
     private IEnumerator Lvl9()
     {
-        shootTheRing.SetRingCountToWinLvl(8);
+        shootTheRing.SetRingCountToWinLvl(12);
 
-        yield return new WaitForSeconds(0.2f);
-        shootTheRing.CreateRing(-3, Ring.RingStates.white);
-        shootTheRing.CreateRing(0, Ring.RingStates.white);
+        yield return new WaitForSeconds(1f);
+        shootTheRing.CreateRing(-4, Ring.RingStates.white);
+        shootTheRing.CreateRing(4, Ring.RingStates.white);
+        yield return new WaitForSeconds(3f);
+        shootTheRing.CreateRing(-4, Ring.RingStates.white);
+        shootTheRing.CreateRing(4, Ring.RingStates.white);
+
+        shootTheRing.CreateRing(-1, Ring.RingStates.red);
+        shootTheRing.CreateRing(1, Ring.RingStates.red);
+
+
+
+        yield return new WaitForSeconds(3f);
+        shootTheRing.CreateRing(-4, Ring.RingStates.white);
+        shootTheRing.CreateRing(4, Ring.RingStates.white);
+        shootTheRing.CreateRing(0, Ring.RingStates.green);
+
+        yield return new WaitForSeconds(3f);
+        shootTheRing.CreateRing(-4, Ring.RingStates.white);
+        shootTheRing.CreateRing(4, Ring.RingStates.white);
+        shootTheRing.CreateRing(0, Ring.RingStates.blue);
 
 
     }
     private IEnumerator Lvl10()
     {
-        shootTheRing.SetRingCountToWinLvl(8);
+        shootTheRing.SetRingCountToWinLvl(12);
 
-        yield return new WaitForSeconds(0.2f);
-        shootTheRing.CreateRing(-3, Ring.RingStates.white);
-        shootTheRing.CreateRing(0, Ring.RingStates.white);
-    }
+        yield return new WaitForSeconds(1f);
+        shootTheRing.CreateRing(-5, Ring.RingStates.red, 8, 3, 0.0015f);
+        shootTheRing.CreateRing(5, Ring.RingStates.red, 8, 3, -0.0015f);
+        yield return new WaitForSeconds(2f);
+        shootTheRing.CreateRing(-5, Ring.RingStates.green, 8, 3, 0.0015f);
+        shootTheRing.CreateRing(5, Ring.RingStates.green, 8, 3, -0.0015f);
+        yield return new WaitForSeconds(2f);
+        shootTheRing.CreateRing(-5, Ring.RingStates.blue, 8, 3, 0.0015f);
+        shootTheRing.CreateRing(5, Ring.RingStates.blue, 8, 3, -0.0015f);
+        yield return new WaitForSeconds(2f);
+        shootTheRing.CreateRing(-3, Ring.RingStates.white, 2, 3, 0.0015f);
+        shootTheRing.CreateRing(3, Ring.RingStates.white, 2, 3, -0.0015f);
+        yield return new WaitForSeconds(2f);
+        shootTheRing.CreateRing(0, Ring.RingStates.white, 1, 3, -0.0015f);
+        shootTheRing.CreateRing(0, Ring.RingStates.white, 1, 3, 0.0015f);
+        yield return new WaitForSeconds(2f);
+        shootTheRing.CreateRing(0, Ring.RingStates.white, 1, 3, -0.0015f);
+        shootTheRing.CreateRing(0, Ring.RingStates.white, 1, 3, 0.0015f);
+    }        //done
 
-    private IEnumerator Lvl18()
+    private IEnumerator Lvl11()
     {
-        shootTheRing.SetRingCountToWinLvl(8);
+        shootTheRing.SetRingCountToWinLvl(3);
 
-        yield return new WaitForSeconds(0.2f);
-        shootTheRing.CreateRing(-3, Ring.RingStates.white);
-        shootTheRing.CreateRing(0, Ring.RingStates.white);
-    }
+        yield return new WaitForSeconds(1f);
+        shootTheRing.CreateBomb(-2);
+        yield return new WaitForSeconds(3f);
+
+        shootTheRing.CreateRing(-2, Ring.RingStates.white);
+        shootTheRing.CreateRing(-0, Ring.RingStates.white);
+        shootTheRing.CreateRing(-1, Ring.RingStates.white);
+
+
+    }        //done
 }

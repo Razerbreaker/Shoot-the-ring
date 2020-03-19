@@ -10,6 +10,10 @@ public class Lighthandler : MonoBehaviour
     public GameObject tutorialLightLvl1;
     public GameObject tutorialLightlvl3;
 
+    public GameObject tutorialLightLvl1Finger;
+    public GameObject tutorialLightLvl3Finger;
+
+
     public void Button_pressed(string trigger)
     {
 
@@ -51,11 +55,14 @@ public class Lighthandler : MonoBehaviour
     {
         globalLight.GetComponent<Animator>().SetTrigger(trigger);
         tutorialLightLvl1.GetComponent<Animator>().SetTrigger(trigger);
+        tutorialLightLvl1Finger.GetComponent<Animator>().SetTrigger("finger");
     }
     public void TutorialLightLvl3(string trigger)
     {
         globalLight.GetComponent<Animator>().SetTrigger(trigger);
         tutorialLightlvl3.GetComponent<Animator>().SetTrigger(trigger);
+        tutorialLightLvl3Finger.GetComponent<Animator>().SetTrigger("finger");
+
     }
 
     public void ResetLvlIndicator()

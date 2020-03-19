@@ -6,7 +6,6 @@ public class InputHandler : MonoBehaviour
 {
     public GameObject shootTheRing;
     private ShootTheRing ShootTheRing;
-    //private bool bowOnlyOneTouch;
     private void Start()
     {
         ShootTheRing = shootTheRing.GetComponent<ShootTheRing>();
@@ -14,10 +13,8 @@ public class InputHandler : MonoBehaviour
 
     private void Update()
     {
-        if (ShootTheRing.gameState == ShootTheRing.GameStates.game)
+        if (ShootTheRing.gameState == ShootTheRing.GameStates.game || ShootTheRing.gameState == ShootTheRing.GameStates.survival)
         {
-
-
             var tapCount = Input.touchCount;
             for (var i = 0; i < tapCount; i++)
             {
@@ -85,11 +82,4 @@ public class InputHandler : MonoBehaviour
             }
         }
     }
-
-
-
-    //Vector3 fingerPos = touch.position;
-    // fingerPos.z = 10;
-    // var realWorldPos = Camera.main.ScreenToWorldPoint(fingerPos);
-    // Debug.Log(realWorldPos);
 }

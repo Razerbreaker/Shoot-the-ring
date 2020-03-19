@@ -54,44 +54,23 @@ public class LvlButtonHandler : MonoBehaviour
         switch (currentType)
         {
             case ButtonType.starsCount_0:
-
                 animator.SetTrigger("reset 0stars");
-
-
-                if (!transform.GetChild(0).gameObject.activeSelf)
-                {
-                    transform.GetChild(0).gameObject.SetActive(true);
-                }
+                ResetTextOnButton();
                 break;
 
             case ButtonType.starsCount_1:
-
                 animator.SetTrigger("reset 1stars");
-
-                if (!transform.GetChild(0).gameObject.activeSelf)
-                {
-                    transform.GetChild(0).gameObject.SetActive(true);
-                }
+                ResetTextOnButton();
                 break;
 
             case ButtonType.starsCount_2:
-
                 animator.SetTrigger("reset 2stars");
-
-                if (!transform.GetChild(0).gameObject.activeSelf)
-                {
-                    transform.GetChild(0).gameObject.SetActive(true);
-                }
+                ResetTextOnButton();
                 break;
 
             case ButtonType.starsCount_3:
-
                 animator.SetTrigger("reset 3stars");
-
-                if (!transform.GetChild(0).gameObject.activeSelf)
-                {
-                    transform.GetChild(0).gameObject.SetActive(true);
-                }
+                ResetTextOnButton();
                 break;
 
             case ButtonType.locked:
@@ -100,12 +79,20 @@ public class LvlButtonHandler : MonoBehaviour
         }
     }       // при выходе из меню уровней прерывает все анимации и выставляет IDLE
 
+    private void ResetTextOnButton()
+    {
+        if (!transform.GetChild(0).gameObject.activeSelf)
+        {
+            transform.GetChild(0).gameObject.SetActive(true);
+        }
+    }
 
-/// <summary>
-/// устанавливает новый тип кнопки и цифру уровня на ней
-/// </summary>
-/// <param name="buttonTypeIndex">0-3 открыт и число указывает кол-во звезд. 4 -- закрыт</param>
-/// <param name="level">число, которое будет отображаться на кнопке</param>
+
+    /// <summary>
+    /// устанавливает новый тип кнопки и цифру уровня на ней
+    /// </summary>
+    /// <param name="buttonTypeIndex">0-3 открыт и число указывает кол-во звезд. 4 -- закрыт</param>
+    /// <param name="level">число, которое будет отображаться на кнопке</param>
     public void SetButtonInfo(int buttonTypeIndex, int level)
     {
         Array type = Enum.GetValues(typeof(ButtonType));
@@ -114,17 +101,13 @@ public class LvlButtonHandler : MonoBehaviour
     }
     public void Onclick()
     {
-
         animator.enabled = true;
-        animator.ResetTrigger("reset 0stars");
-        animator.ResetTrigger("reset 1stars");
-        animator.ResetTrigger("reset 2stars");
-        animator.ResetTrigger("reset 3stars");
 
-        animator.SetFloat("speed", 1);
-        animator.SetFloat("speed_1stars", 1);
-        animator.SetFloat("speed_2stars", 1);
-        animator.SetFloat("speed_3stars", 1);
+        for (int i = 0; i <= 3; i++)
+        {
+            animator.ResetTrigger("reset " + i.ToString() + "stars");
+            animator.SetFloat("speed_" + i.ToString() + "stars", 1);
+        }
 
         switch (currentType)
         {
@@ -133,58 +116,37 @@ public class LvlButtonHandler : MonoBehaviour
                 break;
 
             case ButtonType.starsCount_0:
-                transform.parent.GetComponent<LvlButtonsHandler>().SetprePickButton(gameObject);
-
-                if (animator.GetCurrentAnimatorStateInfo(0).IsName("To play anim (0 stars)") || (animator.GetCurrentAnimatorStateInfo(0).IsName("To number anim (0 stars)")))
-                {
-                    animator.ResetTrigger("0stars");
-                }
-                else
-                {
-                    animator.SetTrigger("0stars");
-                }
+                ClickButton("0");
                 break;
 
             case ButtonType.starsCount_1:
-                transform.parent.GetComponent<LvlButtonsHandler>().SetprePickButton(gameObject);
-
-                if (animator.GetCurrentAnimatorStateInfo(0).IsName("To play anim (1 stars)") || (animator.GetCurrentAnimatorStateInfo(0).IsName("To number anim (1 stars)")))
-                {
-                    animator.ResetTrigger("1stars");
-                }
-                else
-                {
-                    animator.SetTrigger("1stars");
-                }
+                ClickButton("1");
                 break;
 
             case ButtonType.starsCount_2:
-                transform.parent.GetComponent<LvlButtonsHandler>().SetprePickButton(gameObject);
-
-                if (animator.GetCurrentAnimatorStateInfo(0).IsName("To play anim (2 stars)") || (animator.GetCurrentAnimatorStateInfo(0).IsName("To number anim (2 stars)")))
-                {
-                    animator.ResetTrigger("2stars");
-                }
-                else
-                {
-                    animator.SetTrigger("2stars");
-                }
+                ClickButton("2");
                 break;
 
             case ButtonType.starsCount_3:
-                transform.parent.GetComponent<LvlButtonsHandler>().SetprePickButton(gameObject);
-
-                if (animator.GetCurrentAnimatorStateInfo(0).IsName("To play anim (3 stars)") || (animator.GetCurrentAnimatorStateInfo(0).IsName("To number anim (3 stars)")))
-                {
-                    animator.ResetTrigger("3stars");
-                }
-                else
-                {
-                    animator.SetTrigger("3stars");
-                }
+                ClickButton("3");
                 break;
         }
     }
+
+    private void ClickButton(string type)
+    {
+        transform.parent.GetComponent<LvlButtonsHandler>().SetprePickButton(gameObject);
+
+        if (animator.GetCurrentAnimatorStateInfo(0).IsName("To play anim (" + type + " stars)") || (animator.GetCurrentAnimatorStateInfo(0).IsName("To number anim (" + type + " stars)")))
+        {
+            animator.ResetTrigger(type + "stars");
+        }
+        else
+        {
+            animator.SetTrigger(type + "stars");
+        }
+    }
+
     public void DisableText()
     {
         if (transform.GetChild(0).gameObject.activeSelf)
@@ -198,47 +160,22 @@ public class LvlButtonHandler : MonoBehaviour
     }
     public void ReversAnim()
     {
-        if (animator.GetCurrentAnimatorStateInfo(0).IsName("To play anim (0 stars)"))
+        for (int i = 0; i <= 3; i++)
         {
-            animator.SetFloat("speed", -1);
+            ReverseAnim(i.ToString());
+        }
+    }
+
+    private void ReverseAnim(string type)
+    {
+        if (animator.GetCurrentAnimatorStateInfo(0).IsName("To play anim (" + type + " stars)"))
+        {
+            animator.SetFloat("speed_" + type + "stars", -1);
         }
 
-        if (animator.GetCurrentAnimatorStateInfo(0).IsName("IDLE Play (0 stars)"))
+        if (animator.GetCurrentAnimatorStateInfo(0).IsName("IDLE Play (" + type + " stars)"))
         {
-            animator.SetTrigger("0stars reversed");
-        }
-
-
-        if (animator.GetCurrentAnimatorStateInfo(0).IsName("To play anim (1 stars)"))
-        {
-            animator.SetFloat("speed_1stars", -1);
-        }
-
-        if (animator.GetCurrentAnimatorStateInfo(0).IsName("IDLE Play (1 stars)"))
-        {
-            animator.SetTrigger("1stars reversed");
-        }
-
-
-        if (animator.GetCurrentAnimatorStateInfo(0).IsName("To play anim (2 stars)"))
-        {
-            animator.SetFloat("speed_2stars", -1);
-        }
-
-        if (animator.GetCurrentAnimatorStateInfo(0).IsName("IDLE Play (2 stars)"))
-        {
-            animator.SetTrigger("2stars reversed");
-        }
-
-
-        if (animator.GetCurrentAnimatorStateInfo(0).IsName("To play anim (3 stars)"))
-        {
-            animator.SetFloat("speed_3stars", -1);
-        }
-
-        if (animator.GetCurrentAnimatorStateInfo(0).IsName("IDLE Play (3 stars)"))
-        {
-            animator.SetTrigger("3stars reversed");
+            animator.SetTrigger(type + "stars reversed");
         }
     }
 
@@ -261,5 +198,4 @@ public class LvlButtonHandler : MonoBehaviour
     {
         GetComponent<Button>().interactable = true;
     }
-
 }

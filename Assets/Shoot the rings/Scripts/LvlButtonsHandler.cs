@@ -113,52 +113,35 @@ public class LvlButtonsHandler : MonoBehaviour
                 case LvlButtonHandler.ButtonType.locked:
                     transform.GetChild(i).GetComponent<Animator>().SetTrigger("From locked");
                     break;
-
                 case LvlButtonHandler.ButtonType.starsCount_0:
-                    if (transform.GetChild(i).GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).IsName("IDLE Play (0 stars)"))
-                    {
-                        transform.GetChild(i).GetComponent<Animator>().SetTrigger("From_0_stars with play");
-                    }
-                    else
-                    {
-                        transform.GetChild(i).GetComponent<Animator>().SetTrigger("From 0 stars with number");
-                    }
+                    SetAnimTrigger(i, "0");
                     break;
-
                 case LvlButtonHandler.ButtonType.starsCount_1:
-                    if (transform.GetChild(i).GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).IsName("IDLE Play (1 stars)"))
-                    {
-                        transform.GetChild(i).GetComponent<Animator>().SetTrigger("From_1_stars with play");
-                    }
-                    else
-                    {
-                        transform.GetChild(i).GetComponent<Animator>().SetTrigger("From 1 stars with number");
-                    }
+                    SetAnimTrigger(i, "1");
                     break;
                 case LvlButtonHandler.ButtonType.starsCount_2:
-                    if (transform.GetChild(i).GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).IsName("IDLE Play (2 stars)"))
-                    {
-                        transform.GetChild(i).GetComponent<Animator>().SetTrigger("From_2_stars with play");
-                    }
-                    else
-                    {
-                        transform.GetChild(i).GetComponent<Animator>().SetTrigger("From 2 stars with number");
-                    }
+                    SetAnimTrigger(i, "2");
                     break;
                 case LvlButtonHandler.ButtonType.starsCount_3:
-                    if (transform.GetChild(i).GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).IsName("IDLE Play (3 stars)"))
-                    {
-                        transform.GetChild(i).GetComponent<Animator>().SetTrigger("From_3_stars with play");
-                    }
-                    else
-                    {
-                        transform.GetChild(i).GetComponent<Animator>().SetTrigger("From 3 stars with number");
-                    }
+                    SetAnimTrigger(i, "3");
                     break;
             }
         }
     }
-    public void UpdateLvlButton(int lvl, int numberOfStars)
+
+    private void SetAnimTrigger(int i, string type)
+    {
+        if (transform.GetChild(i).GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).IsName("IDLE Play (" + type + " stars)"))
+        {
+            transform.GetChild(i).GetComponent<Animator>().SetTrigger("From_" + type + "_stars with play");
+        }
+        else
+        {
+            transform.GetChild(i).GetComponent<Animator>().SetTrigger("From " + type + " stars with number");
+        }
+    }
+
+    public void UpdateLvlButton(int lvl, int numberOfStars)     // обновляет колво звезд на пройденом уровне
     {
 
         if (!(lvl > (startNum - 1 + buttonsCountOnPage)))        //проверка, что уровень на котором нужно обновить иконку на текущей странице
@@ -179,8 +162,6 @@ public class LvlButtonsHandler : MonoBehaviour
         }
         else
         {
-            Debug.Log("прошли последний уровень страницы, открываем новую страницу");
-
             Pages_points pages_Points = pagesPoints.GetComponent<Pages_points>();
             ShootTheRing mainScript = main.GetComponent<ShootTheRing>();
 
@@ -195,16 +176,13 @@ public class LvlButtonsHandler : MonoBehaviour
             currentPageNumber = pageNumber;
             InitLvlPage();
         }
-    }       // обновляет колво звезд на пройденом уровне
-    public void OnDisable()
+    }
+    public void OnDisable() // снимает выбор уровня при выходе с меню уровней
     {
         prePickButton = null;
-    }   // снимает выбор уровня при выходе с меню уровней
-    public void SetprePickButton(GameObject button)
+    }
+    public void SetprePickButton(GameObject button) // устанавливает предварительный выбор уровня, а по второму нажатию на него - запускает уровень
     {
-
-
-
         if (prePickButton == null && button != null)
         {
             if (mainScript.sv.sound)
@@ -234,16 +212,12 @@ public class LvlButtonsHandler : MonoBehaviour
             //Debug.Log("было не нал выбран тот же заново - уровень запущен");
 
             levels.GetComponent<Levels>().Startlvl(button.name);
-
         }
         else
         {
             prePickButton = button;
         }
-
-
-
-    } // устанавливает предварительный выбор уровня, а по второму нажатию на него - запускает уровень
+    }
     public void ChangeAnyAnimPlayedToFalse(int count)
     {
         anyAnimPlayed = -count;

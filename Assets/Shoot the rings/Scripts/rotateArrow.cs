@@ -88,11 +88,20 @@ public class rotateArrow : MonoBehaviour
         {
             other.GetComponentInParent<Ring>().MissDown();
         }
+
+        if (other.gameObject.name == "bomb")
+        {
+            ReCreate();
+            other.GetComponent<Bomb>().Bombexplosion();
+            bow.GetComponent<ShootTheRing>().TurnLanternOff();
+        }
     }
     public void ReCreate()
     {
-        bow.GetComponent<ShootTheRing>().CreateArrow();
         Destroy(gameObject);
+
+            bow.GetComponent<ShootTheRing>().CreateArrow();
+        
     }
 
     //

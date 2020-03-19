@@ -41,7 +41,7 @@ public class GameButtonsHandler : MonoBehaviour
         }
     }
 
-
+    //TODO убрать дублирование кода
     public void ResetAll()
     {
         activeButton = null;
@@ -49,15 +49,35 @@ public class GameButtonsHandler : MonoBehaviour
         buttons[1].GetComponent<GameButton>().ResetButton();
         buttons[2].GetComponent<GameButton>().ResetButton();
     }
+
+    public void ResetGreen()
+    {
+        buttons[1].GetComponent<GameButton>().ResetButton();
+    }
+    public void ResetBlue()
+    {
+        buttons[2].GetComponent<GameButton>().ResetButton();
+    }
+
     public void ResetRedForLvl3()
     {
         buttons[0].GetComponent<GameButton>().ResetButton();
     }
 
+
     public void StartAppearAnimation()
     {
         buttons[0].GetComponent<Animator>().SetTrigger("red");
         buttons[1].GetComponent<Animator>().SetTrigger("green");
+        buttons[2].GetComponent<Animator>().SetTrigger("blue");
+    }
+
+    public void StartAppearAnimationGreenOnly()
+    {
+        buttons[1].GetComponent<Animator>().SetTrigger("green");
+    }
+    public void StartAppearAnimationBlueOnly()
+    {
         buttons[2].GetComponent<Animator>().SetTrigger("blue");
     }
 
@@ -84,21 +104,7 @@ public class GameButtonsHandler : MonoBehaviour
         }
     }
 
-    public void StartAppearAnimationGreenOnly()
-    {
-        buttons[1].GetComponent<Animator>().SetTrigger("green");
-    }
-    public void StartAppearAnimationBlueOnly()
-    {
-        buttons[2].GetComponent<Animator>().SetTrigger("blue");
-    }
 
-    public void ResetGreen()
-    {
-        buttons[1].GetComponent<GameButton>().ResetButton();
-    }
-    public void ResetBlue()
-    {
-        buttons[2].GetComponent<GameButton>().ResetButton();
-    }
+
+
 }
